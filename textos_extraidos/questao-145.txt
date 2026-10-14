@@ -1,0 +1,24 @@
+QUESTÃO 145
+
+Estudos revelam que, independentemente de etnia, idade e condição social, as pessoas têm padrões estéticos comuns de beleza facial e que as faces consideradas bonitas apresentam-se em proporção áurea. A proporção áurea é a constante $\Phi = 1,618...$
+
+Uma agência de modelos reconhece a informação citada e utiliza-a como critério de beleza facial de suas contratadas. Para entrevistar uma nova candidata a modelo, a referida agência pede uma fotografia de rosto no ato da inscrição e, com ela, determina as medidas mostradas na figura.
+
+**[FIGURA: Fotografia em preto e branco de um rosto humano com três setas horizontais indicando medidas faciais: "Medida M1" na altura dos olhos (distância entre as têmporas ou cantos externos dos olhos), "Medida M2" na largura do nariz, e "Medida M3" na largura da boca. Ao lado da fotografia, há a fórmula matemática da proporção áurea utilizada pela agência: $\frac{M1}{M3} = \frac{M3}{M5} = \Phi$, onde M5 parece corresponder a M3 no contexto das razões da proporção áurea.]**
+
+Analisando a fotografia de cinco candidatas, I, II, III, IV e V, para a seleção de uma única garota, foram constatadas estas medidas:
+* Candidata I: M1 = 11 cm; M2 = 5,5 cm e M3 = 7 cm.
+* Candidata II: M1 = 10,5 cm; M2 = 4,5 cm e M3 = 6,5 cm.
+* Candidata III: M1 = 11,5 cm; M2 = 3,5 cm e M3 = 6,5 cm.
+* Candidata IV: M1 = 10 cm; M2 = 4 cm e M3 = 6,5 cm.
+* Candidata V: M1 = 10,5 cm; M2 = 4 cm e M3 = 6,5 cm.
+
+CONTADOR, P. R. M. **A matemática na arte e na vida.** São Paulo: Livraria da Física, 2007 (adaptado).
+
+A candidata selecionada pela agência de modelos, segundo os critérios da proporção áurea, foi
+
+A) I.
+B) II.
+C) III.
+D) IV.
+E) V.

@@ -1,0 +1,15 @@
+QUESTÃO 169
+
+Uma empresa aérea lança uma promoção de final de semana para um voo comercial. Por esse motivo, o cliente não pode fazer reservas e as poltronas serão sorteadas aleatoriamente. A figura mostra a posição dos assentos no avião:
+
+[FIGURA: Planta baixa esquemática da cabine de um avião vista de cima, mostrando a disposição das poltronas. O avião possui 38 fileiras numeradas de 1 a 38 na parte superior. Há um corredor central separando duas colunas de assentos: a coluna da esquerda com as letras DEF e a coluna da direita com as letras ABC. Cada fileira possui 6 poltronas no total (3 de cada lado do corredor). Existem saídas de emergência e áreas de serviço nas extremidades e no meio da aeronave (fileiras 16 a 24). Abaixo da figura está escrito: Avião com 38 fileiras de poltronas.]
+
+Por ter pavor de sentar entre duas pessoas, um passageiro decide que só viajará se a chance de pegar uma dessas poltronas for inferior a 30%.
+
+Avaliando a figura, o passageiro desiste da viagem, porque a chance de ele ser sorteado com uma poltrona entre duas pessoas é mais aproximada de
+
+A) 31%.
+B) 33%.
+C) 35%.
+D) 68%.
+E) 69%.

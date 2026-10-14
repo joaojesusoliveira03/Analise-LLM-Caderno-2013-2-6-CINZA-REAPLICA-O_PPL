@@ -1,0 +1,17 @@
+QUESTÃO 148
+
+O quadrado $ABCD$, de centro $O$ e lado $2\text{ cm}$, corresponde à trajetória de uma partícula P que partiu de $M$, ponto médio de $AB$, seguindo pelos lados do quadrado e passando por $B$, $C$, $D$, $A$ até retornar ao ponto $M$.
+
+[FIGURA: Diagrama geométrico mostrando um quadrado $ABCD$ com vértices no sentido anti-horário (A no canto inferior direito, B no canto superior direito, C no canto superior esquerdo, D no canto inferior esquerdo). O ponto $O$ está exatamente no centro do quadrado. O ponto $M$ está localizado no ponto médio do segmento $AB$ (lateral direita). Há segmentos de reta cruzando o quadrado horizontal e verticalmente passando pelo centro $O$. O lado do quadrado mede $2\text{ cm}$.]
+
+Seja $F(x)$ a função que representa a distância da partícula P ao centro $O$ do quadrado, a cada instante de sua trajetória, sendo $x$ (em cm) o comprimento do percurso percorrido por tal partícula. Qual o gráfico que representa $F(x)$?
+
+A) [FIGURA: Gráfico cartesiano de $y = F(x)$ versus $x$. O eixo $x$ varia de $0$ a $9$ e o eixo $y$ de $-1$ a $4$. O gráfico exibe quatro ciclos ondulados, iniciando em $(0,1)$, subindo até aproximadamente $1,4$ em $x=1$, e descendo para $1$ em $x=2$, repetindo-se ciclicamente a cada intervalo de $2$ unidades até $x=8$.]
+
+B) [FIGURA: Gráfico cartesiano de $y = F(x)$ versus $x$. O eixo $x$ varia de $0$ a $9$ e o eixo $y$ de $-1$ a $4$. O gráfico mostra uma linha reta horizontal constante em $y=1$ para $x$ variando de $0$ a $8$.]
+
+C) [FIGURA: Gráfico cartesiano de $y = F(x)$ versus $x$. O eixo $x$ varia de $0$ a $9$ e o eixo $y$ de $-1$ a $4$. O gráfico apresenta uma função triangular (dente de serra) que começa em $(0,1)$, sobe linearmente até $(1,2)$, desce até $(2,1)$, e repete esse padrão de forma linear e pontiaguda a cada $2$ unidades até $x=8$.]
+
+D) [FIGURA: Gráfico cartesiano de $y = F(x)$ versus $x$. O eixo $x$ varia de $0$ a $9$ e o eixo $y$ de $-1$ a $4$. O gráfico apresenta uma função triangular (dente de serra) que começa em $(0,2)$, desce linearmente até $(1,1)$, sobe até $(2,2)$, e repete esse padrão em formato de V invertido a cada $2$ unidades até $x=8$.]
+
+E) [FIGURA: Gráfico cartesiano de $y = F(x)$ versus $x$. O eixo $x$ varia de $0$ a $9$ e o eixo $y$ de $-1$ a $4$. O gráfico exibe quatro ciclos com curvas côncavas para cima, iniciando em $(0, \sqrt{2} \approx 1,4)$, descendo até $(1,1)$ e subindo novamente até $(2, \sqrt{2})$, repetindo o padrão a cada $2$ unidades até $x=8$.]

@@ -1,0 +1,23 @@
+QUESTÃO 180
+
+A estimativa do número de indivíduos de uma população de animais frequentemente envolve a captura, a marcação e, então, a liberação de alguns desses indivíduos. Depois de um período, após os indivíduos marcados se misturarem com os não marcados, realiza-se outra amostragem. A proporção de indivíduos desta segunda amostragem que já estava marcada pode ser utilizada para estimar o tamanho da população, aplicando-se a fórmula:
+
+$$\frac{m_2}{n_2} = \frac{n_1}{N}$$
+
+Onde:
+• $n_1 =$ número de indivíduos marcados na primeira amostragem;
+• $n_2 =$ número de indivíduos marcados na segunda amostragem; [Nota: o texto na imagem está cortado à direita, mas conclui-se pelo contexto matemático e biológico que $n_2$ refere-se ao total de indivíduos capturados na segunda amostragem]
+• $m_2 =$ número de indivíduos da segunda amostragem que foram marcados na primeira amostragem;
+• $N =$ tamanho estimado da população total.
+
+SADAVA, D. et al. **Vida: a ciência da biologia**. Porto Alegre: Artmed, 2010 (adaptado).
+
+Durante uma contagem de indivíduos de uma população, na primeira amostragem foram marcados 120 e, na segunda amostragem foram marcados 150 [Nota: o texto na imagem diz "foram marcados 150", mas pelo contexto da fórmula e da captura-recaptura trata-se do total capturado na segunda amostragem], dos quais 100 já possuíam a marcação.
+
+O número estimado de indivíduos dessa população é
+
+A 188.
+B 180.
+C 125.
+D 96.
+E 80.

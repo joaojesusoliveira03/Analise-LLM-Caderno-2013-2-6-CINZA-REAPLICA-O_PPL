@@ -1,0 +1,13 @@
+QUESTÃO 179
+
+Um trabalhador possui um cartão de crédito que, em determinado mês, apresenta o saldo devedor a pagar no vencimento do cartão, mas não contém parcelamentos a acrescentar em futuras faturas. Nesse mesmo mês, o trabalhador é demitido. Durante o período de desemprego, o trabalhador deixa de utilizar o cartão de crédito e também não tem como pagar as faturas, nem a atual nem as próximas, mesmo sabendo que, a cada mês, incidirão taxas de juros e encargos por conta do não pagamento da dívida. Ao conseguir um novo emprego, já completados 6 meses de não pagamento das faturas, o trabalhador procura renegociar sua dívida. O gráfico mostra a evolução do saldo devedor.
+
+[FIGURA: Gráfico de linha pontilhada com marcadores circulares pretos mostrando a evolução da dívida em Reais (R$) em função do tempo em meses (de 0 a 6). O eixo vertical (Dívida em R$) varia de 500 a 1 100, com marcações de 50 em 50. Os pontos plotados no gráfico são: no mês 0, R$ 500,00; no mês 1, R$ 560,00; no mês 2, R$ 630,00; no mês 3, R$ 720,00; no mês 4, R$ 830,00; no mês 5, R$ 930,00; e no mês 6, R$ 1 050,00.]
+
+Com base no gráfico, podemos constatar que o saldo devedor inicial, a parcela mensal de juros e a taxa de juros são
+
+A R$ 500,00; constante e inferior a 10% ao mês.
+B R$ 560,00; variável e inferior a 10% ao mês.
+C R$ 500,00; variável e superior a 10% ao mês.
+D R$ 560,00; constante e superior a 10% ao mês.
+E R$ 500,00; variável e inferior a 10% ao mês.

@@ -1,0 +1,15 @@
+QUESTÃO 168
+
+O matemático americano Eduardo Kasner pediu ao filho que desse um nome a um número muito grande, que consistia do algarismo 1 seguido de 100 zeros. Seu filho batizou o número de gugol. Mais tarde, o mesmo matemático criou um número que apelidou de gugolplex, que consistia em 10 elevado a um gugol.
+
+Quantos algarismos tem um gugolplex?
+
+A 100
+
+B 101
+
+C $10^{100}$
+
+D $10^{100} + 1$
+
+E $10^{1\ 000} + 1$

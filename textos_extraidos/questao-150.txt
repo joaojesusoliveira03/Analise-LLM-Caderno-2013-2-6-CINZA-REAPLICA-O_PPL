@@ -1,0 +1,11 @@
+QUESTÃO 150
+
+Uma pequena fábrica vende seus bonés em pacotes com quantidades de unidades variáveis. O lucro obtido é dado pela expressão $L(x) = -x^2 + 12x - 20$, onde $x$ representa a quantidade de bonés contidos no pacote. A empresa pretende fazer um único tipo de empacotamento, obtendo um lucro máximo.
+
+Para obter o lucro máximo nas vendas, os pacotes devem conter uma quantidade de bonés igual a
+
+A 4.
+B 6.
+C 9.
+D 10.
+E 14.

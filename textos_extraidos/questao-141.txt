@@ -1,0 +1,17 @@
+QUESTÃO 141
+
+Um fabricante de bebidas, numa jogada de *marketing*, quer lançar no mercado novas embalagens de latas de alumínio para os seus refrigerantes. As atuais latas de 350 mL devem ser substituídas por uma nova embalagem com metade desse volume, conforme mostra a figura:
+
+[FIGURA: Duas latas de refrigerante cilíndricas lado a lado. À esquerda, a lata maior com volume de 350 mL, raio da base indicado por r e altura indicada por h. À direita, a lata menor com volume de 175 mL, raio da base indicado por r' e altura indicada por h/2.]
+
+De acordo com os dados anteriores, qual a relação entre o raio r' da embalagem de 175 mL e o raio r da embalagem de 350 mL?
+
+A) $r' = \sqrt{r}$
+
+B) $r' = \frac{r}{2}$
+
+C) $r' = r$
+
+D) $r' = 2r$
+
+E) $r' = \sqrt[3]{2}$

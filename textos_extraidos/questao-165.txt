@@ -1,0 +1,13 @@
+QUESTÃO 165
+
+Em uma casa, há um espaço retangular medindo $4\text{ m}$ por $6\text{ m}$, onde se pretende colocar um piso de cerâmica resistente e de bom preço. Em uma loja especializada, há cinco possibilidades de pisos que atendem às especificações desejadas, apresentadas no quadro:
+
+**[FIGURA: Tabela com três colunas e cinco linhas de dados (excluindo o cabeçalho). A primeira coluna indica o "Tipo do piso" (I, II, III, IV, V). A segunda coluna descreve a "Forma" de cada piso: I é um quadrado de lado medindo $20\text{ cm}$; II é um retângulo medindo $30\text{ cm}$ por $20\text{ cm}$; III é um quadrado de lado medindo $25\text{ cm}$; IV é um retângulo medindo $16\text{ cm}$ por $25\text{ cm}$; e V é um quadrado de lado medindo $40\text{ cm}$. A terceira coluna indica o "Preço por piso (em reais)": I custa 15,00; II custa 20,00; III custa 25,00; IV custa 20,00; e V custa 60,00.]**
+
+Levando-se em consideração que não há perda de material, dentre os pisos apresentados, aquele que implicará o menor custo para a colocação no referido espaço é o piso
+
+A I.
+B II.
+C III.
+D IV.
+E V.

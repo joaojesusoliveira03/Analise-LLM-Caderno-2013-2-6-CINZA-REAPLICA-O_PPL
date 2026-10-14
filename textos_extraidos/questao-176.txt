@@ -1,0 +1,15 @@
+QUESTÃO 176
+
+Em um experimento, uma cultura de bactérias tem sua população reduzida pela metade a cada hora, devido à ação de um agente bactericida.
+
+Neste experimento, o número de bactérias em função do tempo pode ser modelado por uma função do tipo
+
+A afim.
+
+B seno.
+
+C cosseno.
+
+D logarítmica crescente.
+
+E exponencial.

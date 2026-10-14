@@ -1,0 +1,17 @@
+QUESTÃO 177
+
+Uma fábrica de brinquedos educativos vende uma caixa com fichas pretas e fichas brancas para compor sequências de figuras seguindo padrões. Na caixa, a orientação para representar as primeiras figuras da sequência de barcos é acompanhada deste desenho:
+
+**[FIGURA: Tabela dividida em 4 colunas principais correspondentes à "1ª figura", "2ª figura", "3ª figura" e "4ª figura". Cada coluna está dividida em duas partes (superior e inferior), contendo símbolos que lembram pontos de interrogação invertidos (¿) representando fichas dispostas em forma de triângulo na parte superior e em forma de retângulo na parte inferior.
+- Na 1ª figura: Parte superior possui 1 símbolo na última linha; parte inferior possui 2 símbolos lado a lado.
+- Na 2ª figura: Parte superior possui 3 símbolos dispostos em um triângulo de 2 linhas (1 em cima, 2 embaixo); parte inferior possui 6 símbolos dispostos em um retângulo de 2 linhas por 3 colunas.
+- Na 3ª figura: Parte superior possui 6 símbolos dispostos em um triângulo de 3 linhas (1, 2, 3); parte inferior possui 12 símbolos dispostos em um retângulo de 3 linhas por 4 colunas.
+- Na 4ª figura: Parte superior possui 10 símbolos dispostos em um triângulo de 4 linhas (1, 2, 3, 4); parte inferior possui 20 símbolos dispostos em um retângulo de 4 linhas por 5 colunas.]**
+
+Qual é o total de fichas necessárias para formar a 15ª figura da sequência?
+
+A 45
+B 87
+C 120
+D 240
+E 360

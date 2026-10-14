@@ -1,0 +1,26 @@
+QUESTÃO 175
+
+A tabela apresenta os registros de ocorrência de acidentes de trabalho por categorias econômicas no Brasil, no mês de julho de 2001:
+
+**[FIGURA: Tabela intitulada "Afastamentos por acidentes de trabalho por atividades econômica — julho de 2001 (em valores aproximados)". A tabela possui três colunas: "Atividades Econômica", "Quantidade de Empregados" e "Afastamentos por Acidente de Trabalho". As linhas contêm os seguintes dados:
+- Agropecuária e extrativismo: 1 414 000 empregados, 8 000 afastamentos;
+- Indústria leve: 2 031 000 empregados, 24 000 afastamentos;
+- Indústria pesada: 2 455 000 empregados, 33 000 afastamentos;
+- Construção civil: 1 105 000 empregados, 14 000 afastamentos;
+- Comércio: 4 097 000 empregados, 24 000 afastamentos;
+- Serviços: 6 241 000 empregados, 34 000 afastamentos;
+- Transportes: 1 278 000 empregados, 13 000 afastamentos;
+- Crédito: 524 000 empregados, 6 000 afastamentos;
+- Administração pública: 1 138 000 empregados, 2 000 afastamentos;
+- Não classificado: 33 000 empregados, 30 afastamentos;
+- Total: 20 316 000 empregados, 158 030 afastamentos.]**
+
+Fonte: MINISTÉRIO DA EDUCAÇÃO. Caderno de teoria e prática 2 – TP2: matemática na alimentação e nos impostos. Brasília, 2008 (adaptado).
+
+Considerando os dados dispostos na tabela, uma pessoa que pretende ingressar no mercado de trabalho decide pela ocupação de menor grau de risco de acidente de trabalho. Sabendo que o grau de risco é a probabilidade de ocorrência de acidentes de trabalho em categorias de atividade econômica, sua opção é se empregar na atividade econômica
+
+A crédito, pois representa risco aproximado de acidente de trabalho igual a 1,15%.
+B crédito, pois representa risco aproximado de acidente de trabalho igual a 2,58%.
+C crédito, pois apresenta o menor registro de quantidade de empregados.
+D administração pública, pois representa risco aproximado de acidente de trabalho igual a 0,18%.
+E administração pública, pois apresenta o menor registro de afastamento por acidente de trabalho.

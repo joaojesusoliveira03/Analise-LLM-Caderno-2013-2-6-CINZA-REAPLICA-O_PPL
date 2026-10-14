@@ -1,0 +1,14 @@
+QUESTÃO 146
+
+A logomarca de uma empresa de computação é um quadrado, $AEFG$, com partes pintadas como mostra a figura. Sabe-se que todos os ângulos agudos presentes na figura medem $45^\circ$ e que $AB = BC = CD = DE$. A fim de divulgar a marca entre os empregados, a gerência decidiu que fossem pintadas logomarcas de diversos tamanhos nas portas, paredes e fachada da empresa. Pintadas as partes cinza de todas as logomarcas, sem desperdício e sem sobras, já foram gastos R$ 320,00.
+
+[FIGURA: Um quadrado $AEFG$ rotacionado onde o vértice $G$ está no canto superior esquerdo, $A$ no superior direito, $E$ no inferior direito e $F$ no inferior esquerdo. O lado direito do quadrado (segmento $AE$) está dividido em quatro segmentos iguais pelos pontos $B$, $C$ e $D$, de modo que $AB = BC = CD = DE$. A figura contém áreas pintadas em dois tons (cinza e preto) e uma área central branca em formato de losango/quadrado inclinado. As regiões cinzas mais claras localizam-se nos cantos superiores e inferiores, enquanto as faixas pretas formam diagonais estruturadas com ângulos agudos de $45^\circ$.]
+
+O preço das tintas cinza, preta e branca é o mesmo.
+Considerando que não haja desperdício e sobras, o custo para pintar as partes pretas e o custo para pintar as partes brancas serão, respectivamente,
+
+A) R$ 320,00 e R$ 640,00.
+B) R$ 640,00 e R$ 960,00.
+C) R$ 960,00 e R$ 1 280,00.
+D) R$ 1 280,00 e R$ 2 240,00.
+E) R$ 2 240,00 e R$ 2 560,00.

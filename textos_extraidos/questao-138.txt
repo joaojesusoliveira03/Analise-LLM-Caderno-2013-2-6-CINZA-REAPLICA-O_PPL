@@ -1,0 +1,22 @@
+QUESTÃO 138
+
+Uma escola da periferia de São Paulo está com um projeto em parceria com as universidades públicas. Nesse projeto piloto, cada turma encaminhará um aluno que esteja apresentando dificuldades de aprendizagem para um acompanhamento especializado. Para isso, em cada turma, foram aplicadas 7 avaliações diagnósticas. Os resultados obtidos em determinada turma foram os seguintes:
+
+**[FIGURA: Tabela com 8 linhas e 6 colunas contendo as notas de 5 alunos em 7 avaliações. 
+- Cabeçalho das colunas (da esq. para a dir.): célula vazia, Aluno 1, Aluno 2, Aluno 3, Aluno 4, Aluno 5.
+- Linha 1 (Avaliação 1): 4,2 | 8 | 8 | 9 | 6
+- Linha 2 (Avaliação 2): 4,2 | 2,5 | 5 | 3,5 | 8
+- Linha 3 (Avaliação 3): 3,2 | 1 | 0,5 | 5 | 4
+- Linha 4 (Avaliação 4): 3,2 | 4 | 3 | 8,5 | 7
+- Linha 5 (Avaliação 5): 3,5 | 3 | 2,5 | 3,5 | 9
+- Linha 6 (Avaliação 6): 4,2 | 4 | 4,6 | 7 | 7
+- Linha 7 (Avaliação 7): 3,2 | 8 | 8,6 | 6 | 6
+]**
+
+Sabendo que o projeto visa atender o aluno que apresentar a menor média nas avaliações, deverá ser encaminhado o aluno
+
+A) 1.
+B) 2.
+C) 3.
+D) 4.
+E) 5.

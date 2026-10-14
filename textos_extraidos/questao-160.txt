@@ -1,0 +1,17 @@
+QUESTÃO 160
+
+Nos últimos anos, a frota de veículos no Brasil tem crescido de forma acentuada. Observando o gráfico, é possível verificar a variação do número de veículos (carros, motocicletas e caminhões), no período de 2000 a 2010. Projeta-se que a taxa de crescimento relativo no período de 2000 a 2010 mantenha-se para década seguinte.
+
+**Evolução do total da frota na década**
+
+**[FIGURA: Gráfico de linha intitulado "Evolução do total da frota na década", mostrando o crescimento do número de veículos de 2000 a 2010. O eixo vertical representa a quantidade em milhões, graduado de 0 a 70. O eixo horizontal indica os anos de 2000 até 2010. Há pontos marcados para cada ano com linhas verticais pontilhadas indicando a correspondência no eixo X. No ano de 2000, há um ponto indicando "30 milhões". No ano de 2010, há um ponto indicando "66 milhões". A linha entre os pontos mostra um crescimento contínuo ao longo dos anos.]**
+
+Disponível em: http://g1.globo.com. Acesso em: 27 fev. 2012 (adaptado).
+
+Qual será o número de veículos no ano de 2020?
+
+A 79,2 milhões
+B 102,0 milhões
+C 132,0 milhões
+D 138,0 milhões
+E 145,2 milhões

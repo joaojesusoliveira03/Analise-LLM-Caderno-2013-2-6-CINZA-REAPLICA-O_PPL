@@ -1,0 +1,16 @@
+QUESTÃO 163
+
+O símbolo internacional de acesso, mostrado na figura, anuncia local acessível para o portador de necessidades especiais. Na concepção desse símbolo, foram empregados elementos gráficos geométricos elementares.
+
+[FIGURA: Símbolo internacional de acesso em branco sobre fundo preto quadrado. A representação consiste em uma pessoa estilizada em uma cadeira de rodas, composta por formas geométricas: uma cabeça circular, um torso e braços formados por linhas retas/segmentos, e rodas da cadeira de rodas desenhadas com arcos de circunferência (curvas circulares abertas ou parciais).]
+
+Regras de acessibilidade ao meio físico para o deficiente.
+Disponível em: www.ibdd.org.br. Acesso em: 28 jun. 2011 (adaptado).
+
+Os elementos geométricos que constituem os contornos das partes claras da figura são
+
+A retas e círculos.
+B retas e circunferências.
+C arcos de circunferências e retas.
+D coroas circulares e segmentos de retas.
+E arcos de circunferências e segmentos de retas.

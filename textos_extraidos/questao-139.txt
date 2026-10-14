@@ -1,0 +1,11 @@
+QUESTÃO 139
+
+O cometa Halley orbita o Sol numa trajetória elíptica periódica. Ele foi observado da Terra nos anos de 1836 e 1911. Sua última aparição foi em 1986 e sua próxima aparição será em 2061.
+
+Qual é o ano da segunda aparição do cometa anterior ao ano de 2012?
+
+A) 1836
+B) 1862
+C) 1911
+D) 1937
+E) 1986

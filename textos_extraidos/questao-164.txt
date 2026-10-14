@@ -1,0 +1,13 @@
+QUESTÃO 164
+
+Uma dona de casa vai ao supermercado fazer a compra mensal. Ao concluir a compra, observa que ainda lhe restaram R$ 88,00. Seus gastos foram distribuídos conforme mostra o gráfico. As porcentagens apresentadas no gráfico são referentes ao valor total, em reais, reservado para a compra mensal.
+
+[FIGURA: Gráfico de colunas verticais que representa a porcentagem gasta em cada tipo de produto em relação ao valor total reservado para a compra mensal. No eixo vertical, tem-se "% gasta em cada tipo de produto", variando de 0 a 35. No eixo horizontal, tem-se "Tipo de produto", com quatro categorias: "Carnes e embutidos" (barra com 30,2%), "Produto de limpeza" (barra com 17,5%), "Frutas e verduras" (barra com 12,4%) e "Massas e enlatados" (barra com 22,3%).]
+
+Qual o valor total, em reais, reservado por essa dona de casa para a compra mensal?
+
+A 106,80
+B 170,40
+C 412,00
+D 500,00
+E 588,00

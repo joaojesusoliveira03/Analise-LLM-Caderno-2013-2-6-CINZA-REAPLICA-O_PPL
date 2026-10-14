@@ -1,0 +1,15 @@
+QUESTÃO 172
+
+Em um folheto de propaganda foi desenhada uma planta de um apartamento medindo $6\text{ m} \times 8\text{ m}$, na escala $1:50$. Porém, como sobrou muito espaço na folha, foi decidido aumentar o desenho da planta, passando para a escala $1:40$.
+
+Após essa modificação, quanto aumentou, em $\text{cm}^2$, a área do desenho da planta?
+
+A) 0,0108
+
+B) 108
+
+C) 191,88
+
+D) 300
+
+E) 43 200

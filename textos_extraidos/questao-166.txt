@@ -1,0 +1,15 @@
+QUESTÃO 166
+
+Ao realizar uma compra em uma loja de departamentos, o cliente tem o direito de participar de um jogo de dardo, no qual, de acordo com a região do alvo acertada, ele pode ganhar um ou mais prêmios. Caso o cliente acerte fora de todos os quatro círculos, ele terá o direito de repetir a jogada, até que acerte uma região que dê o direito de ganhar pelo menos um prêmio. O alvo é o apresentado na figura:
+
+**[FIGURA: Diagrama de um alvo de dardos contido dentro de um retângulo com cantos arredondados. O alvo consiste em quatro círculos que se interceptam, representando as regiões de prêmios: "Torradeira" (círculo superior esquerdo), "Liquidificador" (círculo superior direito), "Cafeteira" (círculo inferior esquerdo) e "Batedeira" (círculo inferior direito). No centro da interseção dos quatro círculos, há uma região central em formato de losango/quadrilátero delimitada pelos pontos A (topo), B (direita), C (base) e D (esquerda), que indica o prêmio extra.]**
+
+Ao acertar uma das regiões do alvo, ele terá direito ao(s) prêmio(s) indicado(s) nesta região. Há ainda o prêmio extra, caso o cliente acerte o dardo no quadrado $ABCD$.
+
+João Maurício fez uma compra nessa loja e teve o direito de jogar o dardo. A quantidade de prêmios que João Maurício tem a menor probabilidade de ganhar, sabendo que ele jogou o dardo aleatoriamente, é exatamente:
+
+A) 1.
+B) 2.
+C) 3.
+D) 4.
+E) 5.

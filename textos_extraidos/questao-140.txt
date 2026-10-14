@@ -1,0 +1,15 @@
+QUESTÃO 140
+
+O gráfico mostra o número de pessoas que acessaram a internet, no Brasil, em qualquer ambiente (domicílios, trabalho, escolas, *lan houses* ou outros locais), nos segundos trimestres dos anos de 2009, 2010 e 2011.
+
+**[FIGURA: Gráfico de colunas verticais que apresenta o número de pessoas (em milhões) que acessaram a internet no Brasil nos segundos trimestres de 2009, 2010 e 2011. O eixo vertical (Y) indica os valores em milhões de pessoas, variando de 0,0 a 80,0 com intervalos de 10,0. O eixo horizontal (X) categoriza os anos. A primeira coluna, correspondente ao "2° trim. 2009" (em cinza médio), atinge a marca de 64,8 milhões. A segunda coluna, correspondente ao "2° trim. 2010" (em preto), atinge a marca de 73,7 milhões. A terceira coluna, correspondente ao "2° trim. 2011" (em branco com contorno preto), atinge a marca de 77,8 milhões. Abaixo do gráfico, há uma legenda indicando: quadrado cinza para 2° trim. 2009, quadrado preto para 2° trim. 2010 e quadrado branco para 2° trim. 2011.]**
+
+Disponível em: www.prosadigital.com.br. Acesso em: 28 fev. 2012.
+
+Considerando que a taxa de crescimento do número de acessos à internet no Brasil, do segundo trimestre de 2011 para o segundo trimestre de 2012, seja igual à taxa verificada no mesmo período de 2010 para 2011, qual é, em milhões, a estimativa do número de pessoas que acessarão a internet no segundo trimestre de 2012?
+
+A 82,1
+B 83,3
+C 86,7
+D 93,4
+E 99,8

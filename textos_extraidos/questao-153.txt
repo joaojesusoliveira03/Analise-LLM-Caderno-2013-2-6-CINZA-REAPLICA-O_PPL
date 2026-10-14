@@ -1,0 +1,15 @@
+QUESTÃO 153
+
+Camile gosta de caminhar em uma calçada em torno de uma praça circular que possui 500 metros de extensão, localizada perto de casa. A praça, bem como alguns locais ao seu redor e o ponto de onde inicia a caminhada, estão representados na figura:
+
+[FIGURA: Diagrama esquemático de uma praça circular dividida em quatro quadrantes por duas avenidas ortogonais que se cruzam no centro, onde há uma rotatória menor também circular. A calçada externa tem 500 metros de extensão e possui pontos marcados ao longo de sua circunferência indicando a localização de estabelecimentos. Na parte inferior, na posição correspondente ao eixo vertical sul, está indicado o "Ponto de partida". A partir do ponto de partida e percorrendo no sentido anti-horário (subindo pelo lado direito e contornando), encontram-se os seguintes locais: "Centro cultural" (no quarto quadrante inferior direito), "Padaria" (no extremo leste, eixo horizontal direito), "Sorveteria" (no primeiro quadrante superior direito), "Academia" (no segundo quadrante superior esquerdo), "Drogaria" (no extremo oeste, eixo horizontal esquerdo) e "Lan house" (no terceiro quadrante inferior esquerdo).]
+
+Em uma tarde, Camile caminhou 4 125 metros, no sentido anti-horário, e parou.
+
+Qual dos locais indicados na figura é o mais próximo de sua parada?
+
+A Centro cultural.
+B Drogaria.
+C *Lan house*.
+D Ponto de partida.
+E Padaria.

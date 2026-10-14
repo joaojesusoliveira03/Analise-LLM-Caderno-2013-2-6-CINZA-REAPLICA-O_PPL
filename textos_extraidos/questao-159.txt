@@ -1,0 +1,15 @@
+QUESTÃO 159
+
+Uma fábrica possui duas máquinas que produzem o mesmo tipo de peça. Diariamente a máquina M produz 2 000 peças e a máquina N produz 3 000 peças. Segundo o controle de qualidade da fábrica, sabe-se que 60 peças, das 2 000 produzidas pela máquina M, apresentam algum tipo de defeito, enquanto que 120 peças, das 3 000 produzidas pela máquina N, também apresentam defeitos. Um trabalhador da fábrica escolhe ao acaso uma peça, e esta é defeituosa.
+
+Nessas condições, qual a probabilidade de que a peça defeituosa escolhida tenha sido produzida pela máquina M?
+
+**A)** $\frac{3}{100}$
+
+**B)** $\frac{1}{25}$
+
+**C)** $\frac{1}{3}$
+
+**D)** $\frac{3}{7}$
+
+**E)** $\frac{2}{3}$

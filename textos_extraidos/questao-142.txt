@@ -1,0 +1,13 @@
+QUESTÃO 142
+
+Uma dona de casa pretende comprar uma escrivaninha para colocar entre as duas camas do quarto de seus filhos. Ela sabe que o quarto é retangular, de dimensões $4\text{ m} \times 5\text{ m}$, e que as cabeceiras das camas estão encostadas na parede de maior dimensão, onde ela pretende colocar a escrivaninha, garantindo uma distância de $0,4\text{ m}$ entre a escrivaninha e cada uma das camas, para circulação. Após fazer um esboço com algumas medidas, decidirá se comprará ou não a escrivaninha.
+
+**[FIGURA: Esboço bidimensional representando a vista superior de um quarto retangular com dimensões $4\text{ m}$ de largura por $5\text{ m}$ de comprimento. Na parede superior, estão encostadas duas camas retangulares, indicadas pelos textos "CAMA", cada uma com largura de $1,2\text{ m}$. Há uma indicação de distância de $0,4\text{ m}$ entre a parede lateral esquerda e a primeira cama, e de $0,4\text{ m}$ entre a parede lateral direita e a segunda cama. No canto inferior direito, consta o texto "Esboço feito pela dona de casa".]**
+
+Após analisar o esboço e realizar alguns cálculos, a dona de casa decidiu que poderia comprar uma escrivaninha, de largura máxima igual a
+
+A) $0,8\text{ m}$.
+B) $1,0\text{ m}$.
+C) $1,4\text{ m}$.
+D) $1,6\text{ m}$.
+E) $1,8\text{ m}$.

@@ -1,0 +1,20 @@
+QUESTÃO 162
+
+Em um jogo educativo, o tabuleiro é uma representação da reta numérica e o jogador deve posicionar as fichas contendo números reais corretamente no tabuleiro, cujas linhas pontilhadas equivalem a 1 (uma) unidade de medida. Cada acerto vale 10 pontos.
+
+Na sua vez de jogar, Clara recebe as seguintes fichas:
+
+[FIGURA: Quatro fichas circulares dispostas horizontalmente. 
+A primeira ficha, à esquerda, contém a raiz quadrada de 3 ($\sqrt{3}$) dentro do círculo, e abaixo dela há um quadrado com a letra X.
+A segunda ficha contém a fração menos um meio ($-\frac{1}{2}$), e abaixo dela há um quadrado com a letra Y.
+A terceira ficha contém a fração três meios ($\frac{3}{2}$), e abaixo dela há um quadrado com a letra Z.
+A quarta ficha, à direita, contém o número decimal menos dois vírgula cinco ($-2,5$), e abaixo dela há um quadrado com a letra T.]
+
+Para que Clara atinja 40 pontos nessa rodada, a figura que representa seu jogo, após a colocação das fichas no tabuleiro, é:
+
+[FIGURA: Conjunto de cinco alternativas (A, B, C, D, E), cada uma contendo uma reta numérica orientada para a direita, com marcações verticais pontilhadas espaçadas de 1 unidade, onde o ponto 0 está destacado na linha pontilhada central. As fichas X, Y, Z e T estão posicionadas em pontos específicos sobre as retas de cada alternativa:
+- Alternativa A: T está na posição $-3$, Y está na posição $-0,5$, Z está na posição $1,5$, X está na posição $3$.
+- Alternativa B: X está na posição $-2$, Z está na posição $-1,5$, Y está na posição $0,5$, T está na posição $2,5$.
+- Alternativa C: T está na posição $-3$, Y está na posição $-2$, X está na posição $2$, Z está na posição $4$.
+- Alternativa D: T está na posição $-3$, Y está na posição $-0,5$, Z está na posição $1,5$, X está na posição $1,7$ (aproximadamente $\sqrt{3}$).
+- Alternativa E: Y e T estão sobrepostos na posição $-2,5$, Z e X estão próximos entre $1,5$ e $1,7$.]

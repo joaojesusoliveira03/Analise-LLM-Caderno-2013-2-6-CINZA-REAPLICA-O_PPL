@@ -1,0 +1,15 @@
+QUESTÃO 158
+
+O proprietário de um terreno retangular medindo 10 m por 31,5 m deseja instalar lâmpadas nos pontos $C$ e $D$, conforme ilustrado na figura:
+
+[FIGURA: Ilustração de um terreno retangular cinza com dimensões de 10 m de altura e 31,5 m de largura. O vértice inferior esquerdo é rotulado como A e o inferior direito não possui letra, mas o ponto C está localizado sobre o lado inferior, próximo ao vértice A. O vértice superior direito é rotulado como B e o ponto D está localizado sobre o lado superior, próximo ao vértice B. Os segmentos AC e BD têm suas posições indicadas na borda inferior e superior respectivamente.]
+
+Cada lâmpada ilumina uma região circular de 5 m de raio. Os segmentos $AC$ e $BD$ medem 2,5 m. O valor em m² mais aproximado da área do terreno iluminada pelas lâmpadas é
+
+(Aproxime $\sqrt{3}$ para 1,7 e $\pi$ para 3.)
+
+A) 30.
+B) 34.
+C) 50.
+D) 61.
+E) 69.

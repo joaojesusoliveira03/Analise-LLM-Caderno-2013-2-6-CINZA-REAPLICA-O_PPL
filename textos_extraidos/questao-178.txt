@@ -1,0 +1,17 @@
+QUESTÃO 178
+
+Uma característica interessante do som é sua frequência. Quando uma fonte sonora se aproxima do ouvinte, o som ouvido por ele tem uma frequência maior do que o som produzido pela mesma fonte sonora, se ela estiver parada. Entretanto, se a fonte sonora se afasta do ouvinte, a frequência é menor. Esse fenômeno é conhecido como efeito Doppler.
+
+Um ouvinte parado junto a uma fonte ouve o seu som com uma frequência constante, que será denotada por $f$. Quatro experimentos foram feitos com essa fonte sonora em movimento. Denotaremos por $f_1, f_2, f_3$ e $f_4$ as frequências do som da fonte sonora em movimento ouvido pelo ouvinte, que continua parado, nos experimentos 1, 2, 3 e 4, respectivamente.
+
+Depois de calculadas as frequências, as seguintes relações foram obtidas:
+
+$f_1 = 1,1f$, $\quad f_2 = 0,99f_1$, $\quad f_1 = 0,9f_3$ $\quad$ e $\quad$ $f_4 = 0,9f$
+
+Em quais experimentos a fonte sonora se afastou do ouvinte?
+
+A Somente nos experimentos 1, 2 e 3.
+B Somente nos experimentos 2, 3 e 4.
+C Somente nos experimentos 2 e 4.
+D Somente nos experimentos 3 e 4.
+E Somente no experimento 4.

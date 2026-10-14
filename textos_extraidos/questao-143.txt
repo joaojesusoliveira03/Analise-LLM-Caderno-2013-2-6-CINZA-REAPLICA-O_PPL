@@ -1,0 +1,15 @@
+QUESTÃO 143
+
+O gráfico mostra estimativas da produção brasileira de trigo em safras recentes:
+
+**[FIGURA: Gráfico de colunas verticais intitulado "Produção de trigo no Brasil (em milhões de toneladas)". O eixo vertical (ordenada) varia de 0 a 7, representando a produção em milhões de toneladas. O eixo horizontal (abscissa) apresenta cinco safras agrícolas: 2005/06, 2006/07, 2007/08, 2008/09 e 2009/10. As alturas das colunas e seus respectivos valores rotulados no topo são: 4,87 para a safra 2005/06; 2,44 para a safra 2006/07; 4,09 para a safra 2007/08; 6,01 para a safra 2008/09; e 5,4 para a safra 2009/10.]**
+
+Globo Rural, São Paulo, jun. 2009 (adaptado).
+
+A média da produção brasileira de trigo de 2005/06 a 2009/10, em milhões de toneladas, é de
+
+A 4,87.
+B 4,70.
+C 4,56.
+D 4,49.
+E 4,09.

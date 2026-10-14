@@ -1,0 +1,15 @@
+QUESTÃO 161
+
+Existem hoje, no Brasil, cerca de 2 milhões de pessoas que sofrem de epilepsia. Há diversos meios de tratamento para a doença, como indicado no gráfico:
+
+**[FIGURA: Gráfico de pizza intitulado "A doença em números" com a legenda "2 milhões de brasileiros sofrem de epilepsia". O gráfico está dividido em quatro fatias com as seguintes proporções e descrições: uma fatia cinza escura representando 70% ("Conseguem se recuperar com o uso de medicamentos"); uma fatia preta representando 9% ("Não conseguem se livrar das crises — os tratamentos disponíveis apenas minimizam os sintomas da doença"); uma fatia cinza clara representando 6% ("Só encontram remissão com a implantação de eletrodos no cérebro, de modo a normalizar os impulsos elétricos entre os neurônios"); e uma fatia branca representando 15% ("Curam-se graças à cirurgia para a retirada da porção doente do cérebro").]**
+
+*Veja*, São Paulo, 18 abr. 2010 (adaptado).
+
+Considere um estado do Brasil, onde $400\ 000$ pessoas sofrem de epilepsia. Nesse caso, o número de pessoas que conseguem se recuperar com o uso de medicamentos, ou se curar a partir da cirurgia para retirada da porção doente do cérebro, é aproximadamente
+
+A) $42\ 000$.
+B) $60\ 000$.
+C) $220\ 000$.
+D) $280\ 000$.
+E) $340\ 000$.

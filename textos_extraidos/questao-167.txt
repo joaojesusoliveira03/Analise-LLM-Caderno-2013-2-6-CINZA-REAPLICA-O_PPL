@@ -1,0 +1,13 @@
+QUESTÃO 167
+
+O tipo mais comum de bebida encontrado nos supermercados não é o suco, mas o néctar de frutas. Os fabricantes de bebida só podem chamar de suco os produtos que tiverem pelo menos 50% de polpa, a parte comestível da fruta. Já o néctar de frutas é mais doce e tem entre 20% e 30% de polpa de frutas.
+
+Superinteressante, São Paulo, ago. 2011.
+
+Uma pessoa vai ao supermercado e compra uma caixa de 1 litro de bebida. Em casa ela percebe que na embalagem está escrito "néctar de frutas com 30% de polpa". Se essa caixa fosse realmente de suco, necessitaria de um aumento percentual de polpa de, aproximadamente,
+
+A 20%.
+B 67%.
+C 80%.
+D 167%.
+E 200%.
