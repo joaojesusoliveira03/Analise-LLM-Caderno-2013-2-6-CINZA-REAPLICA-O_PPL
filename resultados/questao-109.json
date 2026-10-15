@@ -1,0 +1,105 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 109,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-109.txt",
+      "gabarito": "C"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "CH",
+      "nome": "Ciências Humanas e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C2",
+      "descricao": "Compreender as transformações dos espaços geográficos como produto das relações socioeconômicas e culturais de poder."
+    },
+    "habilidade_principal": {
+      "id": "H8",
+      "descricao": "Analisar a ação dos estados nacionais no que se refere à dinâmica dos fluxos populacionais e no enfrentamento de problemas de ordem econômico-social."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H1",
+        "descricao": "Interpretar historicamente e/ou geograficamente fontes documentais acerca de aspectos da cultura."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Migrações e êxodo rural",
+    "conteudos_relacionados": [
+      "Seca no Nordeste",
+      "Dinâmica populacional"
+    ],
+    "assunto": "Êxodo rural decorrente da seca no Nordeste",
+    "objeto_de_analise": "Textos literários de Patativa do Assaré retratando os deslocamentos populacionais",
+    "fenomeno_conceito": "Êxodo populacional / Migração interna"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "Incorreta porque os textos não mostram um povo que se deixa vencer totalmente pela esperança ou inércia, mas sim que toma a iniciativa de migrar."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "Incorreta pois o Texto II menciona a \"construção do governo\" como destino de migração, mas o foco principal comum a ambos não é a dúvida sobre a ajuda governamental."
+    },
+    {
+      "alternativa": "C",
+      "correta": true,
+      "justificativa": "Correta. Ambos os textos abordam o deslocamento do homem nordestino (êxodo) devido às adversidades climáticas e socioeconômicas, buscando melhores condições de vida no Sul ou em outras regiões como o Maranhão."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "Incorreta pois, embora a falta de chuva seja o fator motivador inicial, o foco comum dos textos é o movimento migratório decorrente dela, e não apenas o sentimento de tristeza."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "Incorreta porque os textos focam nas pessoas (povo, gente roceira, família), sendo a referência ao sapo uma alusão literária e não o tema central sobre animais."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:13:23.223264Z",
+    "confianca": "alta",
+    "evidencias": [
+      "Os textos de Patativa do Assaré retratam a partida do povo nordestino devido à seca severa em direção a outras regiões em busca de sobrevivência."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-109.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

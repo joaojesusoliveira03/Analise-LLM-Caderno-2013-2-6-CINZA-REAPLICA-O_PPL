@@ -1,0 +1,101 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 123,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-123.txt",
+      "gabarito": "A"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "LC",
+      "nome": "Linguagens, Códigos e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C1",
+      "descricao": "Aplicar as tecnologias da comunicação e da informação na escola, no trabalho e em outros contextos relevantes para sua vida."
+    },
+    "habilidade_principal": {
+      "id": "H1",
+      "descricao": "Identificar as diferentes linguagens e seus recursos expressivos como elementos de caracterização dos sistemas de comunicação."
+    },
+    "habilidades_relacionadas": [],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Gêneros textuais digitais e tecnologias da informação",
+    "conteudos_relacionados": [
+      "Evolução dos gêneros textuais",
+      "Tecnologias de comunicação e informação"
+    ],
+    "assunto": "O surgimento de novos gêneros textuais nas mídias digitais e sua relação com gêneros tradicionais",
+    "objeto_de_analise": "O trecho do texto de Luiz Antônio Marcuschi e as alternativas que relacionam gêneros digitais a gêneros preexistentes",
+    "fenomeno_conceito": "A intertextualidade e a historicidade dos gêneros textuais associados a novas tecnologias"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": true,
+      "justificativa": "O e-mail é um gênero textual surgido no ambiente digital que herda diversas características formais e funcionais de gêneros tradicionais de comunicação escrita pessoal, como a carta e o bilhete."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "Embora a aula virtual possua características de interações grupais, a alternativa não exemplifica de forma direta e consagrada na teoria dos gêneros a relação apontada no enunciado com a mesma precisão do e-mail."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "O bate-papo virtual assemelha-se mais a uma conversa espontânea ou diálogo oral do que a uma conferência, que possui maior formalidade e estrutura expositiva."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "A videoconferência assemelha-se a uma reunião ou encontro remoto, e não especificamente de maneira restrita a uma aula presencial."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "A lista de discussão assemelha-se mais a fóruns ou debates escritos, não correspondendo diretamente à estrutura de uma palestra."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:16:38.605337Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O texto de Marcuschi discute a relação entre tecnologias e gêneros textuais, destacando que as novidades mantêm aspectos conhecidos.",
+      "O enunciado pede um exemplo em que um novo gênero gerado pelo avanço das TIC remete a um gênero preexistente."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-123.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

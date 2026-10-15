@@ -1,0 +1,107 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 172,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-172.txt",
+      "gabarito": "B"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "MT",
+      "nome": "Matemática e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C3",
+      "descricao": "Construir noções de grandezas e medidas para a compreensão da realidade e a solução de problemas do cotidiano."
+    },
+    "habilidade_principal": {
+      "id": "H11",
+      "descricao": "Utilizar a noção de escalas na leitura de representação de situação do cotidiano."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H12",
+        "descricao": "Resolver situação-problema que envolva medidas de grandezas."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Escalas e Área",
+    "conteudos_relacionados": [
+      "Grandezas e Medidas",
+      "Razão e Proporção"
+    ],
+    "assunto": "Cálculo de variação de área em função da alteração de escala",
+    "objeto_de_analise": "Desenho de uma planta de apartamento em diferentes escalas",
+    "fenomeno_conceito": "Razão de semelhança e proporção entre áreas de figuras geométricas"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "Incorreta. O valor resulta de um erro conceitual na conversão das unidades de escala para a área ou aplicação incorreta do fator de proporção sem considerar o quadrado da escala."
+    },
+    {
+      "alternativa": "B",
+      "correta": true,
+      "justificativa": "Correta. As dimensões reais são 6 m (600 cm) e 8 m (800 cm). Na escala 1:50, as medidas do desenho são 12 cm por 16 cm, resultando em uma área de 192 cm². Na escala 1:40, as medidas do desenho são 15 cm por 20 cm, resultando em uma área de 300 cm². A diferença (aumento) é de 300 - 192 = 108 cm²."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "Incorreta. Resulta de cálculos equivocados envolvendo diretamente as medidas lineares ou aplicação incorreta de operações aritméticas."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "Incorreta. Corresponde apenas à área do desenho na nova escala (300 cm²), sem subtrair a área inicial."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "Incorreta. Valor extremamente superestimado, gerado possivelmente por erro na conversão de metros quadrados para centímetros quadrados ou uso incorreto da proporção."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:25:31.497199Z",
+    "confianca": "alta",
+    "evidencias": [
+      "Uso da escala 1:50 e 1:40",
+      "Cálculo de área de retângulo",
+      "Conversão de unidades e variação de área"
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-172.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

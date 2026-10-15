@@ -1,0 +1,102 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 120,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-120.txt",
+      "gabarito": "B"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "LC",
+      "nome": "Linguagens, Códigos e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C8",
+      "descricao": "Compreender e usar a língua portuguesa como língua materna, geradora de significação e integradora da organização do mundo e da própria identidade."
+    },
+    "habilidade_principal": {
+      "id": "H25",
+      "descricao": "Identificar, em textos de diferentes gêneros, as marcas linguísticas que singularizam as variedades linguísticas sociais, regionais e de registro."
+    },
+    "habilidades_relacionadas": [],
+    "eixo_cognitivo": {
+      "id": "I",
+      "nome": "Dominar linguagens (DL)",
+      "descricao": "dominar a norma culta da Língua Portuguesa e fazer uso das linguagens matemática, artística e científica e das línguas espanhola e inglesa."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Variação linguística",
+    "conteudos_relacionados": [
+      "Literatura de cordel",
+      "Marcas regionais e sociais"
+    ],
+    "assunto": "Identificação de marcas regionais e sociais em texto literário (cordel)",
+    "objeto_de_analise": "Escolhas lexicais no fragmento do cordel",
+    "fenomeno_conceito": "Variedades linguísticas regionais e sociais"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "As palavras listadas indicam papéis sociais e cargos, mas não remetem especificamente às origens geográficas marcantes associadas ao universo do cordel em questão."
+    },
+    {
+      "alternativa": "B",
+      "correta": true,
+      "justificativa": "Os vocábulos 'agreste', 'sertão', 'Juazeiro', 'matuto' e 'senhor de engenho' remetem diretamente à ambientação geográfica nordestina e às origens sociais típicas da literatura de cordel."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "Embora traga termos como 'praciano', os demais são genéricos ou não caracterizam isoladamente a dimensão geográfica e social pretendida."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "Contém verbos e adjetivos de uso geral na língua, sem marca regional ou social específica."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "Reúne substantivos, adjetivos e termos religiosos de uso comum, sem a especificidade regional exigida pelo enunciado."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:16:26.736309Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O enunciado pede palavras que remetam às origens geográficas e sociais da literatura de cordel.",
+      "A alternativa B traz termos como 'agreste', 'sertão', 'Juazeiro', 'matuto' e 'senhor de engenho', que marcam a geografia e o contexto social nordestino do cordel.",
+      "Gabarito oficial é B."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-120.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

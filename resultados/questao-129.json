@@ -1,0 +1,105 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 129,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-129.txt",
+      "gabarito": "C"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "LC",
+      "nome": "Linguagens, Códigos e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C9",
+      "descricao": "Entender os princípios, a natureza, a função e o impacto das tecnologias da comunicação e da informação na sua vida pessoal e social, no desenvolvimento do conhecimento, associando-o aos conhecimentos científicos, às linguagens que lhes dão suporte, às demais tecnologias, aos processos de produção e aos problemas que se progridem."
+    },
+    "habilidade_principal": {
+      "id": "H28",
+      "descricao": "Reconhecer a função e o impacto social das diferentes tecnologias da comunicação e informação."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H18",
+        "descricao": "Identificar os elementos que concorrem para a progressão temática e para a organização e estruturação de textos de diferentes gêneros e tipos."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "II",
+      "nome": "Compreender fenômenos (CF)",
+      "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Estudo do texto: as sequências discursivas e os gêneros textuais no sistema de comunicação e informação",
+    "conteudos_relacionados": [
+      "Estudo dos gêneros digitais: tecnologia da comunicação e informação: impacto e função social"
+    ],
+    "assunto": "Análise de gênero textual de divulgação científica e sua adequação ao público e meio de comunicação",
+    "objeto_de_analise": "O uso de tom de humor e linguagem lúdica em texto veiculado em revista de divulgação científica",
+    "fenomeno_conceito": "Adequação da linguagem ao veículo de comunicação de massa"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "O texto não se caracteriza pela subjetividade típica de diários ou gêneros estritamente pessoais, mas sim por uma abordagem dialógica e informativa de divulgação científica."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "O uso de linguagem lúdica e tom de humor afasta o texto dos parâmetros textuais rígidos e formais das publicações estritamente científicas."
+    },
+    {
+      "alternativa": "C",
+      "correta": true,
+      "justificativa": "O tom de humor e a linguagem lúdica e despojada são recursos expressivos adequados a uma revista de divulgação científica, que atinge o grande público, confirmando a natureza do periódico como meio de comunicação de massa."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "O texto tem caráter prático e de divulgação acessível, não sendo voltado primordialmente para leitores interessados em aprofundamento acadêmico ou teórico rigoroso."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "O texto transita por um registro mais informal ou despojado de forma deliberada para se comunicar com o público, mas isso não configura uma contradição indesejada ou erro de uso, e sim uma escolha estilística adequada ao gênero e suporte."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:17:12.428739Z",
+    "confianca": "alta",
+    "evidencias": [
+      "A questão aborda a adequação da linguagem de um texto de divulgação científica veiculado em revista de grande circulação.",
+      "O gabarito oficial é a alternativa C."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-129.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

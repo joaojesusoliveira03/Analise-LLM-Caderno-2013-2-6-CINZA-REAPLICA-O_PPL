@@ -1,0 +1,101 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 139,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-139.txt",
+      "gabarito": "C"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "MT",
+      "nome": "Matemática e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C1",
+      "descricao": "Construir significados para os números naturais, inteiros, racionais e reais."
+    },
+    "habilidade_principal": {
+      "id": "H2",
+      "descricao": "Identificar padrões numéricos ou princípios de contagem."
+    },
+    "habilidades_relacionadas": [],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Sequências e progressões",
+    "conteudos_relacionados": [
+      "Operações em conjuntos numéricos"
+    ],
+    "assunto": "Padrões numéricos e periodicidade",
+    "objeto_de_analise": "Anos de aparição do cometa Halley",
+    "fenomeno_conceito": "Progressão aritmética periódica"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "O ano de 1836 corresponde à primeira aparição listada no texto, não sendo a segunda anterior a 2012."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "O ano 1862 não corresponde a nenhuma das aparições oficiais informadas no texto (1836, 1911, 1986, 2061)."
+    },
+    {
+      "alternativa": "C",
+      "correta": true,
+      "justificativa": "As aparições do cometa listadas no texto são 1836, 1911, 1986 e 2061. Antes de 2012, as aparições ocorridas foram em 2061 (futura, mas listada), 1986, 1911 e 1836. A segunda aparição anterior a 2012 é 1911 (sendo 1986 a primeira anterior a 2012, e 1911 a segunda)."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "O ano de 1937 não faz parte da lista de aparições fornecida pelo texto."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "O ano de 1986 representa a primeira aparição anterior ao ano de 2012, e não a segunda."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:18:57.871372Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O texto fornece os anos das aparições do cometa Halley: 1836, 1911, 1986 e 2061.",
+      "O comando pede o ano da segunda aparição do cometa anterior ao ano de 2012.",
+      "As aparições anteriores a 2012, em ordem decrescente a partir de 2012, são 1986 (primeira anterior) e 1911 (segunda anterior)."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-139.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

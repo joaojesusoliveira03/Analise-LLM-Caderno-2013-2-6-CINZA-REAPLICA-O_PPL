@@ -1,0 +1,106 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 131,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-131.txt",
+      "gabarito": "B"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "CH",
+      "nome": "Ciências Humanas e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C4",
+      "descricao": "Entender as transformações técnicas e tecnológicas e seu impacto nos processos de produção, no desenvolvimento do conhecimento e na vida social."
+    },
+    "habilidade_principal": {
+      "id": "H16",
+      "descricao": "Identificar registros sobre o papel das técnicas e tecnologias na organização do trabalho e/ou da vida social."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H28",
+        "descricao": "Relacionar o uso das tecnologias com os impactos sócio-ambientais em diferentes contextos histórico-geográficos."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "II",
+      "nome": "Compreender fenômenos (CF)",
+      "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Inclusão digital e tecnologias da informação e comunicação (TICs)",
+    "conteudos_relacionados": [
+      "Educação e tecnologia",
+      "Uso social das TICs"
+    ],
+    "assunto": "Acesso significativo às tecnologias da informação e comunicação",
+    "objeto_de_analise": "O conceito de acesso significativo às TICs na sociedade e na educação",
+    "fenomeno_conceito": "Exclusão digital e inclusão social por meio do uso crítico e autônomo das tecnologias"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "Reduz o uso da tecnologia a um mero substituto do papel (registrar conteúdo), sem contemplar a produção ativa, a colaboração ou o impacto na comunidade defendidos no texto."
+    },
+    {
+      "alternativa": "B",
+      "correta": true,
+      "justificativa": "Representa o uso significativo das TICs ao envolver a criação coletiva, o domínio técnico e de ferramentas digitais (rádio web, gravador, computador e internet) por alunos e professores voltado à produção cultural e comunitária."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "Foca apenas no aprendizado instrumental de softwares de escritório, o que o texto caracteriza como insuficiente para o acesso significativo, que exige a aplicação para a melhoria da qualidade de vida e da comunidade."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "Garante apenas o acesso físico ao hardware e laboratório de forma passiva ou livre, sem assegurar a mediação pedagógica ou o uso significativo orientado para conteúdos de relevância social."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "Restringe o uso da internet à pesquisa escolar tradicional para enriquecimento de trabalhos, o que não esgota a acepção ampla de acesso significativo e transformação social proposta pelo autor."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:18:27.563063Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O texto discute que o acesso significativo às TICs envolve não apenas hardware, mas recursos humanos, sociais, conteúdos e a capacidade de utilizar conhecimentos para melhorar a qualidade de vida e da comunidade.",
+      "A alternativa B demonstra a aplicação prática, criativa e comunitária das tecnologias na educação por meio de uma rádio web escolar."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-131.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

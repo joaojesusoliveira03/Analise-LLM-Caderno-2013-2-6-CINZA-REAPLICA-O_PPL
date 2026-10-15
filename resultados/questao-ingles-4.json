@@ -1,0 +1,106 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 4,
+      "espanhol": false,
+      "ingles": true
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-ingles-4.txt",
+      "gabarito": null
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "LC",
+      "nome": "Linguagens, Códigos e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C2",
+      "descricao": "Conhecer e usar língua(s) estrangeira(s) moderna(s) como instrumento de acesso a informações e a outras culturas e grupos sociais*."
+    },
+    "habilidade_principal": {
+      "id": "H5",
+      "descricao": "Associar vocábulos e expressões de um texto em LEM ao seu tema."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H7",
+        "descricao": "Relacionar um texto em LEM, as estruturas linguísticas, sua função e seu uso social."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "II",
+      "nome": "Compreender fenômenos (CF)",
+      "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Compreensão global de texto em língua inglesa (tirinha)",
+    "conteudos_relacionados": [
+      "Vocabulário e expressões em língua inglesa",
+      "Análise de recursos humorísticos e críticos em gêneros textuais"
+    ],
+    "assunto": "Reflexão humorística e crítica sobre o crescimento e a semelhança com os pais",
+    "objeto_de_analise": "O contraste entre o comportamento infantil e o gosto dos adultos na tirinha",
+    "fenomeno_conceito": "Humor e crítica social por meio de quadrinhos"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "A tirinha não aborda uma questão sobre divisão de espaço físico com os pais, mas sim uma reflexão sobre o futuro e a identidade."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "O foco da tirinha não é a falta de atenção dos pais para com a criança, mas o medo do menino de se tornar igual a eles."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "A submissão aos pais não é o tema central abordado no pensamento final do personagem."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "Os pais estão presentes e interagindo na cena, logo a alternativa de ausência não procede."
+    },
+    {
+      "alternativa": "E",
+      "correta": true,
+      "justificativa": "A tirinha constrói um humor baseado no receio do menino de crescer e ficar 'igual à sua mãe e ao seu pai', refletindo a ironia em relação aos gostos dos adultos."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:29:33.471425Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O texto em inglês revela o pensamento do menino sobre o medo de ouvir que vai crescer e ficar igual aos pais.",
+      "A alternativa E sintetiza perfeitamente o desfecho humorístico e reflexivo da tirinha."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-ingles-4.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

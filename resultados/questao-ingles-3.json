@@ -1,0 +1,105 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 3,
+      "espanhol": false,
+      "ingles": true
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-ingles-3.txt",
+      "gabarito": null
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "LC",
+      "nome": "Linguagens, Códigos e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C2",
+      "descricao": "Conhecer e usar língua(s) estrangeira(s) moderna(s) como instrumento de acesso a informações e a outras culturas e grupos sociais*."
+    },
+    "habilidade_principal": {
+      "id": "H5",
+      "descricao": "Associar vocábulos e expressões de um texto em LEM ao seu tema."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H7",
+        "descricao": "Relacionar um texto em LEM, as estruturas linguísticas, sua função e seu uso social."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Compreensão de texto em língua inglesa",
+    "conteudos_relacionados": [
+      "Vocabulário e expressões em língua inglesa",
+      "Leitura e interpretação de textos jornalísticos/informativos"
+    ],
+    "assunto": "Cyberbullying e legislação em diferentes países",
+    "objeto_de_analise": "Dificuldades na persecução legal do cyberbullying no Reino Unido",
+    "fenomeno_conceito": "Cyberbullying e marcos legais"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": true,
+      "justificativa": "O texto afirma que no Reino Unido o cyberbullying não é nomeado como infração criminal ('cyberbullying itself is not named as a criminal offence') e que os infratores precisam ser processados sob outras leis existentes ('charged under various other laws'), o que torna o processo mais difícil."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "O texto menciona que existem leis e políticas escolares, mas o crime específico de cyberbullying não é nomeado, e não que as leis de internet sejam inexistentes."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "O texto não faz menção à falta de interesse dos pais em denunciar no Reino Unido; o foco é a dificuldade jurídica e a ausência de tipificação direta."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "O texto não menciona restrições de idade para acusação de menores de 18 anos."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "A lei citada (Protection from Harassment Act) é justamente uma das leis sob as quais os infratores devem ser processados, e não uma lei que estabelece que o cyberbullying não é crime."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:29:29.699844Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O fragmento traz explicitamente a informação sobre o Reino Unido: 'cyberbullying itself is not named as a criminal offence. Offenders in the UK would have to be charged under various other laws... This makes prosecution much more difficult.'"
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-ingles-3.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

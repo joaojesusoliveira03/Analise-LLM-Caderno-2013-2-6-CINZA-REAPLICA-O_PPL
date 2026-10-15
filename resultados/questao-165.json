@@ -1,0 +1,101 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 165,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-165.txt",
+      "gabarito": "B"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "MT",
+      "nome": "Matemática e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C3",
+      "descricao": "Construir noções de grandezas e medidas para a compreensão da realidade e a solução de problemas do cotidiano."
+    },
+    "habilidade_principal": {
+      "id": "H12",
+      "descricao": "Resolver situação-problema que envolva medidas de grandezas."
+    },
+    "habilidades_relacionadas": [],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Áreas de figuras planas",
+    "conteudos_relacionados": [
+      "Razão e proporção",
+      "Custos"
+    ],
+    "assunto": "Cálculo de área e custo de pisos",
+    "objeto_de_analise": "Dimensões e preços de diferentes tipos de pisos para revestir uma área retangular",
+    "fenomeno_conceito": "Relação entre área total, área unitária de pisos e custo total"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "Área do espaço = 24 m² (240.000 cm²). Área do piso I (quadrado 20x20 cm) = 400 cm². Quantidade de pisos necessários = 600. Custo total = 600 * R$ 15,00 = R$ 9.000,00."
+    },
+    {
+      "alternativa": "B",
+      "correta": true,
+      "justificativa": "Área do espaço = 24 m² (240.000 cm²). Área do piso II (retângulo 30x20 cm) = 600 cm². Quantidade de pisos necessários = 400. Custo total = 400 * R$ 20,00 = R$ 8.000,00, que representa o menor custo entre as opções."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "Área do espaço = 24 m² (240.000 cm²). Área do piso III (quadrado 25x25 cm) = 625 cm². Quantidade de pisos necessários = 384. Custo total = 384 * R$ 25,00 = R$ 9.600,00."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "Área do espaço = 24 m² (240.000 cm²). Área do piso IV (retângulo 16x25 cm) = 400 cm². Quantidade de pisos necessários = 600. Custo total = 600 * R$ 20,00 = R$ 12.000,00."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "Área do espaço = 24 m² (240.000 cm²). Área do piso V (quadrado 40x40 cm) = 1.600 cm². Quantidade de pisos necessários = 150. Custo total = 150 * R$ 60,00 = R$ 9.000,00."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:23:59.647301Z",
+    "confianca": "alta",
+    "evidencias": [
+      "A questão exige o cálculo da área de um espaço retangular e a determinação da quantidade de pisos necessários para cobri-lo, seguida do cálculo do custo total para cada tipo de piso apresentado na tabela.",
+      "O gabarito oficial fornecido é a alternativa B."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-165.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": null,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

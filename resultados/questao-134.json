@@ -1,0 +1,100 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 134,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-134.txt",
+      "gabarito": "C"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "CH",
+      "nome": "Ciências Humanas e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C5",
+      "descricao": "Utilizar os conhecimentos históricos para compreender e valorizar os fundamentos da cidadania e da democracia, favorecendo uma atuação consciente do indivíduo na sociedade."
+    },
+    "habilidade_principal": {
+      "id": "H23",
+      "descricao": "Analisar a importância dos valores éticos na estruturação política das sociedades."
+    },
+    "habilidades_relacionadas": [],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Saúde pública e consumo de substâncias psicoativas",
+    "conteudos_relacionados": [
+      "Comportamento adolescente",
+      "Estatísticas de saúde"
+    ],
+    "assunto": "Consumo de álcool na adolescência",
+    "objeto_de_analise": "Resultados de pesquisa sobre a redução da idade de início do consumo de álcool",
+    "fenomeno_conceito": "Antecipação da experimentação de álcool por jovens"
+  },
+  "analise_alternativa": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "Incorreta, pois a pesquisa aponta riscos e antecipação do consumo, e não efeitos benéficos."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "Incorreta. Embora trate de consumo de álcool, o foco principal dos dados destacados é a precocidade da idade de início e da consolidação do hábito em comparação com a década de 1990."
+    },
+    {
+      "alternativa": "C",
+      "correta": true,
+      "justificativa": "Correta. Os dados apresentados mostram que a idade de início caiu de 18 anos na década de 90 para 13 anos atualmente, evidenciando o risco do consumo de álcool cada vez mais precoce."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "Incorreta, pois a década de 1990 é usada apenas como parâmetro comparativo para demonstrar a precocidade atual."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "Incorreta, pois a pesquisa foca especificamente no comportamento e nos hábitos dos adolescentes em relação ao álcool ao longo do tempo, e não na diferença geral entre adolescentes e adultos."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:18:39.339307Z",
+    "confianca": "alta",
+    "evidencias": [
+      "Os dados mostram a queda na idade de início do consumo de álcool (de 18 para 13 anos) e a consolidação do hábito (de 21 para 14 anos)."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-134.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

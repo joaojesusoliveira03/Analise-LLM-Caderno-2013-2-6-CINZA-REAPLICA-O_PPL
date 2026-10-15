@@ -1,0 +1,108 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 171,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-171.txt",
+      "gabarito": "D"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "MT",
+      "nome": "Matemática e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C1",
+      "descricao": "Construir significados para os números naturais, inteiros, racionais e reais."
+    },
+    "habilidade_principal": {
+      "id": "H3",
+      "descricao": "Resolver situação-problema envolvendo conhecimentos numéricos."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H16",
+        "descricao": "Resolver situação-problema envolvendo a variação de grandezas, direta ou inversamente proporcionais."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Porcentagem e juros",
+    "conteudos_relacionados": [
+      "Operações com números racionais",
+      "Progressões e sequências numéricas"
+    ],
+    "assunto": "Cálculo de saldo devedor de cartão de crédito com pagamento mínimo e incidência de juros compostos",
+    "objeto_de_analise": "Evolução mensal da dívida considerando pagamentos parciais e incidência de taxa de juros",
+    "fenomeno_conceito": "Juros compostos aplicados a saldos devedores sucessivos"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "Incorreta. Representa um cálculo incorreto que não considera a aplicação correta dos percentuais mínimos e dos juros mensais acumulados ao longo dos meses."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "Incorreta. O valor obtido resulta de operações aritméticas equivocadas sobre a progressão dos pagamentos e juros."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "Incorreta. Pode refletir um erro na aplicação da porcentagem do pagamento mínimo (como usar sempre 20% ou 15% fixos) ou erro nos juros aplicados."
+    },
+    {
+      "alternativa": "D",
+      "correta": true,
+      "justificativa": "Correta. Em 01/03/2012, a dívida é de R$ 1 000,00. O pagamento mínimo é de 20% (regra vigente a partir de dezembro: 'o valor mínimo a ser pago seria de 20% da fatura'): 20% de 1000 = R$ 200,00. O saldo remanescente é de R$ 800,00. Sobre este saldo incidem 10% de juros para a fatura de 01/04/2012: 800 * 1,10 = R$ 880,00. Em 01/04/2012, o consumidor paga novamente o mínimo de 20%: 20% de 880 = R$ 176,00. O saldo remanescente fica em 880 - 176 = R$ 704,00. Incidem 10% de juros para a fatura de 01/05/2012: 704 * 1,10 = R$ 774,40."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "Incorreta. O valor não corresponde ao cálculo correto da evolução da dívida com os juros e amortizações mensais."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:25:28.123781Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O enunciado define a dívida inicial em 01/03/2012 de R$ 1 000,00.",
+      "A regra de pagamento mínimo em vigor é de 20% (conforme alteração de dezembro de 2011).",
+      "A taxa de juros sobre o saldo devedor é de 10% ao mês.",
+      "O cálculo sequencial para os meses de março e abril resulta exatamente em R$ 774,40 em 01/05/2012."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-171.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

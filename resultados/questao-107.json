@@ -1,0 +1,100 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 107,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-107.txt",
+      "gabarito": "D"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "LC",
+      "nome": "Linguagens, Códigos e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C8",
+      "descricao": "Compreender e usar a língua portuguesa como língua materna, geradora de significação e integradora da organização do mundo e da própria identidade."
+    },
+    "habilidade_principal": {
+      "id": "H27",
+      "descricao": "Reconhecer os usos da norma padrão da língua portuguesa nas diferentes situações de comunicação."
+    },
+    "habilidades_relacionadas": [],
+    "eixo_cognitivo": {
+      "id": "I",
+      "nome": "Dominar linguagens (DL)",
+      "descricao": "dominar a norma culta da Língua Portuguesa e fazer uso das linguagens matemática, artística e científica e das línguas espanhola e inglesa."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Norma culta e variação linguística",
+    "conteudos_relacionados": [
+      "Estudo do texto literário"
+    ],
+    "assunto": "Análise da variedade linguística empregada em um texto literário do Romantismo",
+    "objeto_de_analise": "Trecho do romance A moreninha, de Joaquim Manuel de Macedo",
+    "fenomeno_conceito": "Uso da norma padrão e pronomes de tratamento/formas arcaicas de concordância na literatura do século XIX"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "Incorreta. O texto não apresenta marcas de informalidade ou léxico coloquial; pelo contrário, utiliza formas verbais e pronomes cultos."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "Incorreta. Não há ocorrência de termos regionalistas que caracterizem uma variante geográfica específica."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "Incorreta. O diálogo pertence a uma obra de ficção romântica, sem vínculo com terminologias técnicas de áreas profissionais ou científicas."
+    },
+    {
+      "alternativa": "D",
+      "correta": true,
+      "justificativa": "Correta. O fragmento evidencia o uso da norma padrão da língua portuguesa, caracterizado pelo emprego de estruturas formais e pronomes adequados à tradição culta da época (como o uso de \"dizeis\", \"lho não podíeis dar\", \"acordastes\")."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "Incorreta. Embora o texto seja de natureza literária, a fala transcrita relata uma situação narrativa factual e direta entre personagens, sem predominância de sentido figurado ou lírico."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:13:15.547153Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O gabarito oficial fornecido é D.",
+      "A questão aborda a identificação do registro linguístico culto em um texto literário do século XIX."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-107.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": null,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

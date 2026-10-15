@@ -1,0 +1,107 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 157,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-157.txt",
+      "gabarito": "A"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "MT",
+      "nome": "Matemática e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C5",
+      "descricao": "Modelar e resolver problemas que envolvem variáveis socioeconômicas ou técnico-científicas, usando representações algébricas."
+    },
+    "habilidade_principal": {
+      "id": "H21",
+      "descricao": "Resolver situação-problema cuja modelagem envolva conhecimentos algébricos."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H19",
+        "descricao": "Identificar representações algébricas que expressem a relação entre grandezas."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Equações do 2º grau",
+    "conteudos_relacionados": [
+      "Modelagem algébrica",
+      "Relações de proporcionalidade"
+    ],
+    "assunto": "Resolução de problemas envolvendo equações algébricas",
+    "objeto_de_analise": "Relação entre capacidade de carga por caminhão, número de caminhões e quantidade total transportada",
+    "fenomeno_conceito": "Modelagem matemática por meio de equações polinomiais"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": true,
+      "justificativa": "Seja x o número atual de caminhões e c a capacidade atual de cada um. Temos x * c = 90 e (x - 6) * (c + 0,5) = 90. Substituindo c = 90/x, obtemos (x - 6)(90/x + 0,5) = 90, o que resulta na equação x² - 6x - 1080 = 0. Resolvendo a equação, encontramos x = 36 (o número atual de caminhões)."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "Incorreto. Representa o número inicial de caminhões antes do aumento de 6 unidades (36 - 6 = 30)."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "Incorreta. Não satisfaz a modelagem algébrica do problema."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "Incorreta. Não satisfaz a modelagem algébrica do problema."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "Incorreta. Não satisfaz a modelagem algébrica do problema."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:22:22.367955Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O enunciado apresenta uma situação de transporte de carga com total fixo de 90 toneladas.",
+      "Há uma relação inversamente proporcional entre a capacidade dos caminhões e a quantidade necessária deles.",
+      "A modelagem algébrica conduz a uma equação do segundo grau cuja solução positiva corresponde à alternativa A."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-157.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

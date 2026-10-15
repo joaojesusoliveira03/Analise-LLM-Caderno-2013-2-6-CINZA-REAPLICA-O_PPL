@@ -1,9 +1,106 @@
 # Gabarito oficial — ENEM 2013-2-6 CINZA (Reaplicação/PPL)
-# Formato aceito: "1 - A", "1-A", "1 A", "1. A"
-# Preencha conforme for obtendo o gabarito oficial.
+# Fonte: caderno oficial (2ª Aplicação - 2º Dia - Caderno 6 - Cinza)
+#
+# Formatos aceitos:
+#   NUM - LETRA            -> gabarito geral (todos os idiomas)
+#   NUM - LETRA (ingles)   -> gabarito específico de inglês
+#   NUM - LETRA (espanhol) -> gabarito específico de espanhol
 
-1 -
-2 -
-3 -
-4 -
-5 -
+# ===== LÍNGUA ESTRANGEIRA (91-95) =====
+# As questões 91 e 92 têm gabaritos diferentes por idioma.
+91 - E (ingles)
+91 - A (espanhol)
+92 - B (ingles)
+92 - C (espanhol)
+93 - A
+94 - E
+95 - B
+
+# ===== LINGUAGENS (96-135) =====
+96 - C
+97 - A
+98 - D
+99 - B
+100 - B
+101 - B
+102 - C
+103 - A
+104 - B
+105 - A
+106 - D
+107 - D
+108 - C
+109 - C
+110 - B
+111 - C
+112 - A
+113 - E
+114 - E
+115 - D
+116 - C
+117 - D
+118 - C
+119 - B
+120 - B
+121 - A
+122 - C
+123 - A
+124 - C
+125 - E
+126 - A
+127 - E
+128 - E
+129 - C
+130 - C
+131 - B
+132 - D
+133 - E
+134 - C
+135 - E
+
+# ===== MATEMÁTICA (136-180) =====
+136 - B
+137 - B
+138 - A
+139 - C
+140 - A
+141 - C
+142 - B
+143 - C
+144 - B
+145 - E
+146 - C
+147 - E
+148 - A
+149 - A
+150 - B
+151 - C
+152 - C
+153 - E
+154 - A
+155 - D
+156 - A
+157 - A
+158 - D
+159 - C
+160 - E
+161 - E
+162 - D
+163 - E
+164 - D
+165 - B
+166 - D
+167 - B
+168 - D
+169 - A
+170 - B
+171 - D
+172 - B
+173 - A
+174 - B
+175 - D
+176 - E
+177 - E
+178 - E
+179 - C
+180 - B

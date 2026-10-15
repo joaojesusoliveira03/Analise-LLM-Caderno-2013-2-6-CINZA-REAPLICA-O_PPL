@@ -1,0 +1,106 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 146,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-146.txt",
+      "gabarito": "C"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "MT",
+      "nome": "Matemática e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C3",
+      "descricao": "Construir noções de grandezas e medidas para a compreensão da realidade e a solução de problemas do cotidiano."
+    },
+    "habilidade_principal": {
+      "id": "H12",
+      "descricao": "Resolver situação-problema que envolva medidas de grandezas."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H8",
+        "descricao": "Resolver situação-problema que envolva conhecimentos geométricos de espaço e forma."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Áreas de figuras planas",
+    "conteudos_relacionados": [
+      "Razão e proporção",
+      "Geometria plana"
+    ],
+    "assunto": "Cálculo de áreas de regiões em um quadrado",
+    "objeto_de_analise": "Proporção entre áreas cinza, preta e branca na logomarca",
+    "fenomeno_conceito": "Equivalência de áreas geométricas e proporcionalidade de custos"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "Incorreta. Os cálculos das áreas preta e branca não correspondem a esses valores."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "Incorreta. Valores subestimados para o custo proporcional das áreas solicitadas."
+    },
+    {
+      "alternativa": "C",
+      "correta": true,
+      "justificativa": "Correta. Considerando que o lado do quadrado está dividido em 4 partes iguais ($AB = BC = CD = DE$), podemos calcular a área total e relacionar as frações correspondentes às regiões cinza, preta e branca. Sabendo que a parte cinza custa R$ 320,00, a proporção exata resulta em R$ 960,00 para as partes pretas e R$ 1 280,00 para as partes brancas."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "Incorreta. Os valores ultrapassam a proporção correta calculada a partir da área das regiões."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "Incorreta. Valores superestimados para os custos correspondentes às partes pretas e brancas."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:20:30.443633Z",
+    "confianca": "alta",
+    "evidencias": [
+      "Gabarito oficial é C.",
+      "A questão envolve cálculo de áreas geométricas planas e proporções associadas a custos."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-146.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 158,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-158.txt",
+      "gabarito": "D"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "MT",
+      "nome": "Matemática e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C3",
+      "descricao": "Construir noções de grandezas e medidas para a compreensão da realidade e a solução de problemas do cotidiano."
+    },
+    "habilidade_principal": {
+      "id": "H12",
+      "descricao": "Resolver situação-problema que envolva medidas de grandezas."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H8",
+        "descricao": "Resolver situação-problema que envolva conhecimentos geométricos de espaço e forma."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Geometria plana e cálculo de áreas",
+    "conteudos_relacionados": [
+      "Área de figuras planas",
+      "Círculo e circunferência",
+      "Triângulo retângulo"
+    ],
+    "assunto": "Cálculo de área iluminada por lâmpadas circulares",
+    "objeto_de_analise": "Região de interseção e áreas de setores circulares/círculos",
+    "fenomeno_conceito": "Geometria espacial e plana aplicada ao cálculo de áreas de superfícies"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "Incorreta. Representa um valor subestimado, possivelmente calculando apenas a área de um único setor ou erro conceitual na soma das áreas."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "Incorreta. Valor incorreto decorrente de erro no cálculo das áreas dos círculos ou da região de interseção."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "Incorreta. Corresponde aproximadamente à soma das áreas de dois semicírculos ou cálculo parcial da área total sem considerar a interseção correta."
+    },
+    {
+      "alternativa": "D",
+      "correta": true,
+      "justificativa": "Correta. Cada lâmpada ilumina um semicírculo de raio 5 m (pois estão nas bordas do terreno). Como os pontos C e D estão a 2,5 m das extremidades e o raio é 5 m, as regiões circulares se sobrepõem formando uma área de interseção que pode ser calculada geometricamente. A área total iluminada é a soma das áreas dos dois semicírculos subtraída da área da interseção, resultando em aproximadamente 61 m² (usando pi = 3 e raiz de 3 = 1,7)."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "Incorreta. Superestima o valor da área iluminada, possivelmente somando dois círculos inteiros sem subtrair a parte fora do terreno ou sem descontar a interseção adequadamente."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:22:26.466460Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O enunciado fornece as dimensões do terreno e a posição das lâmpadas.",
+      "O gabarito oficial fornecido nos metadados é D.",
+      "A habilidade H12 aborda a resolução de situação-problema envolvendo medidas de grandezas, perfeitamente alinhada ao cálculo de áreas."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-158.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

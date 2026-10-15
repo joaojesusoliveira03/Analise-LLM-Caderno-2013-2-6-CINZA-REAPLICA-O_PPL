@@ -1,0 +1,105 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 104,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-104.txt",
+      "gabarito": "B"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "CH",
+      "nome": "Ciências Humanas e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C1",
+      "descricao": "Compreender os elementos culturais que constituem as identidades"
+    },
+    "habilidade_principal": {
+      "id": "H3",
+      "descricao": "Associar as manifestações culturais do presente aos seus processos históricos."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H15",
+        "descricao": "Avaliar criticamente conflitos culturais, sociais, políticos, econômicos ou ambientais ao longo da história."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "II",
+      "nome": "Compreender fenômenos (CF)",
+      "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Diversidade cultural e conflitos sociais",
+    "conteudos_relacionados": [
+      "Relações interreligiosas",
+      "Preconceito e intolerância cultural"
+    ],
+    "assunto": "Resistência ao casamento entre pessoas de religiões/culturas distintas",
+    "objeto_de_analise": "Oposição de cristãs maronitas ao casamento de Zana com o muçulmano Halim",
+    "fenomeno_conceito": "Intolerância religiosa e impacto de preceitos religiosos nas relações afetivas"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "O texto menciona que Halim era considerado um 'pé rapado', mas a oposição principal destacada no início do fragmento decorre da diferença religiosa e cultural entre cristãos maronitas e um muçulmano."
+    },
+    {
+      "alternativa": "B",
+      "correta": true,
+      "justificativa": "O trecho aponta claramente que as cristãs maronitas não aceitavam a ideia de ver Zana (cristã) casar-se com um muçulmano, mobilizando vigílias e novenas, evidenciando o impacto dos preceitos religiosos nas escolhas afetivas."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "A sociedade retratada não se organiza em um sistema formal de castas baseado na origem geográfica, embora haja preconceito contra a origem libanesa de Halim."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "As novenas e ladainhas não são o alvo de intolerância, mas sim os ritos utilizados pelas beatas para tentar impedir o casamento interreligioso."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "Embora a profissão de mascate seja mencionada pejorativamente pelas beatas, a objeção central que move o conflito e as vigílias é o fato de Halim ser maometano (muçulmano)."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:13:01.728009Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O texto descreve o conflito gerado pelo fato de Halim ser muçulmano e Zana pertencer à comunidade de cristãs maronitas de Manaus."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-104.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

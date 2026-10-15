@@ -1,0 +1,107 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 96,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-96.txt",
+      "gabarito": "C"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "CH",
+      "nome": "Ciências Humanas e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C4",
+      "descricao": "Entender as transformações técnicas e tecnológicas e seu impacto nos processos de produção, no desenvolvimento do conhecimento e na vida social."
+    },
+    "habilidade_principal": {
+      "id": "H16",
+      "descricao": "Identificar registros sobre o papel das técnicas e tecnologias na organização do trabalho e/ou da vida social."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H15",
+        "descricao": "Avaliar criticamente conflitos culturais, sociais, políticos, econômicos ou ambientais ao longo da história."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "II",
+      "nome": "Compreender fenômenos (CF)",
+      "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Impacto das tecnologias na vida social e crítica ao discurso de modernização superficial",
+    "conteudos_relacionados": [
+      "Transformações técnicas e tecnológicas",
+      "Papel social da mulher e crítica de costumes"
+    ],
+    "assunto": "Análise crítica de tirinha sobre modernização e tecnologia",
+    "objeto_de_analise": "O discurso contraditório da personagem Susanita em relação à tecnologia e aos velhos afazeres domésticos",
+    "fenomeno_conceito": "Contradição entre o discurso de inovação tecnológica e a prática de reprodução de papéis tradicionais"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "A tirinha não foca no domínio dos modos de produção industriais ou na geração de novas ferramentas de informação em termos técnicos, mas sim na contradição do discurso da personagem."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "A alternativa sugere que há um efetivo acompanhamento das mudanças e novas opções de vida, o que é negado pelo desfecho cômico em que Susanita apenas substitui uma ferramenta manual por outra equivalente no contexto doméstico."
+    },
+    {
+      "alternativa": "C",
+      "correta": true,
+      "justificativa": "Susanita exalta a modernidade, a tecnologia e a cibernética opondo-se ao corte e costura das mães, mas conclui dizendo que vai comprar uma máquina de tricô, evidenciando o contraste entre o discurso de avanço tecnológico e a manutenção de velhas práticas sob nova roupagem."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "A tirinha ironiza justamente a falsa perspectiva de mudança, já que a personagem recai no mesmo tipo de atividade tradicional adaptada à máquina, invalidando a ideia de novas perspectivas reais de emancipação."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "Susanita não demonstra descontentamento crítico profundo com a passividade do trabalho doméstico de forma consciente, pois ela própria recai no mesmo hábito automatizado com a máquina de tricô."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:27:43.088278Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O gabarito oficial indicado é C.",
+      "A tirinha mostra Susanita criticando o corte e costura das mães em nome da tecnologia e da cibernética, mas finaliza dizendo que vai comprar uma máquina de tricô.",
+      "Há correspondência direta com a habilidade H16 da matriz de Ciências Humanas por tratar do papel das tecnologias na vida social e sua ironia crítica."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-96.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

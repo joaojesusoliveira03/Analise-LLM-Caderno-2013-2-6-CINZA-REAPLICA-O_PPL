@@ -1,0 +1,107 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 147,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-147.txt",
+      "gabarito": "E"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "2",
+      "nome": "Matemática e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C3",
+      "descricao": "Construir noções de grandezas e medidas para a compreensão da realidade e a solução de problemas do cotidiano."
+    },
+    "habilidade_principal": {
+      "id": "H11",
+      "descricao": "Utilizar a noção de escalas na leitura de representação de situação do cotidiano."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H10",
+        "descricao": "Identificar relações entre grandezas e unidades de medida."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Escalas",
+    "conteudos_relacionados": [
+      "Razão e proporção",
+      "Conversão de unidades de medida"
+    ],
+    "assunto": "Cálculo de altura de maquetes utilizando escala",
+    "objeto_de_analise": "Diferença entre as alturas das maquetes de dois vulcões em escala",
+    "fenomeno_conceito": "Representação proporcional de objetos reais em escala reduzida"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "Incorreta. O valor não corresponde ao cálculo correto da diferença entre as alturas das maquetes."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "Incorreta. Resultado de erro operacional na conversão de unidades ou na aplicação da escala."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "Incorreta. Resultado decorrente de equívoco no cálculo com a escala fornecida."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "Incorreta. Valor incorreto obtido por erro nas operações aritméticas."
+    },
+    {
+      "alternativa": "E",
+      "correta": true,
+      "justificativa": "Correta. A altura real do Puyehue é de 2 440 m = 244 000 cm e a do Mauna Loa é de 12 000 m = 1 200 000 cm. Aplicando a escala de 1:40 000, a altura da maquete do Puyehue é 244 000 / 40 000 = 6,1 cm, e a do Mauna Loa é 1 200 000 / 40 000 = 30 cm. A diferença entre as alturas das maquetes é 30 - 6,1 = 23,9 cm."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:20:33.716122Z",
+    "confianca": "alta",
+    "evidencias": [
+      "Uso explícito de escala 1 : 40 000",
+      "Dados fornecidos: alturas de 2 440 m e 12 000 m",
+      "Necessidade de conversão de metros para centímetros e aplicação da escala"
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-147.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

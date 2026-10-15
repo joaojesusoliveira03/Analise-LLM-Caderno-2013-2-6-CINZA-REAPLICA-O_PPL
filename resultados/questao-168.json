@@ -1,0 +1,101 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 168,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-168.txt",
+      "gabarito": "D"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "MT",
+      "nome": "Matemática e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C1",
+      "descricao": "Construir significados para os números naturais, inteiros, racionais e reais."
+    },
+    "habilidade_principal": {
+      "id": "H1",
+      "descricao": "Reconhecer, no contexto social, diferentes significados e representações dos números e operações - naturais, inteiros, racionais ou reais."
+    },
+    "habilidades_relacionadas": [],
+    "eixo_cognitivo": {
+      "id": "I",
+      "nome": "Dominar linguagens (DL)",
+      "descricao": "dominar a norma culta da Língua Portuguesa e fazer uso das linguagens matemática, artística e científica e das línguas espanhola e inglesa."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Potenciação e representação de grandes números",
+    "conteudos_relacionados": [
+      "Quantidade de algarismos de uma potência de base 10"
+    ],
+    "assunto": "Notação científica e grandezas numéricas",
+    "objeto_de_analise": "O número de algarismos de um gugolplex ($10^{100}$)",
+    "fenomeno_conceito": "Representação decimal de potências de base 10"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "100 é a quantidade de algarismos do gugol ($10^{100}$), e não do gugolplex."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "101 corresponde ao número de algarismos do gugol somado a 1, o que não reflete a regra para potências de potências de base 10."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "$10^{100}$ é o valor do próprio gugol, e não a quantidade de algarismos do gugolplex."
+    },
+    {
+      "alternativa": "D",
+      "correta": true,
+      "justificativa": "Um número da forma $10^N$ possui $N + 1$ algarismos (um '1' seguido de $N$ zeros). Como o gugolplex é $10^{\text{gugol}}$, ou seja, $10^{10^{100}}$, ele é formado pelo algarismo 1 seguido de $10^{100}$ zeros, totalizando $10^{100} + 1$ algarismos."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "Valor incorreto que não corresponde à definição do gugolplex."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:24:11.115066Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O enunciado define gugol como $10^{100}$ e gugolplex como $10^{\text{gugol}} = 10^{10^{100}}.$",
+      "Um número escrito na forma $10^n$ possui $n + 1$ algarismos.",
+      "O gabarito oficial é a alternativa D."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-168.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

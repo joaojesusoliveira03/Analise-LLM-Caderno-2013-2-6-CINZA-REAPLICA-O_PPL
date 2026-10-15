@@ -1,0 +1,106 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 112,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-112.txt",
+      "gabarito": "A"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "LC",
+      "nome": "Linguagens, Códigos e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C5",
+      "descricao": "Analisar, interpretar e aplicar recursos expressivos das linguagens, relacionando textos com seus contextos, mediante a natureza, função, organização, estrutura das manifestações, de acordo com as condições de produção e recepção."
+    },
+    "habilidade_principal": {
+      "id": "H17",
+      "descricao": "Reconhecer a presença de valores sociais e humanos atualizáveis e permanentes no patrimônio literário nacional."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H15",
+        "descricao": "Estabelecer relações entre o texto literário e o momento de sua produção, situando aspectos do contexto histórico, social e político."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "II",
+      "nome": "Compreender fenômenos (CF)",
+      "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Estudo do texto literário",
+    "conteudos_relacionados": [
+      "Figuras de linguagem",
+      "Modernismo português"
+    ],
+    "assunto": "Análise de poema de Fernando Pessoa (Mensagem)",
+    "objeto_de_analise": "Uso de hipérbole e metonímia na constituição temática do poema",
+    "fenomeno_conceito": "Subversão da realidade por meio de figuras expressivas para exaltação épica"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": true,
+      "justificativa": "O uso da hipérbole ('quanto do teu sal / São lágrimas de Portugal!') e da metonímia engrandece o sacrifício humano e o sofrimento das famílias como preço pago para alcançar a grandeza das conquistas marítimas, potencializando a importância dos feitos lusitanos."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "O poema não compara o choro das mães ao choro da natureza de forma a criar um fato ficcional desvinculado do contexto histórico e humano da expansão marítima."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "As lágrimas e a dor mencionadas referem-se ao sofrimento humano e emocional decorrente das perdas e saudades, e não a dificuldades estritamente técnicas dos navegadores."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "O texto exalta o heroísmo e o sacrifício, e não atribui o foco a derrotas militares associadas a correntes marítimas."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "A associação entre o sal do mar e as lágrimas das mães e noivas tem valor metafórico/hiperbólico sobre o sofrimento humano, e não acústico sobre os sons do mar."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:14:40.955232Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O gabarito oficial é A.",
+      "A questão aborda recursos expressivos (hipérbole e metonímia) em texto literário de Fernando Pessoa e sua função temática."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-112.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

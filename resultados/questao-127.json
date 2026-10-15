@@ -1,0 +1,107 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 127,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-127.txt",
+      "gabarito": "E"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "LC",
+      "nome": "Linguagens, Códigos e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C8",
+      "descricao": "Compreender e usar a língua portuguesa como língua materna, geradora de significação e integradora da organização do mundo e da própria identidade."
+    },
+    "habilidade_principal": {
+      "id": "H26",
+      "descricao": "Relacionar as variedades linguísticas a situações específicas de uso social."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H25",
+        "descricao": "Identificar, em textos de diferentes gêneros, as marcas linguísticas que singularizam as variedades linguísticas sociais, regionais e de registro."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "II",
+      "nome": "Compreender fenômenos (CF)",
+      "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Variação linguística e adequação comunicativa",
+    "conteudos_relacionados": [
+      "Funções da linguagem",
+      "Gêneros textuais"
+    ],
+    "assunto": "Análise de um anúncio de oficina mecânica rural escrito com desvios ortográficos",
+    "objeto_de_analise": "O uso de variedade linguística não padrão em um anúncio e a eficácia na comunicação",
+    "fenomeno_conceito": "Variação linguística"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "A alternativa está incorreta porque o foco da questão não é a comodidade do atendimento nas fazendas, mas sim a relação entre o texto apresentado e a sua capacidade de transmitir a mensagem pretendida apesar dos desvios ortográficos."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "A alternativa está incorreta pois o suporte em si (a parede) não é o fator determinante para a eficácia do alcance do sentido da mensagem abordada pela pergunta."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "A alternativa está incorreta, pois a clareza da mensagem decorre do contexto e do vocabulário específico da área e não estritamente do uso de letras de forma, que apresentam diversos desvios ortográficos."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "A alternativa está incorreta por se basear em uma premissa externa ao texto e não explicar o motivo linguístico e pragmático pelo qual o texto cumpre seu papel comunicativo."
+    },
+    {
+      "alternativa": "E",
+      "correta": true,
+      "justificativa": "A alternativa está correta porque, mesmo contendo desvios ortográficos e uma variedade não padrão, o contexto situacional e a seleção lexical (termos como 'mecanica', 'tratoris', 'motoris', 'coledeira') permitem que o leitor compreenda perfeitamente o sentido pretendido e atinja o propósito comunicativo."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:17:04.513945Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O enunciado aborda o uso de uma variedade linguística não padrão em um texto relativo ao mundo do trabalho.",
+      "A questão exige que o estudante compreenda como o texto atinge seus propósitos comunicativos apesar dos desvios.",
+      "O gabarito oficial fornecido é a letra E."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-127.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

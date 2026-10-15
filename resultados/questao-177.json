@@ -1,0 +1,105 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 177,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-177.txt",
+      "gabarito": "E"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "MT",
+      "nome": "Matemática e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C1",
+      "descricao": "Construir significados para os números naturais, inteiros, racionais e reais."
+    },
+    "habilidade_principal": {
+      "id": "H2",
+      "descricao": "Identificar padrões numéricos ou princípios de contagem."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H3",
+        "descricao": "Resolver situação-problema envolvendo conhecimentos numéricos."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Sequências e progressões",
+    "conteudos_relacionados": [
+      "Conhecimentos numéricos"
+    ],
+    "assunto": "Padrões numéricos em sequências geométricas de figuras",
+    "objeto_de_analise": "Total de fichas na 15ª figura composto por duas partes (fichas pretas em formação triangular e fichas brancas em formação retangular)",
+    "fenomeno_conceito": "Números triangulares e números retangulares (ou pródromos de progressões aritméticas/padrões algébricos)"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "Incorreta. Representa apenas o valor correspondente a partes isoladas ou cálculo incompleto para n=15."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "Incorreta. Valor resultante de erro de cálculo na fórmula dos números triangulares ou retangulares."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "Incorreta. Corresponde apenas ao número de fichas brancas ou pretas separadamente, desconsiderando a soma total das duas partes da 15ª figura."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "Incorreta. Valor derivado de equívoco na multiplicação dos termos da parte inferior."
+    },
+    {
+      "alternativa": "E",
+      "correta": true,
+      "justificativa": "Na parte superior, a quantidade de fichas para a n-ésima figura segue os números triangulares dado por n(n+1)/2. Para a 15ª figura, temos (15 × 16)/2 = 120 fichas. Na parte inferior, a quantidade segue a fórmula n(n+1). Para a 15ª figura, temos 15 × 16 = 240 fichas. O total de fichas é a soma das duas partes: 120 + 240 = 360 fichas."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:25:58.738226Z",
+    "confianca": "alta",
+    "evidencias": [
+      "A questão exige a identificação de um padrão numérico em figuras geométricas compostas por fichas.",
+      "O gabarito oficial fornecido é E."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-177.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

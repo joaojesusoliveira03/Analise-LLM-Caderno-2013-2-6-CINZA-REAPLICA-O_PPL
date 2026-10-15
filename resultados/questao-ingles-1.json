@@ -1,0 +1,100 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 1,
+      "espanhol": false,
+      "ingles": true
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-ingles-1.txt",
+      "gabarito": null
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "LC",
+      "nome": "Linguagens, Códigos e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C2",
+      "descricao": "Conhecer e usar língua(s) estrangeira(s) moderna(s) como instrumento de acesso a informações e a outras culturas e grupos sociais*."
+    },
+    "habilidade_principal": {
+      "id": "H5",
+      "descricao": "Associar vocábulos e expressões de um texto em LEM ao seu tema."
+    },
+    "habilidades_relacionadas": [],
+    "eixo_cognitivo": {
+      "id": "II",
+      "nome": "Compreender fenômenos (CF)",
+      "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Compreensão de texto em língua inglesa",
+    "conteudos_relacionados": [
+      "Vocabulário e expressões em língua inglesa"
+    ],
+    "assunto": "Placa de sinalização e advertência",
+    "objeto_de_analise": "Texto verbal e não verbal em placa de trânsito",
+    "fenomeno_conceito": "Função comunicativa de avisos e instruções em LEM"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "A alternativa está incorreta pois o texto não menciona dedução de despesas, mas sim que veículos sem permissão serão rebocados."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "A alternativa está incorreta porque o texto restringe o estacionamento a veículos com permissão válida, e não diz que apenas donos de carro entram em parque."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "A alternativa está incorreta pois a placa indica uma regra de estacionamento e não uma autorização de validação dada pelo proprietário."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "A alternativa está incorreta pois a placa indica que veículos sem permissão serão rebocados, e não que os rebocadores precisam de permissão."
+    },
+    {
+      "alternativa": "E",
+      "correta": true,
+      "justificativa": "A alternativa está correta pois a expressão 'PERMIT PARKING ONLY' indica que apenas veículos com permissão podem estacionar na área delimitada."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:29:20.783534Z",
+    "confianca": "alta",
+    "evidencias": [
+      "A questão apresenta uma placa de trânsito em língua inglesa com os dizeres 'PERMIT PARKING ONLY' e 'VEHICLES WITHOUT VALID PERMITS WILL BE TOWED AT OWNER'S EXPENSE'.",
+      "A alternativa E traduz corretamente o sentido restritivo da placa de estacionamento autorizado."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-ingles-1.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

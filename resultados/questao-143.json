@@ -1,0 +1,109 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 143,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-143.txt",
+      "gabarito": "C"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "MT",
+      "nome": "Matemática e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C7",
+      "descricao": "Compreender o caráter aleatório e não-determinístico dos fenômenos naturais e sociais e utilizar instrumentos adequados para medidas, determinação de amostras e cálculos de probabilidade para interpretar informações de variáveis apresentadas em uma distribuição estatística."
+    },
+    "habilidade_principal": {
+      "id": "H27",
+      "descricao": "Calcular medidas de tendência central ou de dispersão de um conjunto de dados expressos em uma tabela de frequências de dados agrupados (não em classes) ou em gráficos."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H24",
+        "descricao": "Utilizar informações expressas em gráficos ou tabelas para fazer inferências."
+      },
+      {
+        "id": "H25",
+        "descricao": "Resolver problema com dados apresentados em tabelas ou gráficos."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Estatística Básica",
+    "conteudos_relacionados": [
+      "Leitura e interpretação de gráficos"
+    ],
+    "assunto": "Cálculo da média aritmética",
+    "objeto_de_analise": "Valores da produção brasileira de trigo em diferentes safras representados em gráfico de colunas",
+    "fenomeno_conceito": "Média aritmética simples"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "Corresponde ao valor da produção da safra 2005/06 (4,87), não representando a média do período."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "Valor incorreto obtido por erro de cálculo na média das safras."
+    },
+    {
+      "alternativa": "C",
+      "correta": true,
+      "justificativa": "A média aritmética é calculada somando os valores de todas as safras (4,87 + 2,44 + 4,09 + 6,01 + 5,4 = 22,81) e dividindo o total pelo número de safras (5), resultando em 22,81 / 5 = 4,562, que arredondado é 4,56."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "Valor incorreto resultante de cálculo equivocado da média aritmética."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "Corresponde ao valor da produção da safra 2007/08 (4,09), não representando a média do período."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:20:18.255529Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O gráfico apresenta a produção de trigo para 5 safras: 4,87; 2,44; 4,09; 6,01; 5,4.",
+      "A questão pede explicitamente a média da produção dessas 5 safras."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-143.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": null,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

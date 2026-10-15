@@ -4,6 +4,11 @@ analise.py — Análise das questões do ENEM via Gemini API.
 
 Caderno: 2013-2-6 CINZA (Reaplicação/PPL)
 Aluno:   João Vitor de Jesus Oliveira — CCM Darcy José Costa — 3B
+
+Estratégia de rate-limit:
+    - Processa em LOTES de 10 questões
+    - Espera 60s entre um lote e outro
+    - Isso mantém ~10 req/min, abaixo do limite de 15/min do plano gratuito
 """
 
 import os
@@ -31,14 +36,14 @@ if not GEMINI_API_KEY:
 
 genai.configure(api_key=GEMINI_API_KEY)
 
-MODELO = "gemini-2.0-flash"   # troque por "gemini-1.5-pro" se quiser mais qualidade
+MODELO = "gemini-3.5-flash-lite"
 
-PASTA_TEXTOS   = "textos_extraidos"
-PASTA_IMAGENS  = "imagens"
-PASTA_SAIDA    = "resultados"
-ARQ_ESTRUTURA  = "estrutura.json"
-ARQ_MATRIZ     = "matriz_referencia_enem.json"
-ARQ_GABARITO   = "gabarito.txt"
+PASTA_TEXTOS  = "textos_extraidos"
+PASTA_IMAGENS = "imagens"
+PASTA_SAIDA   = "resultados"
+ARQ_ESTRUTURA = "estrutura.json"
+ARQ_MATRIZ    = "matriz_referencia_enem.json"
+ARQ_GABARITO  = "gabarito.txt"
 
 IDENTIFICACAO_CADERNO = {
     "ano": 2013,
@@ -54,6 +59,10 @@ ESTUDANTE = {
     "turma": "3B",
 }
 
+# --- Estratégia de rate-limit ---
+TAMANHO_LOTE      = 10   # quantas questões por lote
+ESPERA_ENTRE_LOTES = 65  # segundos entre um lote e outro (60 + 5 de margem)
+
 os.makedirs(PASTA_SAIDA, exist_ok=True)
 
 
@@ -61,13 +70,25 @@ os.makedirs(PASTA_SAIDA, exist_ok=True)
 # LEITURA DE APOIO
 # =========================================================
 def carregar_gabarito(caminho: str) -> dict:
-    """Lê gabarito.txt em formatos flexíveis: '1 - A', '1-A', '1 A', '1. A'."""
+    """
+    Lê gabarito.txt em formatos flexíveis: '1 - A', '1-A', '1 A', '1. A'.
+    Suporta também gabarito específico por idioma:
+        '91 - E'            -> gabarito geral
+        '91 - E (ingles)'   -> gabarito só para inglês
+        '91 - A (espanhol)' -> gabarito só para espanhol
+    Retorna dict com chaves:
+        int -> gabarito geral
+        (int, 'ingles') -> gabarito de inglês
+        (int, 'espanhol') -> gabarito de espanhol
+    """
     gabarito = {}
     if not os.path.exists(caminho):
         print(f"[AVISO] Gabarito não encontrado em {caminho}. Seguindo sem gabarito.")
         return gabarito
 
-    padrao = re.compile(r"^\s*(\d+)\s*[-\.\)]?\s*([A-Ea-e])\s*$")
+    padrao = re.compile(
+        r"^\s*(\d+)\s*[-\.\)]?\s*([A-Ea-e])(?:\s*\((\w+)\))?\s*$"
+    )
     with open(caminho, "r", encoding="utf-8") as f:
         for linha in f:
             linha = linha.strip()
@@ -75,7 +96,13 @@ def carregar_gabarito(caminho: str) -> dict:
                 continue
             m = padrao.match(linha)
             if m:
-                gabarito[int(m.group(1))] = m.group(2).upper()
+                num = int(m.group(1))
+                letra = m.group(2).upper()
+                idioma = m.group(3)
+                if idioma:
+                    gabarito[(num, idioma.lower())] = letra
+                else:
+                    gabarito[num] = letra
 
     print(f"[INFO] Gabarito carregado: {len(gabarito)} itens.")
     return gabarito
@@ -91,7 +118,6 @@ def carregar_json(caminho: str) -> dict:
 # =========================================================
 def parse_nome_arquivo(nome_arquivo: str) -> dict:
     """
-    Extrai metadados do nome do arquivo.
     Formatos aceitos:
       questao-100.txt          -> {"numero": 100, "ingles": False, "espanhol": False}
       questao-ingles-3.txt     -> {"numero": 3,   "ingles": True,  "espanhol": False}
@@ -112,7 +138,6 @@ def parse_nome_arquivo(nome_arquivo: str) -> dict:
         info["numero"] = int(m.group(1))
         return info
 
-    # fallback: primeiro número do nome
     m = re.search(r"(\d+)", stem)
     if m:
         info["numero"] = int(m.group(1))
@@ -219,17 +244,105 @@ def analisar_questao(model, questao_txt: str, matriz: dict, estrutura: dict,
             texto = re.sub(r"^```(?:json)?|```$", "", texto, flags=re.MULTILINE).strip()
             return json.loads(texto)
         except Exception as e:
-            print(f"    [ERRO] tentativa {tentativa+1}/3: {e}")
-            time.sleep(2)
+            err = str(e)
+            if "429" in err or "RESOURCE_EXHAUSTED" in err:
+                print(f"    [COTA] Limite atingido. Esperando 70s... (tentativa {tentativa+1}/3)")
+                time.sleep(70)
+            else:
+                print(f"    [ERRO] tentativa {tentativa+1}/3: {e}")
+                time.sleep(5)
     return None
 
 
 # =========================================================
-# MAIN
+# PROCESSAMENTO DE UMA QUESTÃO
+# =========================================================
+def processar_questao(model, arq: str, matriz: dict, estrutura: dict, gabarito: dict):
+    """Processa uma única questão e retorna o dict do resultado (ou None)."""
+    with open(arq, "r", encoding="utf-8") as f:
+        questao_txt = f.read().strip()
+
+    if not questao_txt:
+        print(f"[SKIP] {arq} vazio.")
+        return None
+
+    meta = parse_nome_arquivo(arq)
+    num  = meta["numero"]
+
+    # gabarito: prioriza idioma específico, senão usa geral
+    gab_oficial = None
+    if num is not None:
+        if meta.get("ingles") and (num, "ingles") in gabarito:
+            gab_oficial = gabarito[(num, "ingles")]
+        elif meta.get("espanhol") and (num, "espanhol") in gabarito:
+            gab_oficial = gabarito[(num, "espanhol")]
+        else:
+            gab_oficial = gabarito.get(num)
+
+    print(f"\n>>> {arq}  (nº {num}, ing={meta['ingles']}, esp={meta['espanhol']})  gab={gab_oficial}")
+
+    resultado = analisar_questao(model, questao_txt, matriz, estrutura, gab_oficial, meta)
+    if resultado is None:
+        print(f"    [FALHA] não foi possível analisar {arq}")
+        return None
+
+    # ------- preenchimentos automáticos de identificação -------
+    q = resultado.setdefault("questao", {})
+    ic = q.setdefault("identificacao_caderno", {})
+    ic.update(IDENTIFICACAO_CADERNO)
+
+    iq = q.setdefault("identificacao_questao", {})
+    if num is not None:
+        iq["numero"] = num
+    iq["ingles"]   = bool(meta.get("ingles"))
+    iq["espanhol"] = bool(meta.get("espanhol"))
+
+    cq = q.setdefault("conteudo_questao", {})
+    cq["caminho_texto"] = arq.replace("\\", "/")
+
+    # imagem correspondente
+    nome_base = Path(arq).stem
+    for ext in (".png", ".jpg", ".jpeg", ".webp"):
+        cand = os.path.join(PASTA_IMAGENS, nome_base + ext)
+        if os.path.exists(cand):
+            cq["link_imagem"] = cand.replace("\\", "/")
+            break
+
+    if gab_oficial:
+        cq["gabarito"] = gab_oficial
+
+    # ------- auditoria -------
+    aud = resultado.setdefault("auditoria_da_ia", {})
+    aud["modelo"]   = MODELO
+    aud["versao"]   = "1.0"
+    aud["datetime"] = datetime.utcnow().isoformat() + "Z"
+    aud.setdefault("confianca", None)
+    aud.setdefault("evidencias", [])
+    prov = aud.setdefault("proveniencia", {})
+    prov["arquivo_questao"] = arq.replace("\\", "/")
+    prov["arquivo_matriz"]  = ARQ_MATRIZ
+    vh = aud.setdefault("validacao_humana", {})
+    vh.setdefault("validado", None)
+    vh.setdefault("data_validacao", None)
+
+    # ------- estudante -------
+    resultado["estudante"] = ESTUDANTE
+
+    # ------- salvar individual -------
+    saida_ind = os.path.join(PASTA_SAIDA, f"{nome_base}.json")
+    with open(saida_ind, "w", encoding="utf-8") as f:
+        json.dump(resultado, f, ensure_ascii=False, indent=2)
+
+    return resultado
+
+
+# =========================================================
+# MAIN — processamento em lotes
 # =========================================================
 def main():
     print("=" * 70)
     print("ANÁLISE LLM — ENEM 2013-2-6 CINZA (Reaplicação PPL)")
+    print(f"Modo: LOTES de {TAMANHO_LOTE} questões com espera de {ESPERA_ENTRE_LOTES}s")
     print("=" * 70)
 
     matriz    = carregar_json(ARQ_MATRIZ)
@@ -239,84 +352,41 @@ def main():
     model = genai.GenerativeModel(MODELO)
 
     arquivos = sorted(glob.glob(os.path.join(PASTA_TEXTOS, "*.txt")))
-    # ignora READMEs
     arquivos = [a for a in arquivos if Path(a).stem.lower() != "readme"]
 
     if not arquivos:
         print(f"[AVISO] Nenhum arquivo .txt em {PASTA_TEXTOS}/")
         return
 
-    print(f"[INFO] {len(arquivos)} arquivos para analisar.\n")
+    total = len(arquivos)
+    total_lotes = (total + TAMANHO_LOTE - 1) // TAMANHO_LOTE
+
+    print(f"[INFO] {total} arquivos para analisar em {total_lotes} lotes.\n")
 
     consolidado = []
 
-    for arq in tqdm(arquivos, desc="Analisando"):
-        with open(arq, "r", encoding="utf-8") as f:
-            questao_txt = f.read().strip()
+    for idx_lote in range(total_lotes):
+        inicio = idx_lote * TAMANHO_LOTE
+        fim    = min(inicio + TAMANHO_LOTE, total)
+        lote   = arquivos[inicio:fim]
 
-        if not questao_txt:
-            print(f"[SKIP] {arq} vazio.")
-            continue
+        print("\n" + "=" * 70)
+        print(f"📦 LOTE {idx_lote + 1}/{total_lotes}  ({inicio + 1} a {fim} de {total})")
+        print("=" * 70)
 
-        meta = parse_nome_arquivo(arq)
-        num  = meta["numero"]
-        gab_oficial = gabarito.get(num) if num is not None else None
+        for arq in tqdm(lote, desc=f"Lote {idx_lote + 1}"):
+            resultado = processar_questao(model, arq, matriz, estrutura, gabarito)
+            if resultado is not None:
+                consolidado.append(resultado)
 
-        print(f"\n>>> {arq}  (nº {num}, ing={meta['ingles']}, esp={meta['espanhol']})  gab={gab_oficial}")
-
-        resultado = analisar_questao(model, questao_txt, matriz, estrutura, gab_oficial, meta)
-        if resultado is None:
-            print(f"    [FALHA] não foi possível analisar {arq}")
-            continue
-
-        # ------- preenchimentos automáticos de identificação -------
-        q = resultado.setdefault("questao", {})
-        ic = q.setdefault("identificacao_caderno", {})
-        ic.update(IDENTIFICACAO_CADERNO)
-
-        iq = q.setdefault("identificacao_questao", {})
-        if num is not None:
-            iq["numero"] = num
-        iq["ingles"]   = bool(meta.get("ingles"))
-        iq["espanhol"] = bool(meta.get("espanhol"))
-
-        cq = q.setdefault("conteudo_questao", {})
-        cq["caminho_texto"] = arq.replace("\\", "/")
-
-        # imagem correspondente
-        nome_base = Path(arq).stem
-        for ext in (".png", ".jpg", ".jpeg", ".webp"):
-            cand = os.path.join(PASTA_IMAGENS, nome_base + ext)
-            if os.path.exists(cand):
-                cq["link_imagem"] = cand.replace("\\", "/")
-                break
-
-        if gab_oficial:
-            cq["gabarito"] = gab_oficial
-
-        # ------- auditoria -------
-        aud = resultado.setdefault("auditoria_da_ia", {})
-        aud["modelo"]   = MODELO
-        aud["versao"]   = "1.0"
-        aud["datetime"] = datetime.utcnow().isoformat() + "Z"
-        aud.setdefault("confianca", None)
-        aud.setdefault("evidencias", [])
-        prov = aud.setdefault("proveniencia", {})
-        prov["arquivo_questao"] = arq.replace("\\", "/")
-        prov["arquivo_matriz"]  = ARQ_MATRIZ
-        vh = aud.setdefault("validacao_humana", {})
-        vh.setdefault("validado", None)
-        vh.setdefault("data_validacao", None)
-
-        # ------- estudante -------
-        resultado["estudante"] = ESTUDANTE
-
-        # ------- salvar individual -------
-        saida_ind = os.path.join(PASTA_SAIDA, f"{nome_base}.json")
-        with open(saida_ind, "w", encoding="utf-8") as f:
-            json.dump(resultado, f, ensure_ascii=False, indent=2)
-
-        consolidado.append(resultado)
+        # espera entre lotes (menos depois do último)
+        if idx_lote < total_lotes - 1:
+            print(f"\n⏳ Fim do lote {idx_lote + 1}. Aguardando {ESPERA_ENTRE_LOTES}s para o próximo...")
+            for s in range(ESPERA_ENTRE_LOTES, 0, -1):
+                if s % 10 == 0 or s <= 5:
+                    print(f"   ... {s}s")
+                time.sleep(1)
+            print("   ✅ Continuando!")
 
     # ------- salvar consolidado -------
     saida_cons = os.path.join(PASTA_SAIDA, "analise_consolidada.json")
@@ -324,9 +394,9 @@ def main():
         json.dump(consolidado, f, ensure_ascii=False, indent=2)
 
     print("\n" + "=" * 70)
-    print(f"Total analisado : {len(consolidado)}")
-    print(f"Saída individual: {PASTA_SAIDA}/<questao>.json")
-    print(f"Saída consolidada: {saida_cons}")
+    print(f"✅ Total analisado : {len(consolidado)}/{total}")
+    print(f"📁 Saída individual: {PASTA_SAIDA}/<questao>.json")
+    print(f"📁 Saída consolidada: {saida_cons}")
     print("=" * 70)
 
 

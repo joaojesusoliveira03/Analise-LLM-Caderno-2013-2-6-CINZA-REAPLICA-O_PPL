@@ -1,0 +1,104 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 2,
+      "espanhol": true,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-espanhol-2.txt",
+      "gabarito": null
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "LC",
+      "nome": "Linguagens, Códigos e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C2",
+      "descricao": "Conhecer e usar língua(s) estrangeira(s) moderna(s) como instrumento de acesso a informações e a outras culturas e grupos sociais*."
+    },
+    "habilidade_principal": {
+      "id": "H5",
+      "descricao": "Associar vocábulos e expressões de um texto em LEM ao seu tema."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H7",
+        "descricao": "Relacionar um texto em LEM, as estruturas linguísticas, sua função e seu uso social."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "II",
+      "nome": "Compreender fenômenos (CF)",
+      "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Compreensão de texto em espanhol",
+    "conteudos_relacionados": [
+      "Radios comunitárias e participação popular"
+    ],
+    "assunto": "O papel das rádios comunitárias na Argentina durante o 'boom' dos anos 1980 e 1990",
+    "objeto_de_analise": "Trecho jornalístico sobre o impacto das rádios de baixa potência na participação cidadã",
+    "fenomeno_conceito": "Democratização dos meios de comunicação e participação popular"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "O texto menciona que abriram microfones a radialistas populares, mas não foca na criação de fontes de emprego como principal impacto econômico do 'boom'."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "O texto fala em rádios de 'baja potencia', e não de baixo custo para o consumidor."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "As emissoras abriram espaço para a participação da comunidade na programação, e não em comerciais publicitários tradicionais."
+    },
+    {
+      "alternativa": "D",
+      "correta": true,
+      "justificativa": "O texto afirma que as emissoras criaram novos formatos com um papel central na opinião cidadã, sem jerarquias nem condicionamentos, influenciando a programação e fortalecendo o debate democrático."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "O texto indica justamente o oposto: a participação ocorria 'sin jerarquías ni condicionamientos', refutando a ideia de condicionamento dos ouvintes."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:28:01.827688Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O texto descreve como as rádios comunitárias influenciaram a programação com novos formatos focados na opinião ciudadana, correspondendo à alternativa D."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-espanhol-2.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

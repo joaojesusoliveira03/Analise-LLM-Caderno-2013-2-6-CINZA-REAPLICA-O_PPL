@@ -1,0 +1,100 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 111,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-111.txt",
+      "gabarito": "C"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "LC",
+      "nome": "Linguagens, Códigos e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C5",
+      "descricao": "Analisar, interpretar e aplicar recursos expressivos das linguagens, relacionando textos com seus contextos, mediante a natureza, função, organização, estrutura das manifestações, de acordo com as condições de produção e recepção."
+    },
+    "habilidade_principal": {
+      "id": "H16",
+      "descricao": "Relacionar informações sobre concepções artísticas e procedimentos de construção do texto literário."
+    },
+    "habilidades_relacionadas": [],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Estudo do texto literário",
+    "conteudos_relacionados": [
+      "Recursos expressivos da linguagem"
+    ],
+    "assunto": "Poética de Manoel de Barros e procedimentos de construção do texto literário",
+    "objeto_de_analise": "Uso de imagens poéticas na construção do poema",
+    "fenomeno_conceito": "Transfiguração poética da realidade"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "O texto não se limita ao resgate de uma lembrança de infância, mas enfatiza a transformação da percepção por meio da metáfora."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "O olhar objetivo é justamente o que o eu-lírico considera empobrecedor ('o nome empobreceu a imagem'), em oposição à visão poética subjetiva."
+    },
+    {
+      "alternativa": "C",
+      "correta": true,
+      "justificativa": "A característica poética de Manoel de Barros aparece representada pela transfiguração do elemento real (o rio) em imagens poéticas singulares, como 'vidro mole' e 'cobra de vidro'."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "O eu-lírico não rejeita a imagem de vidro e de cobra; pelo contrário, valoriza-as em detrimento do nome técnico e objetivo ('enseada')."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "A questão central do poema não é o recorte de elementos no subconsciente, mas a oposição entre a recriação poética da imagem e a nomeação objetiva."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:14:36.138347Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O poema de Manoel de Barros constrói imagens poéticas comparando o rio a um 'vidro mole' e a uma 'cobra de vidro'.",
+      "A alternativa C descreve precisamente essa transfiguração estética presente na poética do autor abordada na questão."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-111.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 153,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-153.txt",
+      "gabarito": "E"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "MT",
+      "nome": "Matemática e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C3",
+      "descricao": "Construir noções de grandezas e medidas para a compreensão da realidade e a solução de problemas do cotidiano."
+    },
+    "habilidade_principal": {
+      "id": "H12",
+      "descricao": "Resolver situação-problema que envolva medidas de grandezas."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H3",
+        "descricao": "Resolver situação-problema envolvendo conhecimentos numéricos."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Comprimentos, perímetros e divisão por resto",
+    "conteudos_relacionados": [
+      "Geometria plana",
+      "Perímetro de figuras circulares"
+    ],
+    "assunto": "Cálculo de voltas e posições em percurso circular",
+    "objeto_de_analise": "A distância total percorrida em relação à extensão da praça circular para determinar a posição final",
+    "fenomeno_conceito": "Periodicidade e divisão euclidiana aplicada a trajetórias circulares"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "O Centro cultural está localizado antes da Padaria no sentido anti-horário e não corresponde ao ponto de parada calculado."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "A Drogaria está localizada no extremo oeste, após a Lan house, e não coincide com o valor obtido na divisão do percurso."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "A Lan house fica no terceiro quadrante, próximo ao final do trajeto após a última volta completa, mas o resto da divisão aponta mais especificamente para a Padaria."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "O Ponto de partida é onde Camile iniciou a caminhada; como ela percorreu 4 125 metros, ela não parou no ponto de partida."
+    },
+    {
+      "alternativa": "E",
+      "correta": true,
+      "justificativa": "A praça tem 500 metros de extensão. Dividindo 4 125 por 500, obtemos 8 voltas completas (4 000 metros) e um resto de 125 metros. Como o sentido é anti-horário a partir do ponto de partida (localizado no sul), 125 metros correspondem a um quarto da praça (500 / 4), avançando do sul para o leste, onde está localizada a Padaria."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:22:08.033734Z",
+    "confianca": "alta",
+    "evidencias": [
+      "Extensão da praça: 500 metros",
+      "Distância percorrida: 4 125 metros",
+      "Cálculo: 4125 = 8 * 500 + 125",
+      "Resto de 125 metros representa 1/4 da volta (500 / 4), posicionando a parada no leste (Padaria)"
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-153.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

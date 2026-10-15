@@ -1,0 +1,106 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 2,
+      "espanhol": false,
+      "ingles": true
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-ingles-2.txt",
+      "gabarito": null
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "LC",
+      "nome": "Linguagens, Códigos e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C2",
+      "descricao": "Conhecer e usar língua(s) estrangeira(s) moderna(s) como instrumento de acesso a informações e a outras culturas e grupos sociais*."
+    },
+    "habilidade_principal": {
+      "id": "H5",
+      "descricao": "Associar vocábulos e expressões de um texto em LEM ao seu tema."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H7",
+        "descricao": "Relacionar um texto em LEM, as estruturas linguísticas, sua função e seu uso social."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "II",
+      "nome": "Compreender fenômenos (CF)",
+      "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Compreensão de texto em língua inglesa",
+    "conteudos_relacionados": [
+      "Vocabulário e expressões temáticas em língua estrangeira",
+      "Identificação do tema central"
+    ],
+    "assunto": "A busca da felicidade a partir da perspectiva do Dalai Lama",
+    "objeto_de_analise": "Sinopse e título do livro The Art of Happiness",
+    "fenomeno_conceito": "A felicidade como objetivo da vida humana"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "Incorreta. O texto menciona o Tibet apenas em relação à liderança do Dalai Lama, e não o sucesso dos autores no local."
+    },
+    {
+      "alternativa": "B",
+      "correta": true,
+      "justificativa": "Correta. O texto destaca que o Dalai Lama afirma que a felicidade é o propósito da vida e que o livro funciona como um manual de instruções ('handbook for living') para entender como alcançá-la, tratando da busca da felicidade."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "Incorreta. O Prêmio Nobel é citado como uma das características do Dalai Lama, mas não constitui o tema central da obra apresentada."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "Incorreta. Embora o Dalai Lama seja líder do Tibet, o foco da sinopse do livro é a reflexão sobre a felicidade e como obtê-la com a ajuda de um psiquiatra, e não sua liderança política ou espiritual."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "Incorreta. O texto menciona a colaboração com um psiquiatra para explicar a mensagem em um contexto compreensível, mas não se trata de uma discussão ou debate entre eles na obra."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:29:24.465974Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O enunciado questiona o tema da obra a partir do título ('The Art of happiness') e da sinopse.",
+      "O texto enfatiza repetidamente a palavra 'happiness' e a questão de como obtê-la ('How to get there has always been the question')."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-ingles-2.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

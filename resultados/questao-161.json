@@ -1,0 +1,108 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 161,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-161.txt",
+      "gabarito": "E"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "MT",
+      "nome": "Matemática e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C1",
+      "descricao": "Construir significados para os números naturais, inteiros, racionais e reais."
+    },
+    "habilidade_principal": {
+      "id": "H3",
+      "descricao": "Resolver situação-problema envolvendo conhecimentos numéricos."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H1",
+        "descricao": "Reconhecer, no contexto social, diferentes significados e representações dos números e operações - naturais, inteiros, racionais ou reais."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Porcentagem",
+    "conteudos_relacionados": [
+      "Razões e proporções",
+      "Interpretação de gráficos"
+    ],
+    "assunto": "Cálculo percentual aplicado a dados estatísticos",
+    "objeto_de_analise": "As fatias do gráfico que representam as pessoas que se recuperam com medicamentos (70%) e as que se curam com cirurgia (15%)",
+    "fenomeno_conceito": "Porcentagem e operações com números racionais"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "Incorreta. Representa um cálculo incorreto (provavelmente 10,5% de 400.000 ou cálculo baseado em outra proporção errada)."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "Incorreta. Corresponde a 15% de 400.000 (pessoas que se curam graças à cirurgia), mas desconsidera o grupo que se recupera com medicamentos."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "Incorreta. Corresponde a 55% de 400.000, valor que não reflete a soma das porcentagens corretas do enunciado."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "Incorreta. Corresponde a 70% de 400.000 (pessoas que se recuperam com medicamentos), mas desconsidera o grupo que se cura com cirurgia."
+    },
+    {
+      "alternativa": "E",
+      "correta": true,
+      "justificativa": "Correta. O percentual de pessoas que se recuperam com o uso de medicamentos é 70% e o que se cura com cirurgia é 15%. A soma dessas porcentagens é 70% + 15% = 85%. Calculando 85% de 400.000 pessoas, tem-se: 0,85 * 400.000 = 340.000."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:23:43.701442Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O texto fornece o total de 400.000 pessoas.",
+      "O gráfico indica 70% para medicamentos e 15% para cirurgia.",
+      "O comando pede a soma dos dois grupos: 70% + 15% = 85%.",
+      "85% de 400.000 resulta em 340.000, o que corresponde exatamente à alternativa E."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-161.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 140,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-140.txt",
+      "gabarito": "A"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "MT",
+      "nome": "Matemática e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C4",
+      "descricao": "Construir noções de variação de grandezas para a compreensão da realidade e a solução de problemas do cotidiano."
+    },
+    "habilidade_principal": {
+      "id": "H16",
+      "descricao": "Resolver situação-problema envolvendo a variação de grandezas, direta ou inversamente proporcionais."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H24",
+        "descricao": "Utilizar informações expressas em gráficos ou tabelas para fazer inferências."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Razão e proporção / Taxa de crescimento",
+    "conteudos_relacionados": [
+      "Leitura de gráficos"
+    ],
+    "assunto": "Crescimento percentual e estimativa numérica",
+    "objeto_de_analise": "Dados de acesso à internet em diferentes anos fornecidos por gráfico",
+    "fenomeno_conceito": "Taxa de variação entre períodos consecutivos"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": true,
+      "justificativa": "A taxa de crescimento do número de acessos de 2010 para 2011 foi de (77,8 - 73,7) / 73,7 = 4,1 / 73,7 ≈ 0,05563 (cerca de 5,56%). Aplicando essa mesma taxa ao valor de 2011 para estimar 2012, temos 77,8 * (1 + 0,05563) = 77,8 * 1,05563 ≈ 82,1 milhões."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "Incorreto. Resulta de cálculo incorreto da taxa de variação ou aplicação errônea de aumento linear absoluto em vez de proporcional."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "Incorreto. Valor obtido por erro na manipulação da taxa de crescimento ou confusão com o acréscimo absoluto do período anterior."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "Incorreto. Superestima o valor projetado para o ano de 2012."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "Incorreto. Incompatível com a progressão dos dados fornecidos no gráfico."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:20:06.586366Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O enunciado fornece os valores de acesso à internet nos segundos trimestres de 2009 (64,8), 2010 (73,7) e 2011 (77,8).",
+      "Pede-se para calcular a estimativa para 2012 considerando a mesma taxa de crescimento de 2010 para 2011.",
+      "O gabarito oficial fornecido é A."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-140.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

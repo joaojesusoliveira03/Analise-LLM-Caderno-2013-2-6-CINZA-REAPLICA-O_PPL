@@ -1,0 +1,107 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 179,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-179.txt",
+      "gabarito": "C"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "MT",
+      "nome": "Matemática e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C4",
+      "descricao": "Construir noções de variação de grandezas para a compreensão da realidade e a solução de problemas do cotidiano."
+    },
+    "habilidade_principal": {
+      "id": "H16",
+      "descricao": "Resolver situação-problema envolvendo a variação de grandezas, direta ou inversamente proporcionais."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H15",
+        "descricao": "Identificar a relação de dependência entre grandezas."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Juros compostos e progressão geométrica",
+    "conteudos_relacionados": [
+      "Leitura de gráficos cartesianos",
+      "Razão e proporção"
+    ],
+    "assunto": "Evolução de dívida com juros ao longo do tempo",
+    "objeto_de_analise": "Gráfico de saldo devedor mensal",
+    "fenomeno_conceito": "Crescimento exponencial de dívidas por juros compostos"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "O saldo inicial é correto (R$ 500,00), mas a parcela de juros varia a cada mês e a taxa é superior a 10% (de 500 para 560 o acréscimo é de 60, o que representa 12%)."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "O saldo devedor inicial indicado é incorreto (R$ 560,00 corresponde ao mês 1)."
+    },
+    {
+      "alternativa": "C",
+      "correta": true,
+      "justificativa": "O saldo devedor inicial (mês 0) é R$ 500,00. A parcela de juros varia a cada mês, pois os juros incidem sobre o montante acumulado (no mês 1 é R$ 60, no mês 2 é R$ 70, etc.). A taxa de juros do primeiro mês é de 60 / 500 = 0,12 ou 12%, que é superior a 10% ao mês."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "O saldo inicial indicado (R$ 560,00) está incorreto e a parcela mensal de juros não é constante em valor absoluto."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "Apresenta a taxa como inferior a 10%, o que contradiz o cálculo do primeiro mês (60/500 = 12%). Nota: A alternativa repete os dados da alternativa A com pequenas variações estruturais em algumas provas, mas o cálculo de 12% descarta taxa inferior a 10%."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:26:30.072833Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O saldo no mês 0 é 500, indicando o saldo inicial.",
+      "De 500 para 560 o aumento é de 60 reais, representando 12% de juros no primeiro mês.",
+      "O valor do acréscimo mensal de juros muda (de 560 para 630 o acréscimo é de 70 reais), logo a parcela de juros em reais é variável."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-179.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

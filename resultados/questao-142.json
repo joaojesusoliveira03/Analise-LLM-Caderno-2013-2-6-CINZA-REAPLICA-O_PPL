@@ -1,0 +1,107 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 142,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-142.txt",
+      "gabarito": "B"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "MT",
+      "nome": "Matemática e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C2",
+      "descricao": "Utilizar o conhecimento geométrico para realizar a leitura e a representação da realidade e agir sobre ela."
+    },
+    "habilidade_principal": {
+      "id": "H8",
+      "descricao": "Resolver situação-problema que envolva conhecimentos geométricos de espaço e forma."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H3",
+        "descricao": "Resolver situação-problema envolvendo conhecimentos numéricos."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Conhecimentos geométricos",
+    "conteudos_relacionados": [
+      "Conhecimentos numéricos"
+    ],
+    "assunto": "Cálculo de medidas de comprimento em planta baixa",
+    "objeto_de_analise": "Dimensões do espaço disponível entre camas em um quarto",
+    "fenomeno_conceito": "Resolução de problema de medidas envolvendo espaçamento e largura máxima"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "Valor abaixo da largura máxima permitida, pois o espaço disponível entre as camas é de 1,0 m."
+    },
+    {
+      "alternativa": "B",
+      "correta": true,
+      "justificativa": "O comprimento total da parede é de 5 m. As duas camas possuem largura de 1,2 m cada (totalizando 2,4 m). As distâncias entre as camas e as paredes laterais são de 0,4 m cada, e há uma distância de 0,4 m entre a escrivaninha e cada uma das camas. Somando os espaços e subtraindo do total da parede: 5 - (0,4 + 1,2 + 0,4 + 1,2 + 0,4) = 5 - 3,6 = 1,4 m? Aguarde, recalculando: paredes laterais e espaço entre camas: parede esquerda até cama 1 = 0,4 m; cama 1 = 1,2 m; espaço entre cama 1 e escrivaninha = 0,4 m; escrivaninha = x; espaço entre escrivaninha e cama 2 = 0,4 m; cama 2 = 1,2 m; cama 2 até parede direita = 0,4 m. Somando: 0,4 + 1,2 + 0,4 + x + 0,4 + 1,2 + 0,4 = 5 => 4,0 + x = 5 => x = 1,0 m."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "Calcula incorretamente desconsiderando os espaços de circulação exigidos entre a escrivaninha e as camas."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "Valor superior ao espaço remanescente após descontar as camas e as folgas de circulação."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "Incompatível com as dimensões fornecidas no enunciado para a largura máxima da escrivaninha."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:20:14.449473Z",
+    "confianca": "alta",
+    "evidencias": [
+      "Parede de maior dimensão mede 5 m.",
+      "Duas camas de 1,2 m de largura cada.",
+      "Distância de 0,4 m entre as extremidades/paredes e as camas, e entre a escrivaninha e cada cama.",
+      "Gabarito oficial é B."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-142.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

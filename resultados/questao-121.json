@@ -1,0 +1,106 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 121,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-121.txt",
+      "gabarito": "A"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "LC",
+      "nome": "Linguagens, Códigos e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C7",
+      "descricao": "Confrontar opiniões e pontos de vista sobre as diferentes linguagens e suas manifestações específicas."
+    },
+    "habilidade_principal": {
+      "id": "H22",
+      "descricao": "Relacionar, em diferentes textos, opiniões, temas, assuntos e recursos linguísticos."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H18",
+        "descricao": "Identificar os elementos que concorrem para a progressão temática e para a organização e estruturação de textos de diferentes gêneros e tipos."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Comparação entre gêneros textuais (conto e letra de canção) sobre um mesmo tema",
+    "conteudos_relacionados": [
+      "Análise de recursos linguísticos e estruturais",
+      "Temática da inveja"
+    ],
+    "assunto": "Comparação de textos literário e lírico",
+    "objeto_de_analise": "O conto e a letra de canção",
+    "fenomeno_conceito": "Construção temática e discursiva da inveja"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": true,
+      "justificativa": "Tanto o conto (Texto I), ao apresentar a figura do 'vizinho solteirão' que observa o casal e guarda uma inveja vermelha, quanto a letra de canção (Texto II), que narra em terceira pessoa as atitudes e desejos de um indivíduo invejoso ('O carro do vizinho é muito mais possante', 'Invejoso'), referem-se a um indivíduo qualificado como invejoso utilizando a terceira pessoa."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "A inveja não é transformada em personagem literária em nenhum dos textos; quem possui características de invejoso são as figuras humanas descritas (o vizinho e o sujeito da canção)."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "No Texto I, o ponto de vista do invejoso não é expresso por meio de sua fala direta, mas sim pela narração de suas ações (morder a goiaba da janela). No Texto II, há uma descrição genérica do comportamento em terceira pessoa, sem ser propriamente a fala do personagem invejoso."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "Os textos não possuem natureza dissertativa e não apresentam argumentos contrários e favoráveis sobre a inveja, tratando-se de textos de cunho narrativo e lírico/poético."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "Apesar de retratarem comportamentos associados à inveja, os textos não constituem um laudo ou descrição de perfil psicológico no sentido técnico ou clínico."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:16:31.439819Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O comando da questão exige identificar o mecanismo em comum entre o conto e a letra de canção.",
+      "Ambos os textos tratam da figura do invejoso sob a perspectiva da terceira pessoa."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-121.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

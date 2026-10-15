@@ -1,0 +1,102 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 128,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-128.txt",
+      "gabarito": "E"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "LC",
+      "nome": "Linguagens, Códigos e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C8",
+      "descricao": "Compreender e usar a língua portuguesa como língua materna, geradora de significação e integradora da organização do mundo e da própria identidade."
+    },
+    "habilidade_principal": {
+      "id": "H25",
+      "descricao": "Identificar, em textos de diferentes gêneros, as marcas linguísticas que singularizam as variedades linguísticas sociais, regionais e de registro."
+    },
+    "habilidades_relacionadas": [],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Variação linguística regional",
+    "conteudos_relacionados": [
+      "Literatura de cordel",
+      "Marcas regionais na língua"
+    ],
+    "assunto": "Variação linguística",
+    "objeto_de_analise": "Versos do cordel de J. F. Borges",
+    "fenomeno_conceito": "Variedade linguística regional e traços lexicais específicos"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "A expressão 'muito alegre e divertido' apresenta termos comuns à norma-padrão e presentes em diversas regiões, sem marcar traços linguísticos regionais exclusivos."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "A frase 'Passava o dia na feira' descreve uma ação cotidiana utilizando vocabulário genérico, sem marca regional específica."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "O trecho 'levando umas panelas' usa construções comuns a várias regiões do país, não constituindo um marcador regional exclusivo."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "A oração 'que minha mãe comprava' utiliza termos comuns a diferentes variedades do português no Brasil, sem indicação de regionalismo."
+    },
+    {
+      "alternativa": "E",
+      "correta": true,
+      "justificativa": "O termo 'cacimbas' refere-se a covas abertas no leito dos rios secos para encontrar água, sendo um regionalismo típico da região Nordeste do Brasil, associado ao contexto do cordelista."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:17:08.577367Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O enunciado pede o verso do fragmento que permite reconhecer uma região brasileira.",
+      "A alternativa E contém a palavra 'cacimbas', que é um regionalismo lexical fortemente associado ao Nordeste brasileiro.",
+      "O gabarito oficial fornecido é E."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-128.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 180,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-180.txt",
+      "gabarito": "B"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "MT",
+      "nome": "Matemática e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C1",
+      "descricao": "Construir significados para os números naturais, inteiros, racionais e reais."
+    },
+    "habilidade_principal": {
+      "id": "H3",
+      "descricao": "Resolver situação-problema envolvendo conhecimentos numéricos."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H16",
+        "descricao": "Resolver situação-problema envolvendo a variação de grandezas, direta ou inversamente proporcionais."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Razões e proporções",
+    "conteudos_relacionados": [
+      "Operações com números racionais",
+      "Estimativa populacional"
+    ],
+    "assunto": "Método de captura-recaptura para estimativa populacional",
+    "objeto_de_analise": "Aplicação de proporção algébrica em contexto biológico",
+    "fenomeno_conceito": "Proporcionalidade entre amostras e população total"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "Incorreta. Resultado derivado de erro de cálculo na proporção."
+    },
+    {
+      "alternativa": "B",
+      "correta": true,
+      "justificativa": "Correta. Aplicando os dados na fórmula dada: n1 = 120, n2 = 150 e m2 = 100. Temos (100 / 150) = (120 / N), logo 2/3 = 120 / N, resultando em 2N = 360, portanto N = 180."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "Incorreta. Resultado obtido por manipulação incorreta dos valores da proporção."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "Incorreta. Valor incorreto resultante de inversão dos termos na proporção."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "Incorreta. Valor incompatível com a proporção estabelecida pelos dados da questão."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:27:38.479206Z",
+    "confianca": "alta",
+    "evidencias": [
+      "A questão apresenta uma fórmula explícita de proporção para estimativa de tamanho populacional.",
+      "O gabarito oficial fornecido é B, o que coincide perfeitamente com o cálculo N = (150 * 120) / 100 = 180."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-180.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

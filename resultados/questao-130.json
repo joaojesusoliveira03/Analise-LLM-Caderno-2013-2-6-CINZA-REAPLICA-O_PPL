@@ -1,0 +1,106 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 130,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-130.txt",
+      "gabarito": "C"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "LC",
+      "nome": "Linguagens, Códigos e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C6",
+      "descricao": "Compreender e usar os sistemas simbólicos das diferentes linguagens como meios de organização cognitiva da realidade pela constituição de significados, expressão, comunicação e informação."
+    },
+    "habilidade_principal": {
+      "id": "H18",
+      "descricao": "Identificar os elementos que concorrem para a progressão temática e para a organização e estruturação de textos de diferentes gêneros e tipos."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H22",
+        "descricao": "Relacionar, em diferentes textos, opiniões, temas, assuntos e recursos linguísticos."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Gêneros textuais",
+    "conteudos_relacionados": [
+      "Resenha",
+      "Características estruturais e posicionamento crítico"
+    ],
+    "assunto": "Identificação de gênero textual",
+    "objeto_de_analise": "O fragmento de texto apresentado sobre a obra do gramático Celso Pedro Luft",
+    "fenomeno_conceito": "Estruturação e função sociocomunicativa de gêneros textuais"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "Incorreta porque o texto não apresenta a estrutura formal de um artigo científico (como introdução, metodologia, resultados e referências), tratando-se de um texto de apresentação e avaliação de obra."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "Incorreta porque o relatório tem por finalidade relatar fatos ou atividades técnicas/administrativas de forma impessoal, o que não se aplica ao tom crítico adotado no fragmento."
+    },
+    {
+      "alternativa": "C",
+      "correta": true,
+      "justificativa": "Correta porque a resenha caracteriza-se justamente por apresentar informações descritivas da obra original aliadas a uma apreciação ou posicionamento crítico sobre o seu conteúdo, exatamente o que ocorre no fragmento."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "Incorreta pois o objetivo principal do texto não é a promoção comercial (publicidade) da obra, mas sim a apreciação crítica e informativa de seu conteúdo e autor."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "Incorreta porque o resumo restringe-se a sintetizar as informações da obra de forma neutra, sem emitir juízos de valor ou posicionamento crítico explícito, aspecto marcante no texto avaliado."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:18:23.168330Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O enunciado pede a identificação do gênero textual do fragmento apresentado.",
+      "O texto traz dados sobre a obra e o autor, acompanhados de uma análise crítica sobre a abordagem do gramático."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-130.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

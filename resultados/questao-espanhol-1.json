@@ -1,0 +1,106 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 1,
+      "espanhol": true,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-espanhol-1.txt",
+      "gabarito": null
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "LC",
+      "nome": "Linguagens, Códigos e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C2",
+      "descricao": "Conhecer e usar língua(s) estrangeira(s) moderna(s) como instrumento de acesso a informações e a outras culturas e grupos sociais*."
+    },
+    "habilidade_principal": {
+      "id": "H5",
+      "descricao": "Associar vocábulos e expressões de um texto em LEM ao seu tema."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H7",
+        "descricao": "Relacionar um texto em LEM, as estruturas linguísticas, sua função e seu uso social."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Compreensão de textos em língua espanhola",
+    "conteudos_relacionados": [
+      "Leitura e interpretação de textos jornalísticos",
+      "Comparação de informações entre fontes"
+    ],
+    "assunto": "Manifestações estudantis no Chile e cobertura da imprensa",
+    "objeto_de_analise": "Fragmentos de notícias de jornais chilenos",
+    "fenomeno_conceito": "Pluralidade de abordagens na mídia jornalística"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "Apenas o primeiro jornal (La Tercera) menciona o incêndio do automóvel, enquanto os outros focam nos incidentes e tumultos de forma geral."
+    },
+    {
+      "alternativa": "B",
+      "correta": true,
+      "justificativa": "Os três fragmentos jornalísticos mencionam a ocorrência de incidentes, distúrbios ou tumultos ao final ou após a conclusão das marchas (La Tercera menciona 'ataques edificios / grupos encapuchados', La Hora menciona 'Con incidentes culmina...' e El Mercurio menciona 'incidentes aislados protagonizados por encapuchados')."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "O sucesso das mobilizações sob a ótica dos organizadores é mencionado apenas no primeiro fragmento (La Tercera)."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "A crítica de políticos (Ministro do Interior) é citada apenas no segundo fragmento (La Hora)."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "A responsabilização direta de grupos encapuchados pelos incidentes aparece de forma explícita em La Tercera e El Mercurio, mas La Hora foca de maneira mais geral nos incidentes do desfecho."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:27:58.547269Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O texto apresenta três recortes de jornais chilenos cobrindo manifestações estudantis.",
+      "Todos os três trechos abordam a ocorrência de distúrbios, tumultos ou incidentes no término das marchas."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-espanhol-1.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

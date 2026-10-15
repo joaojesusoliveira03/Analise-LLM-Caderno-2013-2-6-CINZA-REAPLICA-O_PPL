@@ -1,0 +1,107 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 164,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-164.txt",
+      "gabarito": "D"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "2",
+      "nome": "Matemática e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C1",
+      "descricao": "Construir significados para os números naturais, inteiros, racionais e reais."
+    },
+    "habilidade_principal": {
+      "id": "H3",
+      "descricao": "Resolver situação-problema envolvendo conhecimentos numéricos."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H1",
+        "descricao": "Reconhecer, no contexto social, diferentes significados e representações dos números e operações - naturais, inteiros, racionais ou reais."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Porcentagem",
+    "conteudos_relacionados": [
+      "Gráficos e tabelas",
+      "Operações com números racionais"
+    ],
+    "assunto": "Cálculo de valor total a partir de porcentagens parciais",
+    "objeto_de_analise": "Gráfico de colunas representando porcentagens de gastos",
+    "fenomeno_conceito": "Proporcionalidade e percentual do todo"
+  },
+  "analise_alternativas": [
+    {
+      "letra": "A",
+      "correta": false,
+      "justificativa": "Incorreta. Representa um valor inferior ao total reservado, possivelmente resultado de uma leitura incorreta ou cálculo errado das porcentagens."
+    },
+    {
+      "letra": "B",
+      "correta": false,
+      "justificativa": "Incorreta. Valor obtido por equívoco no cálculo da proporção restante do orçamento."
+    },
+    {
+      "letra": "C",
+      "correta": false,
+      "justificativa": "Incorreta. Não corresponde ao valor total correto que satisfaz a porcentagem restante."
+    },
+    {
+      "letra": "D",
+      "correta": true,
+      "justificativa": "Correta. A soma das porcentagens apresentadas no gráfico é 30,2% + 17,5% + 12,4% + 22,3% = 82,4%. Logo, a porcentagem correspondente ao dinheiro que restou (R$ 88,00) é 100% - 82,4% = 17,6%. Calculando o valor total V: 0,176 * V = 88, logo V = 88 / 0,176 = 500,00."
+    },
+    {
+      "letra": "E",
+      "correta": false,
+      "justificativa": "Incorreta. Corresponde à soma do valor restado (88) com o valor total (500), representando um raciocínio equivocado."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:23:55.779403Z",
+    "confianca": "alta",
+    "evidencias": [
+      "A soma das porcentagens do gráfico é 82,4%.",
+      "O restante é 17,6% correspondente a R$ 88,00.",
+      "O total calculado é 500,00."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-164.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": null,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

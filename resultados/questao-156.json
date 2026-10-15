@@ -1,0 +1,107 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 156,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-156.txt",
+      "gabarito": "A"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "MT",
+      "nome": "Matemática e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C3",
+      "descricao": "Construir noções de grandezas e medidas para a compreensão da realidade e a solução de problemas do cotidiano."
+    },
+    "habilidade_principal": {
+      "id": "H11",
+      "descricao": "Utilizar a noção de escalas na leitura de representação de situação do cotidiano."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H10",
+        "descricao": "Identificar relações entre grandezas e unidades de medida."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Razão e Proporção",
+    "conteudos_relacionados": [
+      "Escalas",
+      "Medidas de comprimento"
+    ],
+    "assunto": "Relação entre medidas reais e representadas em imagem fotográfica",
+    "objeto_de_analise": "O tamanho real da pegada comparado ao tamanho da pegada na imagem revelada",
+    "fenomeno_conceito": "Escala e proporcionalidade geométrica"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": true,
+      "justificativa": "A nota de dólar mede 15 cm na realidade e 3 cm na foto, estabelecendo uma razão de escala de 1:5 (ou seja, cada centímetro na foto corresponde a 5 cm na realidade). Como a marca da pegada mede 6 cm na imagem revelada, seu tamanho real é 6 cm × 5 = 30 cm. A relação numérica entre a marca no chão (30 cm) e a marca na imagem (6 cm) é de 30 / 6 = 5 vezes maior."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "Apresenta uma diferença absoluta incorreta em vez da razão multiplicativa entre as grandezas."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "Calcula erroneamente uma diferença fixa em centímetros entre as medidas sem considerar a proporção da escala."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "Incorre em erro conceitual de operação aritmética ao subtrair ou estimar incorretamente a relação de escala."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "Embora a escala seja de 5 vezes, a alternativa confunde a escala da foto com a razão entre o tamanho real da pegada e o tamanho na foto da nota, resultando em valor incorreto."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:22:18.612919Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O texto fornece a medida real da nota de dólar (15 cm).",
+      "O texto fornece a medida da nota na foto (3 cm) e da pegada na foto (6 cm).",
+      "A questão pede a relação numérica entre a marca no chão (real) e a marca na imagem revelada."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-156.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

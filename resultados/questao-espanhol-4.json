@@ -1,0 +1,106 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 4,
+      "espanhol": true,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-espanhol-4.txt",
+      "gabarito": null
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "LC",
+      "nome": "Linguagens, Códigos e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C2",
+      "descricao": "Conhecer e usar língua(s) estrangeira(s) moderna(s) como instrumento de acesso a informações e a outras culturas e grupos sociais*."
+    },
+    "habilidade_principal": {
+      "id": "H5",
+      "descricao": "Associar vocábulos e expressões de um texto em LEM ao seu tema."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H7",
+        "descricao": "Relacionar um texto em LEM, as estruturas linguísticas, sua função e seu uso social."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "II",
+      "nome": "Compreender fenômenos (CF)",
+      "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Compreensão de textos em língua estrangeira moderna (Espanhol)",
+    "conteudos_relacionados": [
+      "Leitura de textos publicitários e multimodais",
+      "Impacto ambiental e sustentabilidade"
+    ],
+    "assunto": "Campanha de conscientização ambiental através de linguagem publicitária",
+    "objeto_de_analise": "Relação entre o texto verbal (\"A los animales se les reconoce por sus huellas\") e os elementos não-verbais (pegadas de animais e lata de refrigerante amassada)",
+    "fenomeno_conceito": "Pegada ecológica e impacto da ação humana no meio ambiente"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "O anúncio não foca no risco de extinção de espécies específicas, mas sim na marca deixada pela ação humana."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "A lata de refrigerante funciona como símbolo do lixo deixado pelo homem, e não como uma crítica ao consumo de bebidas enlatadas em si."
+    },
+    {
+      "alternativa": "C",
+      "correta": true,
+      "justificativa": "A associação entre as pegadas dos animais e a marca da lata de refrigerante deixada pelo ser humano denuncia o impacto negativo da humanidade na natureza."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "O objetivo da campanha publicitária não é criar um catálogo informativo de animais, mas sim transmitir uma mensagem de conscientização."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "Trata-se de uma campanha socioambiental e não de uma peça publicitária comercial de promoção de marca de refrigerante."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:28:09.617256Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O texto apresenta a frase 'A los animales se les reconoce por sus huellas' combinada com imagens de pegadas de animais e uma lata de refrigerante.",
+      "A contraposição entre pegadas biológicas e a pegada de lixo urbano (lata) evidencia a pegada ecológica humana e seu impacto ambiental."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-espanhol-4.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

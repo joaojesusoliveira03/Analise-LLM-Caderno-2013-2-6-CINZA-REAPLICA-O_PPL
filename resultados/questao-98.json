@@ -1,0 +1,101 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 98,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-98.txt",
+      "gabarito": "D"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "LC",
+      "nome": "Linguagens, Códigos e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C3",
+      "descricao": "Compreender e usar a linguagem corporal como relevante para a própria vida, integradora social e formadora da identidade."
+    },
+    "habilidade_principal": {
+      "id": "H11",
+      "descricao": "Reconhecer a linguagem corporal como meio de interação social, considerando os limites de desempenho e as alternativas de adaptação para diferentes indivíduos."
+    },
+    "habilidades_relacionadas": [],
+    "eixo_cognitivo": {
+      "id": "II",
+      "nome": "Compreender fenômenos (CF)",
+      "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Estudo das práticas corporais",
+    "conteudos_relacionados": [
+      "Aptidão física",
+      "Qualidade de vida e saúde"
+    ],
+    "assunto": "Aptidão física e qualidade de vida",
+    "objeto_de_analise": "O conceito de aptidão física e sua relatividade conforme os objetivos e necessidades de cada indivíduo",
+    "fenomeno_conceito": "Aptidão física como condição relativa e mutável adaptada às necessidades individuais"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "O texto destaca que a aptidão física depende do interesse e da atividade de cada indivíduo, não sendo uma exigência universal incorporar o trabalho a séries de exercícios físicos."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "O texto afirma que a aptidão física é uma condição relativa e mutável que pode ser melhorada, desmistificando a rigidez de horários fixos ou a obrigatoriedade de herança genética específica para todos os casos."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "Não há menção no texto sobre a predominância de exercícios de musculação em relação aos aeróbicos."
+    },
+    {
+      "alternativa": "D",
+      "correta": true,
+      "justificativa": "O texto aponta que a aptidão física é relativa e mutável, e que \"é você quem decide quão apto quer estar para suas atividades\", o que fundamenta a necessidade de atividades consonantes com as necessidades e capacidades de cada um."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "O texto traz exemplos tanto individuais quanto coletivos (artista de circo e passeio com a turma) e não prioriza modalidades esportivas de caráter individual."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:27:51.593804Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O texto aborda a aptidão física como algo relativo e mutável, dependente das escolhas e necessidades de cada pessoa.",
+      "A alternativa D corresponde perfeitamente à ideia de adequação da prática às necessidades e capacidades individuais expressas no texto."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-98.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": null,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

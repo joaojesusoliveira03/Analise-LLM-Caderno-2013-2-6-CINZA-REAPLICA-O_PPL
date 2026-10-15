@@ -1,0 +1,460 @@
+nohup: ignorando entrada
+/home/administrador/Vídeos/aleJao/Analise-LLM-Caderno-2013-2-6-CINZA-REAPLICA-O_PPL/analise.py:22: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+======================================================================
+ANÁLISE LLM — ENEM 2013-2-6 CINZA (Reaplicação PPL)
+Modo: LOTES de 10 questões com espera de 65s
+======================================================================
+[INFO] Gabarito carregado: 92 itens.
+[INFO] 95 arquivos para analisar em 10 lotes.
+
+
+======================================================================
+📦 LOTE 1/10  (1 a 10 de 95)
+======================================================================
+
+Lote 1:   0%|          | 0/10 [00:00<?, ?it/s]
+Lote 1:  10%|█         | 1/10 [00:04<00:38,  4.23s/it]
+Lote 1:  20%|██        | 2/10 [00:09<00:39,  4.94s/it]
+Lote 1:  30%|███       | 3/10 [00:14<00:32,  4.70s/it]
+Lote 1:  40%|████      | 4/10 [00:19<00:28,  4.82s/it]
+Lote 1:  50%|█████     | 5/10 [00:31<00:37,  7.44s/it]
+Lote 1:  60%|██████    | 6/10 [00:34<00:24,  6.17s/it]
+Lote 1:  70%|███████   | 7/10 [00:38<00:16,  5.38s/it]
+Lote 1:  80%|████████  | 8/10 [00:44<00:11,  5.69s/it]
+Lote 1:  90%|█████████ | 9/10 [00:49<00:05,  5.26s/it]
+Lote 1: 100%|██████████| 10/10 [00:52<00:00,  4.68s/it]
+Lote 1: 100%|██████████| 10/10 [00:52<00:00,  5.27s/it]
+
+>>> textos_extraidos/questao-100.txt  (nº 100, ing=False, esp=False)  gab=B
+
+>>> textos_extraidos/questao-101.txt  (nº 101, ing=False, esp=False)  gab=B
+
+>>> textos_extraidos/questao-102.txt  (nº 102, ing=False, esp=False)  gab=C
+
+>>> textos_extraidos/questao-103.txt  (nº 103, ing=False, esp=False)  gab=A
+
+>>> textos_extraidos/questao-104.txt  (nº 104, ing=False, esp=False)  gab=B
+    [ERRO] tentativa 1/3: Expecting ',' delimiter: line 1 column 2727 (char 2726)
+
+>>> textos_extraidos/questao-105.txt  (nº 105, ing=False, esp=False)  gab=A
+
+>>> textos_extraidos/questao-106.txt  (nº 106, ing=False, esp=False)  gab=D
+
+>>> textos_extraidos/questao-107.txt  (nº 107, ing=False, esp=False)  gab=D
+
+>>> textos_extraidos/questao-108.txt  (nº 108, ing=False, esp=False)  gab=C
+
+>>> textos_extraidos/questao-109.txt  (nº 109, ing=False, esp=False)  gab=C
+
+⏳ Fim do lote 1. Aguardando 65s para o próximo...
+   ... 60s
+   ... 50s
+   ... 40s
+   ... 30s
+   ... 20s
+   ... 10s
+   ... 5s
+   ... 4s
+   ... 3s
+   ... 2s
+   ... 1s
+   ✅ Continuando!
+
+======================================================================
+📦 LOTE 2/10  (11 a 20 de 95)
+======================================================================
+
+Lote 2:   0%|          | 0/10 [00:00<?, ?it/s]
+Lote 2:  10%|█         | 1/10 [00:03<00:32,  3.63s/it]
+Lote 2:  20%|██        | 2/10 [00:07<00:32,  4.01s/it]
+Lote 2:  30%|███       | 3/10 [00:12<00:30,  4.38s/it]
+Lote 2:  40%|████      | 4/10 [00:17<00:26,  4.43s/it]
+Lote 2:  50%|█████     | 5/10 [00:20<00:20,  4.12s/it]
+Lote 2:  60%|██████    | 6/10 [00:25<00:16,  4.22s/it]
+Lote 2:  70%|███████   | 7/10 [00:29<00:12,  4.18s/it]
+Lote 2:  80%|████████  | 8/10 [00:34<00:08,  4.38s/it]
+Lote 2:  90%|█████████ | 9/10 [00:38<00:04,  4.42s/it]
+Lote 2: 100%|██████████| 10/10 [00:44<00:00,  4.79s/it]
+Lote 2: 100%|██████████| 10/10 [00:44<00:00,  4.43s/it]
+
+>>> textos_extraidos/questao-110.txt  (nº 110, ing=False, esp=False)  gab=B
+
+>>> textos_extraidos/questao-111.txt  (nº 111, ing=False, esp=False)  gab=C
+
+>>> textos_extraidos/questao-112.txt  (nº 112, ing=False, esp=False)  gab=A
+
+>>> textos_extraidos/questao-113.txt  (nº 113, ing=False, esp=False)  gab=E
+
+>>> textos_extraidos/questao-114.txt  (nº 114, ing=False, esp=False)  gab=E
+
+>>> textos_extraidos/questao-115.txt  (nº 115, ing=False, esp=False)  gab=D
+
+>>> textos_extraidos/questao-116.txt  (nº 116, ing=False, esp=False)  gab=C
+
+>>> textos_extraidos/questao-117.txt  (nº 117, ing=False, esp=False)  gab=D
+
+>>> textos_extraidos/questao-118.txt  (nº 118, ing=False, esp=False)  gab=C
+
+>>> textos_extraidos/questao-119.txt  (nº 119, ing=False, esp=False)  gab=B
+
+⏳ Fim do lote 2. Aguardando 65s para o próximo...
+   ... 60s
+   ... 50s
+   ... 40s
+   ... 30s
+   ... 20s
+   ... 10s
+   ... 5s
+   ... 4s
+   ... 3s
+   ... 2s
+   ... 1s
+   ✅ Continuando!
+
+======================================================================
+📦 LOTE 3/10  (21 a 30 de 95)
+======================================================================
+
+Lote 3:   0%|          | 0/10 [00:00<?, ?it/s]
+Lote 3:  10%|█         | 1/10 [00:09<01:23,  9.24s/it]
+Lote 3:  20%|██        | 2/10 [00:13<00:52,  6.57s/it]
+Lote 3:  30%|███       | 3/10 [00:17<00:36,  5.25s/it]
+Lote 3:  40%|████      | 4/10 [00:21<00:27,  4.55s/it]
+Lote 3:  50%|█████     | 5/10 [00:24<00:21,  4.26s/it]
+Lote 3:  60%|██████    | 6/10 [00:29<00:18,  4.54s/it]
+Lote 3:  70%|███████   | 7/10 [00:42<00:21,  7.20s/it]
+Lote 3:  80%|████████  | 8/10 [00:47<00:12,  6.31s/it]
+Lote 3:  90%|█████████ | 9/10 [00:51<00:05,  5.61s/it]
+Lote 3: 100%|██████████| 10/10 [00:54<00:00,  5.07s/it]
+Lote 3: 100%|██████████| 10/10 [00:54<00:00,  5.49s/it]
+
+>>> textos_extraidos/questao-120.txt  (nº 120, ing=False, esp=False)  gab=B
+
+>>> textos_extraidos/questao-121.txt  (nº 121, ing=False, esp=False)  gab=A
+
+>>> textos_extraidos/questao-122.txt  (nº 122, ing=False, esp=False)  gab=C
+
+>>> textos_extraidos/questao-123.txt  (nº 123, ing=False, esp=False)  gab=A
+
+>>> textos_extraidos/questao-124.txt  (nº 124, ing=False, esp=False)  gab=C
+
+>>> textos_extraidos/questao-125.txt  (nº 125, ing=False, esp=False)  gab=E
+
+>>> textos_extraidos/questao-126.txt  (nº 126, ing=False, esp=False)  gab=A
+    [ERRO] tentativa 1/3: Expecting ',' delimiter: line 1 column 2792 (char 2791)
+
+>>> textos_extraidos/questao-127.txt  (nº 127, ing=False, esp=False)  gab=E
+
+>>> textos_extraidos/questao-128.txt  (nº 128, ing=False, esp=False)  gab=E
+
+>>> textos_extraidos/questao-129.txt  (nº 129, ing=False, esp=False)  gab=C
+
+⏳ Fim do lote 3. Aguardando 65s para o próximo...
+   ... 60s
+   ... 50s
+   ... 40s
+   ... 30s
+   ... 20s
+   ... 10s
+   ... 5s
+   ... 4s
+   ... 3s
+   ... 2s
+   ... 1s
+   ✅ Continuando!
+
+======================================================================
+📦 LOTE 4/10  (31 a 40 de 95)
+======================================================================
+
+Lote 4:   0%|          | 0/10 [00:00<?, ?it/s]
+Lote 4:  10%|█         | 1/10 [00:05<00:51,  5.73s/it]
+Lote 4:  20%|██        | 2/10 [00:10<00:39,  4.94s/it]
+Lote 4:  30%|███       | 3/10 [00:13<00:30,  4.38s/it]
+Lote 4:  40%|████      | 4/10 [00:18<00:26,  4.34s/it]
+Lote 4:  50%|█████     | 5/10 [00:21<00:20,  4.14s/it]
+Lote 4:  60%|██████    | 6/10 [00:24<00:14,  3.75s/it]
+Lote 4:  70%|███████   | 7/10 [00:29<00:11,  3.89s/it]
+Lote 4:  80%|████████  | 8/10 [00:33<00:08,  4.04s/it]
+Lote 4:  90%|█████████ | 9/10 [00:36<00:03,  3.82s/it]
+Lote 4: 100%|██████████| 10/10 [00:40<00:00,  3.78s/it]
+Lote 4: 100%|██████████| 10/10 [00:40<00:00,  4.04s/it]
+
+>
+   ... 40s
+   ... 30s
+   ... 20s
+   ... 10s
+   ... 5s
+   ... 4s
+   ... 3s
+   ... 2s>> textos_extraidos/questao-130.txt  (nº 130, ing=False, esp=False)  gab=C
+
+>>> textos_extraidos/questao-131.txt  (nº 131, ing=False, esp=False)  gab=B
+
+>>> textos_extraidos/questao-132.txt  (nº 132, ing=False, esp=False)  gab=D
+
+>>> textos_extraidos/questao-133.txt  (nº 133, ing=False, esp=False)  gab=E
+
+>>> textos_extraidos/questao-134.txt  (nº 134, ing=False, esp=False)  gab=C
+
+>>> textos_extraidos/questao-135.txt  (nº 135, ing=False, esp=False)  gab=E
+
+>>> textos_extraidos/questao-136.txt  (nº 136, ing=False, esp=False)  gab=B
+
+>>> textos_extraidos/questao-137.txt  (nº 137, ing=False, esp=False)  gab=B
+
+>>> textos_extraidos/questao-138.txt  (nº 138, ing=False, esp=False)  gab=A
+
+>>> textos_extraidos/questao-139.txt  (nº 139, ing=False, esp=False)  gab=C
+
+⏳ Fim do lote 4. Aguardando 65s para o próximo...
+   ... 60s
+   ... 50s
+   ... 1s
+   ✅ Continuando!
+
+======================================================================
+📦 LOTE 5/10  (41 a 50 de 95)
+======================================================================
+
+Lote 5:   0%|          | 0/10 [00:00<?, ?it/s]
+Lote 5:  10%|█         | 1/10 [00:03<00:33,  3.70s/it]
+Lote 5:  20%|██        | 2/10 [00:07<00:31,  3.88s/it]
+Lote 5:  30%|███       | 3/10 [00:11<00:27,  3.87s/it]
+Lote 5:  40%|████      | 4/10 [00:15<00:23,  3.85s/it]
+Lote 5:  50%|█████     | 5/10 [00:19<00:19,  3.97s/it]
+Lote 5:  60%|██████    | 6/10 [00:24<00:17,  4.30s/it]
+Lote 5:  70%|███████   | 7/10 [00:27<00:11,  3.89s/it]
+Lote 5:  80%|████████  | 8/10 [00:30<00:07,  3.70s/it]
+Lote 5:  90%|█████████ | 9/10 [00:36<00:04,  4.34s/it]
+Lote 5: 100%|██████████| 10/10 [00:40<00:00,  4.22s/it]
+Lote 5: 100%|██████████| 10/10 [00:40<00:00,  4.06s/it]
+
+>>> textos_extraidos/questao-140.txt  (nº 140, ing=False, esp=False)  gab=A
+
+>>> textos_extraidos/questao-141.txt  (nº 141, ing=False, esp=False)  gab=C
+
+>>> textos_extraidos/questao-142.txt  (nº 142, ing=False, esp=False)  gab=B
+
+>>> textos_extraidos/questao-143.txt  (nº 143, ing=False, esp=False)  gab=C
+
+>>> textos_extraidos/questao-144.txt  (nº 144, ing=False, esp=False)  gab=B
+
+>>> textos_extraidos/questao-145.txt  (nº 145, ing=False, esp=False)  gab=E
+
+>>> textos_extraidos/questao-146.txt  (nº 146, ing=False, esp=False)  gab=C
+
+>>> textos_extraidos/questao-147.txt  (nº 147, ing=False, esp=False)  gab=E
+
+>>> textos_extraidos/questao-148.txt  (nº 148, ing=False, esp=False)  gab=A
+
+>>> textos_extraidos/questao-149.txt  (nº 149, ing=False, esp=False)  gab=A
+
+⏳ Fim do lote 5. Aguardando 65s para o próximo...
+   ... 60s
+   ... 50s
+   ... 40s
+   ... 30s
+   ... 20s
+   ... 10s
+   ... 5s
+   ... 4s
+   ... 3s
+   ... 2s
+   ... 1s
+   ✅ Continuando!
+
+======================================================================
+📦 LOTE 6/10  (51 a 60 de 95)
+======================================================================
+
+Lote 6:   0%|          | 0/10 [00:00<?, ?it/s]
+Lote 6:  10%|█         | 1/10 [00:05<00:50,  5.66s/it]
+Lote 6:  20%|██        | 2/10 [00:09<00:34,  4.33s/it]
+Lote 6:  30%|███       | 3/10 [00:12<00:28,  4.12s/it]Lote 6:  40%|████      | 4/10 [00:19<00:30,  5.12s/it]Lote 6:  50%|█████     | 5/10 [00:23<00:22,  4.55s/it]Lote 6:  60%|██████    | 6/10 [00:26<00:16,  4.24s/it]Lote 6:  70%|███████   | 7/10 [00:30<00:11,  3.97s/it]Lote 6:  80%|████████  | 8/10 [00:33<00:07,  3.90s/it]Lote 6:  90%|█████████ | 9/10 [00:38<00:03,  3.97s/it]Lote 6: 100%|██████████| 10/10 [00:42<00:00,  4.16s/it]Lote 6: 100%|██████████| 10/10 [00:42<00:00,  4.26s/it]
+
+>>> textos_extraidos/questao-150.txt  (nº 150, ing=False, esp=False)  gab=B
+
+>>> textos_extraidos/questao-151.txt  (nº 151, ing=False, esp=False)  gab=C
+
+>>> textos_extraidos/questao-152.txt  (nº 152, ing=False, esp=False)  gab=C
+
+>>> textos_extraidos/questao-153.txt  (nº 153, ing=False, esp=False)  gab=E
+
+>>> textos_extraidos/questao-154.txt  (nº 154, ing=False, esp=False)  gab=A
+
+>>> textos_extraidos/questao-155.txt  (nº 155, ing=False, esp=False)  gab=D
+
+>>> textos_extraidos/questao-156.txt  (nº 156, ing=False, esp=False)  gab=A
+
+>>> textos_extraidos/questao-157.txt  (nº 157, ing=False, esp=False)  gab=A
+
+>>> textos_extraidos/questao-158.txt  (nº 158, ing=False, esp=False)  gab=D
+
+>>> textos_extraidos/questao-159.txt  (nº 159, ing=False, esp=False)  gab=C
+
+⏳ Fim do lote 6. Aguardando 65s para o próximo...
+   ... 60s
+   ... 50s
+   ... 40s
+   ... 30s
+   ... 20s
+   ... 10s
+   ... 5s
+   ... 4s
+   ... 3s
+   ... 2s
+   ... 1s
+   ✅ Continuando!
+
+======================================================================
+📦 LOTE 7/10  (61 a 70 de 95)
+======================================================================
+Lote 7:   0%|          | 0/10 [00:00<?, ?it/s]Lote 7:  10%|█         | 1/10 [00:03<00:33,  3.70s/it]Lote 7:  20%|██        | 2/10 [00:07<00:30,  3.83s/it]Lote 7:  30%|███       | 3/10 [00:12<00:28,  4.13s/it]Lote 7:  40%|████      | 4/10 [00:16<00:25,  4.23s/it]Lote 7:  50%|█████     | 5/10 [00:19<00:19,  3.86s/it]Lote 7:  60%|██████    | 6/10 [00:23<00:15,  3.86s/it]Lote 7:  70%|███████   | 7/10 [00:27<00:11,  3.94s/it]Lote 7:  80%|████████  | 8/10 [00:30<00:07,  3.70s/it]Lote 7:  90%|█████████ | 9/10 [00:35<00:03,  3.85s/it]Lote 7: 100%|██████████| 10/10 [00:39<00:00,  3.90s/it]Lote 7: 100%|██████████| 10/10 [00:39<00:00,  3.90s/it]
+
+>>> textos_extraidos/questao-160.txt  (nº 160, ing=False, esp=False)  gab=E
+
+>>> textos_extraidos/questao-161.txt  (nº 161, ing=False, esp=False)  gab=E
+
+>>> textos_extraidos/questao-162.txt  (nº 162, ing=False, esp=False)  gab=D
+
+>>> textos_extraidos/questao-163.txt  (nº 163, ing=False, esp=False)  gab=E
+
+>>> textos_extraidos/questao-164.txt  (nº 164, ing=False, esp=False)  gab=D
+
+>>> textos_extraidos/questao-165.txt  (nº 165, ing=False, esp=False)  gab=B
+
+>>> textos_extraidos/questao-166.txt  (nº 166, ing=False, esp=False)  gab=D
+
+>>> textos_extraidos/questao-167.txt  (nº 167, ing=False, esp=False)  gab=B
+
+>>> textos_extraidos/questao-168.txt  (nº 168, ing=False, esp=False)  gab=D
+
+>>> textos_extraidos/questao-169.txt  (nº 169, ing=False, esp=False)  gab=A
+
+⏳ Fim do lote 7. Aguardando 65s para o próximo...
+   ... 60s
+   ... 50s
+   ... 40s
+   ... 30s
+   ... 20s
+   ... 10s
+   ... 5s
+   ... 4s
+   ... 3s
+   ... 2s
+   ... 1s
+   ✅ Continuando!
+
+======================================================================
+📦 LOTE 8/10  (71 a 80 de 95)
+======================================================================
+Lote 8:   0%|          | 0/10 [00:00<?, ?it/s]Lote 8:  10%|█         | 1/10 [00:03<00:34,  3.80s/it]Lote 8:  20%|██        | 2/10 [00:08<00:32,  4.04s/it]Lote 8:  30%|███       | 3/10 [00:11<00:26,  3.73s/it]Lote 8:  40%|████      | 4/10 [00:15<00:23,  3.87s/it]Lote 8:  50%|█████     | 5/10 [00:19<00:18,  3.78s/it]Lote 8:  60%|██████    | 6/10 [00:23<00:15,  3.88s/it]Lote 8:  70%|███████   | 7/10 [00:34<00:19,  6.47s/it]Lote 8:  80%|████████  | 8/10 [00:38<00:11,  5.58s/it]Lote 8:  90%|█████████ | 9/10 [01:05<00:12, 12.12s/it]Lote 8: 100%|██████████| 10/10 [01:09<00:00,  9.88s/it]Lote 8: 100%|██████████| 10/10 [01:09<00:00,  7.00s/it]
+
+>>> textos_extraidos/questao-170.txt  (nº 170, ing=False, esp=False)  gab=B
+
+>>> textos_extraidos/questao-171.txt  (nº 171, ing=False, esp=False)  gab=D
+
+>>> textos_extraidos/questao-172.txt  (nº 172, ing=False, esp=False)  gab=B
+
+>>> textos_extraidos/questao-173.txt  (nº 173, ing=False, esp=False)  gab=A
+
+>>> textos_extraidos/questao-174.txt  (nº 174, ing=False, esp=False)  gab=B
+
+>>> textos_extraidos/questao-175.txt  (nº 175, ing=False, esp=False)  gab=D
+
+>>> textos_extraidos/questao-176.txt  (nº 176, ing=False, esp=False)  gab=E
+    [ERRO] tentativa 1/3: Invalid \escape: line 74 column 208 (char 2685)
+
+>>> textos_extraidos/questao-177.txt  (nº 177, ing=False, esp=False)  gab=E
+
+>>> textos_extraidos/questao-178.txt  (nº 178, ing=False, esp=False)  gab=E
+    [ERRO] tentativa 1/3: Invalid \escape: line 74 column 113 (char 2511)
+    [ERRO] tentativa 2/3: Invalid \escape: line 79 column 302 (char 2821)
+    [ERRO] tentativa 3/3: Invalid \escape: line 59 column 138 (char 2043)
+    [FALHA] não foi possível analisar textos_extraidos/questao-178.txt
+
+>>> textos_extraidos/questao-179.txt  (nº 179, ing=False, esp=False)  gab=C
+
+⏳ Fim do lote 8. Aguardando 65s para o próximo...
+   ... 60s
+   ... 50s
+   ... 40s
+   ... 30s
+   ... 20s
+   ... 10s
+   ... 5s
+   ... 4s
+   ... 3s
+   ... 2s
+   ... 1s
+   ✅ Continuando!
+
+======================================================================
+📦 LOTE 9/10  (81 a 90 de 95)
+======================================================================
+Lote 9:   0%|          | 0/10 [00:00<?, ?it/s]Lote 9:  10%|█         | 1/10 [00:03<00:30,  3.37s/it]Lote 9:  20%|██        | 2/10 [00:07<00:32,  4.10s/it]Lote 9:  30%|███       | 3/10 [00:12<00:29,  4.28s/it]Lote 9:  40%|████      | 4/10 [00:16<00:25,  4.17s/it]Lote 9:  50%|█████     | 5/10 [00:19<00:19,  3.85s/it]Lote 9:  60%|██████    | 6/10 [00:23<00:15,  3.79s/it]Lote 9:  70%|███████   | 7/10 [00:26<00:10,  3.62s/it]Lote 9:  80%|████████  | 8/10 [00:30<00:07,  3.68s/it]Lote 9:  90%|█████████ | 9/10 [00:34<00:03,  3.78s/it]Lote 9: 100%|██████████| 10/10 [00:37<00:00,  3.53s/it]Lote 9: 100%|██████████| 10/10 [00:37<00:00,  3.75s/it]
+
+>>> textos_extraidos/questao-180.txt  (nº 180, ing=False, esp=False)  gab=B
+
+>>> textos_extraidos/questao-96.txt  (nº 96, ing=False, esp=False)  gab=C
+
+>>> textos_extraidos/questao-97.txt  (nº 97, ing=False, esp=False)  gab=A
+
+>>> textos_extraidos/questao-98.txt  (nº 98, ing=False, esp=False)  gab=D
+
+>>> textos_extraidos/questao-99.txt  (nº 99, ing=False, esp=False)  gab=B
+
+>>> textos_extraidos/questao-espanhol-1.txt  (nº 1, ing=False, esp=True)  gab=None
+
+>>> textos_extraidos/questao-espanhol-2.txt  (nº 2, ing=False, esp=True)  gab=None
+
+>>> textos_extraidos/questao-espanhol-3.txt  (nº 3, ing=False, esp=True)  gab=None
+
+>>> textos_extraidos/questao-espanhol-4.txt  (nº 4, ing=False, esp=True)  gab=None
+
+>>> textos_extraidos/questao-espanhol-5.txt  (nº 5, ing=False, esp=True)  gab=None
+
+⏳ Fim do lote 9. Aguardando 65s para o próximo...
+   ... 60s
+   ... 50s
+   ... 40s
+   ... 30s
+   ... 20s
+   ... 10s
+   ... 5s
+   ... 4s
+   ... 3s
+   ... 2s
+   ... 1s
+   ✅ Continuando!
+
+======================================================================
+📦 LOTE 10/10  (91 a 95 de 95)
+======================================================================
+Lote 10:   0%|          | 0/5 [00:00<?, ?it/s]Lote 10:  20%|██        | 1/5 [00:03<00:12,  3.19s/it]Lote 10:  40%|████      | 2/5 [00:06<00:10,  3.48s/it]Lote 10:  60%|██████    | 3/5 [00:12<00:08,  4.28s/it]Lote 10:  80%|████████  | 4/5 [00:15<00:04,  4.08s/it]Lote 10: 100%|██████████| 5/5 [00:18<00:00,  3.72s/it]Lote 10: 100%|██████████| 5/5 [00:18<00:00,  3.79s/it]
+
+>>> textos_extraidos/questao-ingles-1.txt  (nº 1, ing=True, esp=False)  gab=None
+
+>>> textos_extraidos/questao-ingles-2.txt  (nº 2, ing=True, esp=False)  gab=None
+
+>>> textos_extraidos/questao-ingles-3.txt  (nº 3, ing=True, esp=False)  gab=None
+
+>>> textos_extraidos/questao-ingles-4.txt  (nº 4, ing=True, esp=False)  gab=None
+
+>>> textos_extraidos/questao-ingles-5.txt  (nº 5, ing=True, esp=False)  gab=None
+
+======================================================================
+✅ Total analisado : 94/95
+📁 Saída individual: resultados/<questao>.json
+📁 Saída consolidada: resultados/analise_consolidada.json
+======================================================================

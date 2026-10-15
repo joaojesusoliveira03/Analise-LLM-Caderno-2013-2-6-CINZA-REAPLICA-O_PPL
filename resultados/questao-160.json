@@ -1,0 +1,107 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 160,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-160.txt",
+      "gabarito": "E"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "MT",
+      "nome": "Matemática e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C4",
+      "descricao": "Construir noções de variação de grandezas para a compreensão da realidade e a solução de problemas do cotidiano."
+    },
+    "habilidade_principal": {
+      "id": "H16",
+      "descricao": "Resolver situação-problema envolvendo a variação de grandezas, direta ou inversamente proporcionais."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H17",
+        "descricao": "Analisar informações envolvendo a variação de grandezas como recurso para a construção de argumentação."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Razões e proporções",
+    "conteudos_relacionados": [
+      "Crescimento percentual",
+      "Progressão"
+    ],
+    "assunto": "Crescimento da frota de veículos",
+    "objeto_de_analise": "Taxa de crescimento relativo da frota de veículos entre 2000 e 2010 projetada para a década seguinte (2010 a 2020)",
+    "fenomeno_conceito": "Crescimento percentual acumulado ou taxa de crescimento relativo"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "Representa um cálculo incorreto, possivelmente considerando apenas o acréscimo linear simples da década anterior sem aplicar corretamente a proporção ou fator de crescimento relativo."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "Incorreta. Não corresponde ao resultado da aplicação da taxa de crescimento relativo da década para o período seguinte."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "Representa o dobro exato da frota de 2010 (66 x 2), aplicando erroneamente uma duplicação linear em vez da taxa de crescimento proporcional do período."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "Incorreta. Resulta de equívocos na operação de progressão ou proporção do crescimento da frota."
+    },
+    {
+      "alternativa": "E",
+      "correta": true,
+      "justificativa": "Em 2000 a frota era de 30 milhões e em 2010 era de 66 milhões, o que representa um fator de multiplicação de 66 / 30 = 2,2 (ou um crescimento de 120%). Mantendo a mesma taxa de crescimento relativo para a década seguinte (2010 a 2020), multiplica-se a frota de 2010 por 2,2: 66 milhões x 2,2 = 145,2 milhões."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:23:39.783304Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O texto e o gráfico informam que a frota passou de 30 milhões em 2000 para 66 milhões em 2010.",
+      "A taxa de crescimento relativo é mantida para a década seguinte (2010 a 2020).",
+      "O gabarito oficial fornecido é E."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-160.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

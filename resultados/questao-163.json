@@ -1,0 +1,103 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 163,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-163.txt",
+      "gabarito": "E"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "MT",
+      "nome": "Matemática e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C2",
+      "descricao": "Utilizar o conhecimento geométrico para realizar a leitura e a representação da realidade e agir sobre ela."
+    },
+    "habilidade_principal": {
+      "id": "H7",
+      "descricao": "Identificar características de figuras planas ou espaciais."
+    },
+    "habilidades_relacionadas": [],
+    "eixo_cognitivo": {
+      "id": "II",
+      "nome": "Compreender fenômenos (CF)",
+      "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Conhecimentos geométricos",
+    "conteudos_relacionados": [
+      "Figuras geométricas planas",
+      "Circunferências",
+      "Segmentos de reta"
+    ],
+    "assunto": "Identificação de elementos geométricos em símbolos gráficos",
+    "objeto_de_analise": "Símbolo internacional de acesso",
+    "fenomeno_conceito": "Geometria plana e suas representações"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "Incorreta porque a figura utiliza arcos de circunferência (curvas) e não círculos completos, além de segmentos de reta."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "Incorreta pois menciona circunferências completas, quando na verdade são utilizados apenas trechos (arcos) de circunferência."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "Incorreta porque os elementos lineares que compõem o torso e os braços são segmentos de reta finitos, e não retas infinitas."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "Incorreta pois não há preenchimento de coroas circulares na representação do símbolo."
+    },
+    {
+      "alternativa": "E",
+      "correta": true,
+      "justificativa": "Correta, pois as partes claras da figura são formadas por arcos de circunferências (que compõem as rodas e a cabeça/corpo estilizados) e segmentos de retas (que formam o torso e os braços)."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:23:52.579045Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O enunciado pergunta sobre os elementos geométricos que constituem os contornos das partes claras da figura.",
+      "A figura consiste em uma pessoa em cadeira de rodas, formada por arcos de circunferência e segmentos de reta.",
+      "O gabarito oficial é E."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-163.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

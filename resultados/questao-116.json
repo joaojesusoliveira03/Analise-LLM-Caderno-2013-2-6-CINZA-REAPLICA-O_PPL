@@ -1,0 +1,101 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 116,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-116.txt",
+      "gabarito": "C"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "CN",
+      "nome": "Ciências da Natureza e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C2",
+      "descricao": "Identificar a presença e aplicar as tecnologias associadas às ciências naturais em diferentes contextos."
+    },
+    "habilidade_principal": {
+      "id": "H6",
+      "descricao": "Relacionar informações para compreender manuais de instalação ou utilização de aparelhos, ou sistemas tecnológicos de uso comum."
+    },
+    "habilidades_relacionadas": [],
+    "eixo_cognitivo": {
+      "id": "II",
+      "nome": "Compreender fenômenos (CF)",
+      "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Leitura e interpretação de bula de medicamento",
+    "conteudos_relacionados": [
+      "Cuidados de administração de medicamentos",
+      "Uso adequado de produtos farmacêuticos"
+    ],
+    "assunto": "Instruções de uso de medicamentos",
+    "objeto_de_analise": "Fragmento de bula de Nimesulida",
+    "fenomeno_conceito": "Compreensão de textos informativos e instrucionais tecnológicos/farmacêuticos"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "O texto afirma que o medicamento deve ser conservado em temperatura ambiente (entre 15 e 30 °C), e não dentro da geladeira."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "O texto orienta a seguir a orientação médica quanto aos horários e doses, sem especificar um intervalo fixo de seis em seis horas."
+    },
+    {
+      "alternativa": "C",
+      "correta": true,
+      "justificativa": "O texto menciona em 'Cuidados de administração' que o paciente deve seguir a orientação do médico, 'respeitando sempre os horários', o que corresponde a ser administrado em horários específicos."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "O texto indica que caso os sintomas não melhorem em 5 dias deve-se entrar em contato com o médico, não estabelecendo o uso por pelo menos uma semana."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "Embora o uso não seja recomendado para gestantes e lactantes e deva ficar fora do alcance das crianças, o texto não restringe o uso exclusivamente a adultos de forma genérica como foco principal da administração instruída."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:14:57.539828Z",
+    "confianca": "alta",
+    "evidencias": [
+      "A alternativa correta é a C, pois o texto da bula orienta explicitamente a respeitar os horários determinados pelo médico.",
+      "A habilidade H6 da matriz de Ciências da Natureza abrange a relação de informações para compreender manuais e instruções de sistemas tecnológicos de uso comum, como bulas de remédios."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-116.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": null,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

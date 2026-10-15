@@ -1,0 +1,101 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 155,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-155.txt",
+      "gabarito": "D"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "MT",
+      "nome": "Matemática e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C1",
+      "descricao": "Construir significados para os números naturais, inteiros, racionais e reais."
+    },
+    "habilidade_principal": {
+      "id": "H3",
+      "descricao": "Resolver situação-problema envolvendo conhecimentos numéricos."
+    },
+    "habilidades_relacionadas": [],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Porcentagem",
+    "conteudos_relacionados": [
+      "Razões e proporções"
+    ],
+    "assunto": "Cálculo de porcentagem aplicado ao mercado de trabalho",
+    "objeto_de_analise": "Total de trabalhadores no setor de turismo e percentual de informalidade",
+    "fenomeno_conceito": "Porcentagem de um valor total"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "Incorreta. Representa 15% do total de 1,8 milhão (0,15 * 1,8 milhão = 0,27 milhão), confundindo o dado do crescimento do setor com o percentual de trabalhadores informais."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "Incorreta. Representa 40% do total de 1,8 milhão (0,40 * 1,8 milhão = 0,72 milhão), correspondendo à porcentagem de trabalhadores formalizados (100% - 60%), e não aos informais que precisam assinar a carteira."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "Incorreta. Representa 45% do total, resultado de cálculos incorretos com as porcentagens fornecidas no texto."
+    },
+    {
+      "alternativa": "D",
+      "correta": true,
+      "justificativa": "Correta. O texto informa que existem 1,8 milhão de trabalhadores no setor e que 60% deles estão no mercado informal. Para encontrar o número de trabalhadores que precisam ter a carteira assinada, calcula-se 60% de 1,8 milhão: 0,60 * 1,8 = 1,08 milhão."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "Incorreta. Representa 75% do total de 1,8 milhão, valor que não corresponde a nenhuma proporção direta relevante apresentada no problema."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:22:15.197618Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O problema requer o cálculo de 60% de 1,8 milhão para determinar a quantidade de trabalhadores informais.",
+      "0,60 * 1,8 = 1,08.",
+      "O gabarito oficial fornecido é D."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-155.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

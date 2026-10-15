@@ -1,0 +1,108 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 149,
+      "espaol": false,
+      "ingles": false,
+      "espanhol": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-149.txt",
+      "gabarito": "A"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "MT",
+      "nome": "Matemática e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C3",
+      "descricao": "Construir noções de grandezas e medidas para a compreensão da realidade e a solução de problemas do cotidiano."
+    },
+    "habilidade_principal": {
+      "id": "H12",
+      "descricao": "Resolver situação-problema que envolva medidas de grandezas."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H10",
+        "descricao": "Identificar relações entre grandezas e unidades de medida."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Grandezas e medidas",
+    "conteudos_relacionados": [
+      "Conversão de unidades de volume",
+      "Volume de reservatórios"
+    ],
+    "assunto": "Cálculo de volume e conversão entre litros e metros cúbicos",
+    "objeto_de_analise": "Capacidade do reservatório atual e volume de água extraído das fontes",
+    "fenomeno_conceito": "Relação entre volume em litros e em metros cúbicos (1 m³ = 1 000 litros)"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": true,
+      "justificativa": "A produção diária total passa a ser de 20 000 + 25 000 = 45 000 litros, o que equivale a 45 m³. Como o reservatório atual possui capacidade de 30 m³, a capacidade ociosa é de 30 m³. O volume interno mínimo do novo reservatório deve ser o total extraído menos a capacidade do reservatório atual, ou seja, 45 m³ - 30 m³ = 15,0 m³."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "Incorreta. Corresponde a uma interpretação equivocada do volume extraído da nova fonte convertido incorretamente ou subtraído de forma errônea."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "Incorreta. Representa um valor obtido por erro de cálculo nas operações com os volumes em litros e metros cúbicos."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "Incorreta. Corresponde ao volume total extraído (45 m³), desconsiderando a capacidade do reservatório já existente que está ociosa."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "Incorreta. Representa uma soma incorreta entre o volume total extraído e a capacidade do reservatório atual."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:20:43.434335Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O texto fornece o volume extraído inicialmente (20 000 litros), o volume do reservatório (30 m³), e o acréscimo de 25 000 litros.",
+      "A relação padrão utilizada é de 1 m³ = 1 000 litros.",
+      "O gabarito oficial fornecido é A."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-149.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

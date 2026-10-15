@@ -1,0 +1,102 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 126,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-126.txt",
+      "gabarito": "A"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "CN",
+      "nome": "Ciências da Natureza e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C1",
+      "descricao": "Compreender as ciências naturais e as tecnologias a elas associadas como construções humanas, percebendo seus papéis nos processos de produção e no desenvolvimento econômico e social da humanidade."
+    },
+    "habilidade_principal": {
+      "id": "H1",
+      "descricao": "Reconhecer características ou propriedades de fenômenos ondulatórios ou oscilatórios, relacionando-os a seus usos em diferentes contextos."
+    },
+    "habilidades_relacionadas": [],
+    "eixo_cognitivo": {
+      "id": "II",
+      "nome": "Compreender fenômenos (CF)",
+      "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Acústica",
+    "conteudos_relacionados": [
+      "Ondas sonoras",
+      "Classificação dos instrumentos musicais"
+    ],
+    "assunto": "Instrumentos musicais e suas famílias",
+    "objeto_de_analise": "Relação entre instrumentos musicais apresentados na imagem e suas classificações acústico-musicais",
+    "fenomeno_conceito": "Famílias de instrumentos musicais (madeiras, cordas, percussão, etc.)"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": true,
+      "justificativa": "A flauta transversal é um instrumento de sopro tradicionalmente classificado na família das madeiras (historicamente construídas de madeira, mantendo a nomenclatura mesmo quando construídas de metal)."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "O bandolim é um instrumento de cordas dedilhadas (ou pinçadas), e não de cordas friccionadas."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "O pandeiro é um instrumento de percussão, especificamente um idiofone/membranofone, e não pertence à família dos metais."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "O afoxé não está representado na formação apresentada na foto e não corresponde ao instrumento citado."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "O cavaquinho é um instrumento de cordas dedilhadas, e não percurtidas (como o piano, por exemplo)."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:17:00.111366Z",
+    "confianca": "alta",
+    "evidencias": [
+      "A questão exige o reconhecimento das classificações dos instrumentos musicais presentes em um grupo de choro.",
+      "O gabarito oficial fornecido é A.",
+      "A alternativa A identifica corretamente a flauta transversal como pertencente à família das madeiras."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-126.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 141,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-141.txt",
+      "gabarito": "C"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "MT",
+      "nome": "Matemática e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C2",
+      "descricao": "Utilizar o conhecimento geométrico para realizar a leitura e a representação da realidade e agir sobre ela."
+    },
+    "habilidade_principal": {
+      "id": "H8",
+      "descricao": "Resolver situação-problema que envolva conhecimentos geométricos de espaço e forma."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H12",
+        "descricao": "Resolver situação-problema que envolva medidas de grandezas."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Geometria Espacial",
+    "conteudos_relacionados": [
+      "Volume de cilindro",
+      "Razão e proporção"
+    ],
+    "assunto": "Relação entre as dimensões e o volume de cilindros semelhantes ou modificados",
+    "objeto_de_analise": "Comparação entre os raios e as alturas de duas latas cilíndricas com volumes diferentes",
+    "fenomeno_conceito": "Volume do cilindro dado por V = pi * r^2 * h"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "A alternativa sugere incorretamente que o raio é a raiz quadrada do raio original, resultado de uma manipulação algébrica equivocada das fórmulas de volume."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "A alternativa assume incorretamente que, se o volume é reduzido à metade e a altura também é reduzida à metade, o raio também se reduziria à metade, ignorando o expoente quadrático do raio na fórmula do volume do cilindro."
+    },
+    {
+      "alternativa": "C",
+      "correta": true,
+      "justificativa": "A lata original tem volume V = pi * r^2 * h = 350 mL. A nova lata tem metade do volume (175 mL) e metade da altura (h' = h / 2). Substituindo na fórmula do volume: 175 = pi * (r')^2 * (h / 2). Como 175 = 350 / 2, temos (350 / 2) = pi * (r')^2 * (h / 2). Simplificando o fator 1/2 de ambos os lados, obtemos 350 = pi * (r')^2 * h. Como a lata original tem V = pi * r^2 * h = 350, conclui-se que r' = r."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "A alternativa supõe incorretamente que o raio duplicaria, o que provocaria um aumento no volume em vez da redução especificada no enunciado."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "A alternativa apresenta uma relação envolvendo raiz cúbica, que não condiz com a relação matemática entre volume, raio e altura de um cilindro."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:20:10.582104Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O enunciado fornece o volume V = 350 mL, raio r e altura h da lata original.",
+      "A nova lata possui volume V' = 175 mL (metade) e altura h' = h / 2 (metade, conforme ilustrado e inferido pela geometria da figura comparativa).",
+      "A aplicação da fórmula do volume do cilindro (V = pi * r^2 * h) demonstra algebricamente que r' = r."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-141.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": null,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

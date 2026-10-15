@@ -1,0 +1,107 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 150,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-150.txt",
+      "gabarito": "B"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "MT",
+      "nome": "Matemática e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C5",
+      "descricao": "Modelar e resolver problemas que envolvem variáveis socioeconômicas ou técnico-científicas, usando representações algébricas."
+    },
+    "habilidade_principal": {
+      "id": "H21",
+      "descricao": "Resolver situação-problema cuja modelagem envolva conhecimentos algébricos."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H19",
+        "descricao": "Identificar representações algébricas que expressem a relação entre grandezas."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Função quadrática",
+    "conteudos_relacionados": [
+      "Vértice da parábola",
+      "Máximo de uma função quadrática"
+    ],
+    "assunto": "Lucro máximo utilizando função do 2º grau",
+    "objeto_de_analise": "A função lucro L(x) = -x^2 + 12x - 20",
+    "fenomeno_conceito": "O valor de x que maximiza uma função quadrática com concavidade voltada para baixo é dado pela coordenada x do vértice da parábola: x_v = -b / (2a)."
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "Calculando L(4) = -(4)^2 + 12(4) - 20 = -16 + 48 - 20 = 12, que não representa o lucro máximo da função."
+    },
+    {
+      "alternativa": "B",
+      "correta": true,
+      "justificativa": "O lucro máximo é atingido no vértice da parábola. Utilizando a fórmula do x do vértice para L(x) = -x^2 + 12x - 20, temos x_v = -12 / (2 * (-1)) = -12 / (-2) = 6. Portanto, os pacotes devem conter 6 bonés."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "Calculando L(9) = -(9)^2 + 12(9) - 20 = -81 + 108 - 20 = 7, que não é o valor máximo."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "Calculando L(10) = -(10)^2 + 12(10) - 20 = -100 + 120 - 20 = 0, que resulta em lucro zero."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "Calculando L(14) = -(14)^2 + 12(14) - 20 = -196 + 168 - 20 = -48, gerando prejuízo."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:21:54.103938Z",
+    "confianca": "alta",
+    "evidencias": [
+      "A questão fornece uma função quadrática do lucro L(x) = -x^2 + 12x - 20.",
+      "Pede-se a quantidade de bonés x para obter o lucro máximo.",
+      "A aplicação da fórmula do vértice x_v = -b/(2a) resulta diretamente em 6."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-150.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

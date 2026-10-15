@@ -1,0 +1,105 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 113,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-113.txt",
+      "gabarito": "E"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "LC",
+      "nome": "Linguagens, Códigos e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C7",
+      "descricao": "Confrontar opiniões e pontos de vista sobre as diferentes linguagens e suas manifestações específicas."
+    },
+    "habilidade_principal": {
+      "id": "H23",
+      "descricao": "Inferir em um texto quais são os objetivos de seu produtor e quem é seu público alvo, pela análise dos procedimentos argumentativos utilizados."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H18",
+        "descricao": "Identificar os elementos que concorrem para a progressão temática e para a organização e estruturação de textos de diferentes gêneros e tipos."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Análise de gênero textual e intenção comunicativa",
+    "conteudos_relacionados": [
+      "Funções sociais dos textos",
+      "Gêneros digitais e impressos"
+    ],
+    "assunto": "Compreensão da intenção comunicativa de um cartão-postal comemorativo",
+    "objeto_de_analise": "Cartão-postal comemorativo ao 'Dia do Cartão-Postal'",
+    "fenomeno_conceito": "Intenção comunicativa e pragmática do texto"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "A imagem não tem como foco principal apresentar a paisagem de um local específico para turismo, mas sim celebrar uma data comemorativa."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "O texto não apresenta um apelo para que as pessoas enviem postais umas às outras como prática cotidiana, mas destaca um marco histórico."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "O texto e a imagem não fazem menção à instituição de um novo tipo de cartão-postal virtual ou à sua comercialização em um site."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "A presença de corações e de uma construção oriental não configura uma propaganda focada em atrair casais para um ponto turístico específico."
+    },
+    {
+      "alternativa": "E",
+      "correta": true,
+      "justificativa": "O cartão-postal apresentado é uma peça comemorativa que celebra a data da instituição do cartão-postal no Brasil ('28 de abril', 'decreto n. 7.695', 'D. Pedro II'), o que justifica a alternativa E."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:14:45.460678Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O texto e a imagem do cartão-postal celebram explicitamente o 'Dia do Cartão-Postal' em 28 de abril e rememoram o decreto do Imperador D. Pedro II."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-113.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

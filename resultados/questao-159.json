@@ -1,0 +1,101 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 159,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-159.txt",
+      "gabarito": "C"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "MT",
+      "nome": "Matemática e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C7",
+      "descricao": "Compreender o caráter aleatório e não-determinístico dos fenômenos naturais e sociais e utilizar instrumentos adequados para medidas, determinação de amostras e cálculos de probabilidade para interpretar informações de variáveis apresentadas em uma distribuição estatística."
+    },
+    "habilidade_principal": {
+      "id": "H28",
+      "descricao": "Resolver situação-problema que envolva conhecimentos de estatística e probabilidade."
+    },
+    "habilidades_relacionadas": [],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Probabilidade condicional",
+    "conteudos_relacionados": [
+      "Probabilidade",
+      "Razão e proporção"
+    ],
+    "assunto": "Probabilidade condicional",
+    "objeto_de_analise": "Probabilidade de uma peça defeituosa ter sido produzida por uma máquina específica dado que ela é defeituosa.",
+    "fenomeno_conceito": "Probabilidade condicional"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "A alternativa A apresenta um valor incorreto que não corresponde ao cálculo da probabilidade condicional solicitada."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "A alternativa B apresenta um valor incorreto que não corresponde ao cálculo da probabilidade condicional solicitada."
+    },
+    {
+      "alternativa": "C",
+      "correta": true,
+      "justificativa": "O total de peças defeituosas é 60 (da máquina M) + 120 (da máquina N) = 180 peças defeituosas. A probabilidade de a peça defeituosa ter sido produzida pela máquina M é a razão entre o número de peças defeituosas da máquina M e o total de peças defeituosas: P = 60 / 180 = 1 / 3."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "A alternativa D apresenta um valor incorreto resultante de erro no cálculo da proporção entre as peças defeituosas."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "A alternativa E inverteu a probabilidade ou utilizou o número de peças produzidas pela máquina N em relação ao total de defeituosas incorretamente."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:22:31.071811Z",
+    "confianca": "alta",
+    "evidencias": [
+      "A questão exige o cálculo da probabilidade de um evento condicional (peça defeituosa proveniente da máquina M).",
+      "Gabarito oficial corresponde à alternativa C."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-159.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

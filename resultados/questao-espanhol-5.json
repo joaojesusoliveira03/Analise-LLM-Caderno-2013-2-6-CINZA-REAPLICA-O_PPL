@@ -1,0 +1,105 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 5,
+      "espanhol": true,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-espanhol-5.txt",
+      "gabarito": null
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "LC",
+      "nome": "Linguagens, Códigos e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C2",
+      "descricao": "Conhecer e usar língua(s) estrangeira(s) moderna(s) como instrumento de acesso a informações e a outras culturas e grupos sociais*."
+    },
+    "habilidade_principal": {
+      "id": "H5",
+      "descricao": "Associar vocábulos e expressões de um texto em LEM ao seu tema."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H7",
+        "descricao": "Relacionar um texto em LEM, as estruturas linguísticas, sua função e seu uso social."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "II",
+      "nome": "Compreender fenômenos (CF)",
+      "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Compreensão de texto em Língua Espanhola",
+    "conteudos_relacionados": [
+      "Vocabulário e expressões em espanhol",
+      "Leitura e interpretação textual"
+    ],
+    "assunto": "Motivos para abandonar redes sociais",
+    "objeto_de_analise": "Depoimento de Alberto sobre a decisão de deixar o Facebook",
+    "fenomeno_conceito": "Dependência de redes sociais e reflexão sobre o uso da tecnologia"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "O texto menciona que os usuários passam vinte minutos em média, mas isso se refere a Sonia e ao dado geral, não ao motivo específico de Alberto."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "O texto não afirma que a rotina de Alberto perdeu interesse, mas sim que ele percebeu o quanto estava viciado na rede social."
+    },
+    {
+      "alternativa": "C",
+      "correta": true,
+      "justificativa": "Alberto decidiu se eliminar da rede social após perceber o quão viciado (enganchado) estava nela, ao tentar excluir um familiar após uma discussão."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "A questão da privacidade é mencionada de forma geral no texto, mas o motivo pessoal de Alberto foi o nível de dependência que ele percebeu ter."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "Alberto utiliza outras redes sociais por motivos laborales (trabalho), logo ele não considerou a internet inútil para o emprego."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:28:12.587465Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O texto traz o depoimento de Alberto: 'ao reparar no lo enganchado que yo estaba a esa red e pensé que mejor me eliminaba a mí mismo'."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-espanhol-5.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

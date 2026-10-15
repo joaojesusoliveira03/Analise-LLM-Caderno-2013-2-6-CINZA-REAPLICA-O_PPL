@@ -1,0 +1,106 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 174,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-174.txt",
+      "gabarito": "B"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "MT",
+      "nome": "Matemática e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C3",
+      "descricao": "Construir noções de grandezas e medidas para a compreensão da realidade e a solução de problemas do cotidiano."
+    },
+    "habilidade_principal": {
+      "id": "H12",
+      "descricao": "Resolver situação-problema que envolva medidas de grandezas."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H10",
+        "descricao": "Identificar relações entre grandezas e unidades de medida."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Grandezas e Medidas",
+    "conteudos_relacionados": [
+      "Razões e Proporções",
+      "Cálculo de Custos"
+    ],
+    "assunto": "Comparação de custos entre lavagem manual e lavagem por máquina",
+    "objeto_de_analise": "Consumo de água e energia elétrica em um período de 30 dias com duas lavagens diárias",
+    "fenomeno_conceito": "Relação entre consumo de recursos (água e energia) e seus respectivos custos financeiros"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "Valor incorreto, resultado de erro no cálculo das grandezas de volume ou custo da água."
+    },
+    {
+      "alternativa": "B",
+      "correta": true,
+      "justificativa": "Cálculo correto: Total de lavagens = 30 dias * 2 = 60 lavagens. Lavagem manual: 60 * 90 litros = 5400 litros = 5,4 m³. Custo da água manual = 5,4 * R$ 6,25 = R$ 33,75. Máquina: 60 * 16 litros = 960 litros = 0,96 m³ de água. Custo da água da máquina = 0,96 * R$ 6,25 = R$ 6,00. Custo de energia da máquina = 60 * 0,9 kWh = 54 kWh * R$ 0,45 = R$ 24,30. Custo total da máquina = R$ 6,00 + R$ 24,30 = R$ 30,30. Diferença = R$ 33,75 - R$ 30,30 = R$ 3,45."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "Incorreto, não corresponde à diferença de custos obtida pelo cálculo correto."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "Incorreto, resultado de equívoco na conversão de unidades de volume (litros para metros cúbicos) ou nas tarifas."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "Incorreto, valor superestimado que não reflete a diferença real entre os dois métodos de lavagem."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:25:39.205538Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O enunciado apresenta dados claros para o cálculo do custo da lavagem manual e da máquina em 30 dias.",
+      "Gabarito oficial corresponde à alternativa B."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-174.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

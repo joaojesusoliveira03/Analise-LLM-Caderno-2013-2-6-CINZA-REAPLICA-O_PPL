@@ -1,0 +1,107 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 99,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-99.txt",
+      "gabarito": "B"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "LC",
+      "nome": "Linguagens, Códigos e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C9",
+      "descricao": "Entender os princípios, a natureza, a função e o impacto das tecnologias da comunicação e da informação na sua vida pessoal e social, no desenvolvimento do conhecimento, associando-o aos conhecimentos científicos, às linguagens que lhes dão suporte, às demais tecnologias, aos processos de produção e aos problemas que se propõem solucionar."
+    },
+    "habilidade_principal": {
+      "id": "H28",
+      "descricao": "Reconhecer a função e o impacto social das diferentes tecnologias da comunicação e informação."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H1",
+        "descricao": "Identificar as diferentes linguagens e seus recursos expressivos como elementos de caracterização dos sistemas de comunicação."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "II",
+      "nome": "Compreender fenômenos (CF)",
+      "descricao": "construir e conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Tecnologias da Informação e Comunicação",
+    "conteudos_relacionados": [
+      "Redes sociais",
+      "Marketing digital",
+      "Comunicação empresarial"
+    ],
+    "assunto": "A importância da comunicação virtual e das redes sociais na relação entre empresas e consumidores",
+    "objeto_de_analise": "O uso da expressão 'boca a boca' no contexto digital",
+    "fenomeno_conceito": "Virtualização da recomendação e do marketing de boca a boca nas redes sociais"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "A alternativa é incorreta porque o texto não aborda o custo ou o acesso financeiro das redes sociais, mas sim a dinâmica de recomendação e interação associada à expressão 'boca a boca'."
+    },
+    {
+      "alternativa": "B",
+      "correta": true,
+      "justificativa": "A alternativa correta aponta que a expressão 'boca a boca' no contexto virtual refere-se justamente à recomendação de produtos, marcas e serviços por parte de conhecidos e amigos, funcionando como uma fonte fundamental de divulgação nas redes sociais."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "A alternativa é incorreta porque afirma que empresas e indivíduos possuem objetivos diferentes, o que contrasta com a ideia de aproximação e diálogo contínuo defendida no texto."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "A alternativa é incorreta pois o foco do texto não é o recrutamento ou a busca de novos profissionais para o quadro de pessoal, mas sim a relação de atendimento e comunicação com o consumidor."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "Embora verdadeira sobre as redes sociais, esta alternativa é genérica e não explica o sentido específico da metáfora 'boca a boca' utilizada no enunciado em relação à divulgação e indicação de produtos e serviços."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:27:54.867876Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O texto trata da importância de a empresa se fazer presente em um mundo onde o boca a boca tornou-se virtual.",
+      "A expressão boca a boca está diretamente relacionada a indicações e recomendações interpessoais transpostas para o ambiente digital."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-99.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

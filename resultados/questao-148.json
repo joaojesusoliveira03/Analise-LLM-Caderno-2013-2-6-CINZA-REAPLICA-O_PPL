@@ -1,0 +1,106 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 148,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-148.txt",
+      "gabarito": "A"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "MT",
+      "nome": "Matemática e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C5",
+      "descricao": "Modelar e resolver problemas que envolvem variáveis socioeconômicas ou técnico-científicas, usando representações algébricas."
+    },
+    "habilidade_principal": {
+      "id": "H20",
+      "descricao": "Interpretar gráfico cartesiano que represente relações entre grandezas."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H19",
+        "descricao": "Identificar representações algébricas que expressem a relação entre grandezas."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Funções e Gráficos",
+    "conteudos_relacionados": [
+      "Geometria Plana",
+      "Distância entre pontos"
+    ],
+    "assunto": "Análise gráfica da distância de um ponto em movimento a um ponto fixo",
+    "objeto_de_analise": "Variação da distância de uma partícula ao centro de um quadrado em função da trajetória",
+    "fenomeno_conceito": "Comportamento periódico da distância em trajetórias geométricas"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": true,
+      "justificativa": "A trajetória é dividida em 4 partes simétricas de comprimento 2 cm cada (total de 8 cm). Partindo do ponto médio M de AB até B, a distância ao centro O decresce de sqrt(2) para 1 e depois cresce de 1 para sqrt(2). Ao longo de cada segmento de 2 cm, a função descreve um arco suave (curva quadrática/hipérbole ou trecho não linear) com mínimo em 1 e máximo em sqrt(2) (aproximadamente 1,4), repetindo-se ciclicamente a cada 2 unidades."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "A distância da partícula ao centro não é constante; ela varia entre o apótema (1 cm) e a metade da diagonal (sqrt(2) cm)."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "A variação da distância não é linear (formato de dente de serra com arestas pontiagudas), pois a distância ao centro em um segmento de reta varia segundo uma função quadrática (teorema de Pitágoras)."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "Apresenta formato de V invertido com valores incorretos e lineares, além de iniciar no valor máximo incorretamente para a posição inicial M."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "Inicia em sqrt(2) no ponto M, mas o ponto M está a uma distância de 1 cm do centro se considerado o apótema (metade do lado de 2 cm é 1, logo a distância do ponto médio do lado ao centro é sqrt(1^2 + 1^2) = sqrt(2)? Não, o ponto M é o ponto médio de AB, o lado mede 2, então a distância do ponto médio ao centro é 1 (se for o ponto médio de um lado paralelo) ou calculada por Pitágoras: as coordenadas de M em relação a O são (1, 1) se O for a origem, logo a distância inicial é sqrt(1^2 + 1^2) = sqrt(2). No entanto, o gráfico A descreve corretamente a concavidade e os valores corretos da variação em cada intervalo."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:20:39.465406Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O gabarito oficial é A.",
+      "A questão exige relacionar a trajetória geométrica com o comportamento gráfico de uma função de distância."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-148.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 100,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-100.txt",
+      "gabarito": "B"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "LC",
+      "nome": "Linguagens, Códigos e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C4",
+      "descricao": "Compreender a arte como saber cultural e estético gerador de significação e integrador da organização do mundo e da própria identidade."
+    },
+    "habilidade_principal": {
+      "id": "H12",
+      "descricao": "Reconhecer diferentes funções da arte, do trabalho da produção dos artistas em seus meios culturais."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H13",
+        "descricao": "Analisar as diversas produções artísticas como meio de explicar diferentes culturas, padrões de beleza e preconceitos."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "II",
+      "nome": "Compreender fenômenos (CF)",
+      "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Produção e recepção de textos artísticos",
+    "conteudos_relacionados": [
+      "Artes Visuais: estrutura morfológica, sintática, o contexto da obra artística, o contexto da comunidade"
+    ],
+    "assunto": "Arte contemporânea e suportes não tradicionais",
+    "objeto_de_analise": "Obra 'Bastidores' (1997) de Rosana Paulino",
+    "fenomeno_conceito": "Ruptura com suportes tradicionais na arte pós-moderna"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "A utilização de objetos do cotidiano não torna a obra restrita a uma abrangência regional; sua temática e forma possuem alcance estético e conceitual mais amplo."
+    },
+    {
+      "alternativa": "B",
+      "correta": true,
+      "justificativa": "A obra de Rosana Paulino utiliza xerox transferida e costurada sobre tecido em bastidor, rompendo com os suportes tradicionais da pintura ou escultura clássicas e conferindo novos sentidos a esses materiais cotidianos."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "A apropriação de materiais cotidianos na obra não tem como objetivo conferir um resultado inacabado, mas sim construir uma reflexão artística estruturada e expressiva."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "Embora utilize elementos historicamente associados ao trabalho doméstico ou feminino (costura e bastidor), a alternativa reduz o foco da questão e a abrangência da ruptura formal e conceitual da obra discutida no enunciado em consonância com a pós-modernidade."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "A obra não se caracteriza como arte utilitária, mantendo-se no campo da expressão artística contemporânea e conceitual."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:12:34.779677Z",
+    "confianca": "alta",
+    "evidencias": [
+      "A questão aborda a ruptura e o uso de novos suportes na arte contemporânea (pós-modernidade).",
+      "O gabarito oficial fornecido é B."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-100.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

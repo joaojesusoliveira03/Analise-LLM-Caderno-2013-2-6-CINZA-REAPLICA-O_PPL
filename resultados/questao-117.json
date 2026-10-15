@@ -1,0 +1,106 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 117,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-117.txt",
+      "gabarito": "D"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "LC",
+      "nome": "Linguagens, Códigos e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C4",
+      "descricao": "Compreender a arte como saber cultural e estético gerador de significação e integrador da organização do mundo e da própria identidade."
+    },
+    "habilidade_principal": {
+      "id": "H12",
+      "descricao": "Reconhecer diferentes funções da arte, do trabalho da produção dos artistas em seus meios culturais."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H13",
+        "descricao": "Analisar as diversas produções artísticas como meio de explicar diferentes culturas, padrões de beleza e preconceitos."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "II",
+      "nome": "Compreender fenômenos (CF)",
+      "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Arte Popular",
+    "conteudos_relacionados": [
+      "Produção e recepção de artes visuais",
+      "Identidade e cultura"
+    ],
+    "assunto": "A criação artística popular e sua relação com a autoria, a memória e o contexto sociocultural",
+    "objeto_de_analise": "O Texto I (esculturas em madeira) e o Texto II (excerto sobre a obra de feição original e autoral na arte popular)",
+    "fenomeno_conceito": "A transição da criação coletiva para a feição original, autoral e única na arte popular, baseada na memória e no contexto"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "Incorreta. O texto aborda a criação individual e biográfica ('projeto artístico, a sua identidade social'), e não necessariamente uma temática nacionalista ampla."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "Incorreta. A arte popular descrita parte do 'chão coletivo da comunidade' e gera uma obra de feição original, distanciando-se das técnicas tradicionais da arte acadêmica."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "Incorreta. A arte popular comentada surge da comunidade e da memória do indivíduo, não possuindo obrigatoriamente uma ligação estrutural com a arte canônica de museus e galerias."
+    },
+    {
+      "alternativa": "D",
+      "correta": true,
+      "justificativa": "Correta. O Texto II destaca que o indivíduo-sujeito recorre à memória para criar seu projeto artístico e sua identidade social a partir de seu contexto e de sua vivência, gerando uma obra original e particular, o que dialoga com a abordagem peculiar da realidade."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "Incorreta. O texto enfatiza a geração de uma obra 'de feição original, autoral, única' e não a criação de técnicas padronizadas comuns que geram movimentos artísticos grupais tradicionais."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:15:02.356394Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O comando pede para identificar como se caracterizam os trabalhos pertinentes à criação popular com base nos textos.",
+      "O Texto II afirma que o indivíduo gera uma obra original, autoral e única baseada em seu projeto artístico e identidade social a partir da memória e do ethos comunitário/urbano."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-117.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

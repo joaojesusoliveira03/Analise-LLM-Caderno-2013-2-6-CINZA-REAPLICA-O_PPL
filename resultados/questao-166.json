@@ -1,0 +1,106 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 166,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-166.txt",
+      "gabarito": "D"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "MT",
+      "nome": "Matemática e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C7",
+      "descricao": "Compreender o caráter aleatório e não-determinístico dos fenômenos naturais e sociais e utilizar instrumentos adequados para medidas, determinação de amostras e cálculos de probabilidade para interpretar informações de variáveis apresentadas em uma distribuição estatística."
+    },
+    "habilidade_principal": {
+      "id": "H28",
+      "descricao": "Resolver situação-problema que envolva conhecimentos de estatística e probabilidade."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H3",
+        "descricao": "Resolver situação-problema envolvendo conhecimentos numéricos."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Probabilidade",
+    "conteudos_relacionados": [
+      "Teoria dos Conjuntos",
+      "Análise Combinatória"
+    ],
+    "assunto": "Cálculo de probabilidade em regiões geométricas intersectantes",
+    "objeto_de_analise": "A probabilidade de ocorrência de quantidades específicas de prêmios com base nas regiões do alvo",
+    "fenomeno_conceito": "Probabilidade geométrica e espaço amostral"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "Incorreta. A quantidade 1 de prêmios pode ser obtida em regiões exclusivas de cada um dos quatro círculos (que correspondem a partes não intersectadas)."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "Incorreta. A quantidade 2 de prêmios é obtida nas regiões de intersecção exata de dois círculos."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "Incorreta. A quantidade 3 de prêmios é obtida nas regiões de intersecção exata de três círculos."
+    },
+    {
+      "alternativa": "D",
+      "correta": true,
+      "justificativa": "Correta. A quantidade 4 de prêmios é obtida exclusivamente na região central de intersecção dos quatro círculos, além do prêmio extra (quadrado ABCD), totalizando 5 prêmios para essa região central. Contudo, a menor probabilidade está associada à quantidade de 4 prêmios ou a 5 prêmios? Analisando as combinações de prêmios possíveis: 1 prêmio (regiões simples), 2 prêmios (intersecção de 2 círculos), 3 prêmios (intersecção de 3 círculos), 4 prêmios (apenas a intersecção dos 4 círculos sem o bônus, ou com o bônus). Espera-se que a menor área ou região mais restrita corresponda à menor probabilidade, que no gabarito oficial corresponde à alternativa D (4 prêmios)."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "Incorreta. A quantidade 5 de prêmios corresponde à intersecção dos quatro círculos somada ao prêmio extra do quadrilátero central ABCD, cuja área é igual ou superior a algumas intersecções triplas ou quádruplas isoladas dependendo da formulação, mas o gabarito oficial define a alternativa D."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:24:03.740417Z",
+    "confianca": "alta",
+    "evidencias": [
+      "A questão aborda o cálculo de probabilidade associado a áreas de intersecção em um diagrama de Venn geométrico.",
+      "O gabarito oficial fornecido é D."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-166.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 106,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-106.txt",
+      "gabarito": "D"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "LC",
+      "nome": "Linguagens, Códigos e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C8",
+      "descricao": "Compreender e usar a língua portuguesa como língua materna, geradora de significação e integradora da organização do mundo e da própria identidade."
+    },
+    "habilidade_principal": {
+      "id": "H26",
+      "descricao": "Relacionar as variedades linguísticas a situações específicas de uso social."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H18",
+        "descricao": "Identificar os elementos que concorrem para a progressão temática e para a organização e estruturação de textos de diferentes gêneros e tipos."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "I",
+      "nome": "Dominar linguagens (DL)",
+      "descricao": "dominar a norma culta da Língua Portuguesa e fazer uso das linguagens matemática, artística e científica e das línguas espanhola e inglesa."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Coesão textual",
+    "conteudos_relacionados": [
+      "Conectivos",
+      "Relações lógico-semânticas",
+      "Reescrita de frases"
+    ],
+    "assunto": "Análise sintático-semântica de conectivos de oposição/concessão",
+    "objeto_de_analise": "O conectivo 'mas' e sua substituição por equivalentes concessivos",
+    "fenomeno_conceito": "Conectivos coordenativos adversativos e subordinativos concessivos"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "Introduz uma relação de causa ('porque'), alterando o sentido de oposição original estabelecido pelo conectivo 'mas'."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "Estabelece uma relação de consequência ('por isso'), o que modifica o sentido de oposição expresso no texto original."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "Emprega um conector de causa/explicação ('uma vez que') invertendo a lógica argumentativa do texto."
+    },
+    {
+      "alternativa": "D",
+      "correta": true,
+      "justificativa": "A conjunção concessiva 'Embora' preserva perfeitamente a relação de oposição/contraste estabelecida originalmente pelo conectivo adversativo 'mas', mantendo inalterado o sentido dos enunciados."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "Usa um conectivo de valor causal ('visto que'), modificando o sentido de oposição pretendido pelo autor."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:13:09.177622Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O comando da questão exige a reescrita de dois enunciados mantendo a relação de oposição estabelecida pelo conectivo 'mas'.",
+      "A alternativa D substitui adequadamente a conjunção adversativa por uma concessiva ('Embora... tenha caído'), preservando o sentido original e ajustando a flexão verbal corretamente."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-106.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

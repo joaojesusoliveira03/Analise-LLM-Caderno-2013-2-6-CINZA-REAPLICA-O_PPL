@@ -1,0 +1,107 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 136,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-136.txt",
+      "gabarito": "B"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "2",
+      "nome": "Matemática e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C1",
+      "descricao": "Construir significados para os números naturais, inteiros, racionais e reais."
+    },
+    "habilidade_principal": {
+      "id": "H3",
+      "descricao": "Resolver situação-problema envolvendo conhecimentos numéricos."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H1",
+        "descricao": "Reconhecer, no contexto social, diferentes significados e representações dos números e operações - naturais, inteiros, racionais ou reais."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Porcentagem",
+    "conteudos_relacionados": [
+      "Razões e proporções",
+      "Interpretação de gráficos"
+    ],
+    "assunto": "Cálculo de percentual aplicado a dados sobre produção de lixo",
+    "objeto_de_analise": "Total de lixo produzido e percentual destinado aos lixões",
+    "fenomeno_conceito": "Porcentagem e operações com números racionais"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "Incorreta. Não corresponde ao cálculo correto da porcentagem de lixo destinada aos lixões sobre o total ou sobre os rejeitos."
+    },
+    {
+      "alternativa": "B",
+      "correta": true,
+      "justificativa": "Correta. O total de lixo produzido é de 61 milhões de toneladas. O texto da questão afirma que todo o lixo, com exceção dos recicláveis (30%), é destinado aos aterros ou lixões (ou seja, 100% - 30% = 70% do lixo total não é reciclado e vai para aterros ou lixões). Pelos dados do segundo gráfico, 18% dos detritos vão para o lixão. Logo, 18% de 70% de 61 milhões de toneladas resulta em 0,18 * 0,70 * 61 = 7,686 milhões de toneladas, que arredondado é aproximadamente 7,6 milhões de toneladas."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "Incorreta. Representa cálculo incorreto, possivelmente utilizando diretamente 18% sobre o total de lixo sem descontar os recicláveis, ou outra proporção equivocada."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "Incorreta. Corresponde a 70% do total de lixo (0,70 * 61 = 42,7), que é o montante total destinado a aterros e lixões somados, e não apenas aos lixões."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "Incorreta. Valor superior ao total de lixo produzido no Brasil no ano em questão."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:18:46.503557Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O enunciado fornece a produção total de 61 milhões de toneladas.",
+      "O gráfico de destinação indica 18% para lixão e o enunciado estipula que o cálculo exclui os recicláveis (30%), incidindo sobre o montante restante.",
+      "O gabarito oficial é B."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-136.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

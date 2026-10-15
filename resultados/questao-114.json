@@ -1,0 +1,101 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 114,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-114.txt",
+      "gabarito": "E"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "LC",
+      "nome": "Linguagens, Códigos e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C3",
+      "descricao": "Compreender e usar a linguagem corporal como relevante para a própria vida, integradora social e formadora da identidade."
+    },
+    "habilidade_principal": {
+      "id": "H10",
+      "descricao": "Reconhecer a necessidade de transformação de hábitos corporais em função das necessidades cinestésicas."
+    },
+    "habilidades_relacionadas": [],
+    "eixo_cognitivo": {
+      "id": "II",
+      "nome": "Compreender fenômenos (CF)",
+      "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Aptidão física relacionada à saúde",
+    "conteudos_relacionados": [
+      "Amplitude de movimento",
+      "Flexibilidade e qualidade de vida"
+    ],
+    "assunto": "Componentes da aptidão física",
+    "objeto_de_analise": "O conceito de amplitude nos movimentos corporais aplicado à saúde e atividades diárias",
+    "fenomeno_conceito": "Flexibilidade"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "A força refere-se à capacidade de exercer tensão contra uma resistência, o que não corresponde ao conceito de amplitude de movimento apresentado no texto."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "A agilidade é a capacidade de mudar a direção do corpo o mais rápido possível, não se relacionando diretamente com a amplitude articular descrita."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "O equilíbrio envolve a manutenção da postura e do centro de gravidade, divergindo da ideia de amplitude e mobilidade corporal mencionada."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "A velocidade diz respeito à rapidez de movimento ou deslocamento, o que não caracteriza a amplitude dos movimentos corporais."
+    },
+    {
+      "alternativa": "E",
+      "correta": true,
+      "justificativa": "A flexibilidade é o componente da aptidão física relacionado à saúde que se refere à amplitude de movimento permitida em uma articulação ou conjunto de articulações, conforme descrito no texto ao citar a boa amplitude nos movimentos e facilidade para alcançar os próprios pés."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:14:49.039263Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O texto menciona explicitamente 'boa amplitude nos movimentos' como componente da aptidão física relacionada à saúde.",
+      "A alternativa E indica corretamente 'flexibilidade', que é o componente motor diretamente associado à amplitude de movimento e à mobilidade articular."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-114.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": null,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

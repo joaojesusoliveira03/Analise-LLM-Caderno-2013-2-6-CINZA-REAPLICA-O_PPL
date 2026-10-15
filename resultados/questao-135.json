@@ -1,0 +1,105 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 135,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-135.txt",
+      "gabarito": "E"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "LC",
+      "nome": "Linguagens, Códigos e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C5",
+      "descricao": "Analisar, interpretar e aplicar recursos expressivos das linguagens, relacionando textos com seus contextos, mediante a natureza, função, organização, estrutura das manifestações, de acordo com as condições de produção e recepção."
+    },
+    "habilidade_principal": {
+      "id": "H15",
+      "descricao": "Estabelecer relações entre o texto literário e o momento de sua produção, situando aspectos do contexto histórico, social e político."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H17",
+        "descricao": "Reconhecer a presença de valores sociais e humanos atualizáveis e permanentes no patrimônio literário nacional."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "II",
+      "nome": "Compreender fenômenos (CF)",
+      "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Estudo do texto literário",
+    "conteudos_relacionados": [
+      "Relações entre produção literária e processo social"
+    ],
+    "assunto": "Poesia engajada e contexto sociopolítico",
+    "objeto_de_analise": "O poema 'Meu povo, meu poema', de Ferreira Gullar",
+    "fenomeno_conceito": "Articulação entre literatura e engajamento social"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "Incorreta porque o poema não afirma que a voz poética se esquiva de enfrentar as desigualdades sociais; pelo contrário, estabelece uma comunhão profunda entre o poeta e o povo."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "Incorreta porque o texto não dilui a importância das contingências políticas e sociais, mas evidencia a conexão entre a criação poética e a realidade do povo na década de 1970."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "Incorreta pois, embora haja engajamento, o texto não aborda explicitamente a superação da alienação do povo como foco central da estrofe."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "Incorreta porque o poema não faz menção a uma suposta recusa do povo em reconhecer a importância da poesia nas lutas de classe."
+    },
+    {
+      "alternativa": "E",
+      "correta": true,
+      "justificativa": "Correta porque o poema de Ferreira Gullar, escrito na década de 1970, vincula estreitamente o crescimento e o amadurecimento do povo e do poema, reconhecendo nessa identidade um processo de fortalecimento humano e social, sintetizado na ideia de plantar a poesia como ação transformadora."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:18:42.324697Z",
+    "confianca": "alta",
+    "evidencias": [
+      "Gabarito oficial é E.",
+      "O poema estabelece paralelismo entre o crescimento do povo e do poema, relacionando arte e contexto sociopolítico."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-135.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

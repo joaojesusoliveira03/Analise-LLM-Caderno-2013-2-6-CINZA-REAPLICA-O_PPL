@@ -1,0 +1,107 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 144,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-144.txt",
+      "gabarito": "B"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "MT",
+      "nome": "Matemática e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C1",
+      "descricao": "Construir significados para os números naturais, inteiros, racionais e reais."
+    },
+    "habilidade_principal": {
+      "id": "H3",
+      "descricao": "Resolver situação-problema envolvendo conhecimentos numéricos."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H16",
+        "descricao": "Resolver situação-problema envolvendo a variação de grandezas, direta ou inversamente proporcionais."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Razão e proporção",
+    "conteudos_relacionados": [
+      "Grandezas proporcionais",
+      "Operações com números racionais"
+    ],
+    "assunto": "Cálculo da quantidade de tinta com base em proporções dadas",
+    "objeto_de_analise": "Proporção entre as tintas B e C para a mãe e para Luíza",
+    "fenomeno_conceito": "Proporcionalidade aplicada a misturas"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "Representa um cálculo incorreto das proporções ou apenas a quantidade de tintura de uma das pessoas."
+    },
+    {
+      "alternativa": "B",
+      "correta": true,
+      "justificativa": "Para a mãe: proporção C:B = 1:3 (1 parte de C e 3 partes de B, totalizando 4 partes). Total de 60g, logo cada parte vale 60 / 4 = 15g. A quantidade da cor B para a mãe é 3 * 15 = 45g. Para Luíza: proporção C:B = 3:1 (3 partes de C e 1 parte de B, totalizando 4 partes). Total de 120g, logo cada parte vale 120 / 4 = 30g. A quantidade da cor B para Luíza é 1 * 30 = 30g. A quantidade total da cor B é 45 + 30 = 75 gramas."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "Incorreto. Pode resultar de erro na divisão das partes ou inversão das proporções."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "Incorreto. Não corresponde à soma correta das quantidades da cor B obtidas pelas proporções."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "Incorreto. Corresponde à soma total das massas de tintura (60g + 120g = 180g) sem considerar as proporções exigidas para cada cor."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:20:22.453945Z",
+    "confianca": "alta",
+    "evidencias": [
+      "A questão fornece massas totais de tintura para a mãe (60g) e para Luíza (120g).",
+      "Fornece as proporções C:B para a mãe (1 para 3) e para Luíza (3 para 1).",
+      "O cálculo exige determinar especificamente a quantidade da cor B."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-144.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

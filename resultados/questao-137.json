@@ -1,0 +1,106 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 137,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-137.txt",
+      "gabarito": "B"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "MT",
+      "nome": "Matemática e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C4",
+      "descricao": "Construir noções de variação de grandezas para a compreensão da realidade e a solução de problemas do cotidiano."
+    },
+    "habilidade_principal": {
+      "id": "H16",
+      "descricao": "Resolver situação-problema envolvendo a variação de grandezas, direta ou inversamente proporcionais."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H3",
+        "descricao": "Resolver situação-problema envolvendo conhecimentos numéricos."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Razão e proporção",
+    "conteudos_relacionados": [
+      "Grandezas proporcionais"
+    ],
+    "assunto": "Quantidade de carboidratos em alimentos",
+    "objeto_de_analise": "Comparação da quantidade de carboidratos entre uma bolacha recheada e pés de alface",
+    "fenomeno_conceito": "Proporcionalidade direta entre a quantidade de alface e a massa de carboidratos fornecida"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "Incorreta. O estudante pode ter feito uma operação incorreta multiplicando os valores de forma trocada ou equivocada."
+    },
+    {
+      "alternativa": "B",
+      "correta": true,
+      "justificativa": "Correta. A bolacha com recheio de chocolate (25 g) possui 15 g de carboidratos. Cada pé de alface (25 g) possui 0,5 g de carboidratos. Para obter 15 g de carboidratos usando alface, divide-se a quantidade de carboidratos desejada pela quantidade presente em um pé de alface: 15 / 0,5 = 30 pés de alface."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "Incorreta. Valor resultante de cálculo incorreto envolvendo os dados da questão."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "Incorreta. Valor resultante de interpretação errônea das proporções dos nutrientes apresentados."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "Incorreta. Valor resultante de confusão entre os dados de carboidratos e proteínas."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:18:50.851858Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O comando pede o número de pés de alface para obter a mesma quantidade de carboidratos de uma bolacha.",
+      "Bolacha = 15 g de carboidratos; Pé de alface = 0,5 g de carboidratos.",
+      "15 / 0,5 = 30."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-137.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

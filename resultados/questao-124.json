@@ -1,0 +1,101 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 124,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-124.txt",
+      "gabarito": "C"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "CH",
+      "nome": "Ciências Humanas e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C4",
+      "descricao": "Entender as transformações técnicas e tecnológicas e seu impacto nos processos de produção, no desenvolvimento do conhecimento e na vida social."
+    },
+    "habilidade_principal": {
+      "id": "H18",
+      "descricao": "Analisar diferentes processos de produção ou circulação de riquezas e suas implicações sócio-espaciais."
+    },
+    "habilidades_relacionadas": [],
+    "eixo_cognitivo": {
+      "id": "II",
+      "nome": "Compreender fenômenos (CF)",
+      "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Circulação de riquezas e comércio eletrônico",
+    "conteudos_relacionados": [
+      "Comportamento do consumidor",
+      "Impacto das novas tecnologias no consumo"
+    ],
+    "assunto": "Compras coletivas e comércio eletrônico",
+    "objeto_de_analise": "A relação entre a quantidade de pessoas interessadas em um produto/serviço e a variação do desconto oferecido em sites de compras coletivas",
+    "fenomeno_conceito": "Formas contemporâneas de circulação de mercadorias mediadas pela internet"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "O texto menciona que as compras coletivas são a moda da vez, mas a motivação central descrita para a adesão dos consumidores está atrelada à vantagem econômica proporcional à demanda, e não apenas ao modismo em si."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "O texto não aborda a segurança das transações eletrônicas como fator principal para a adesão ao sistema de compras coletivas."
+    },
+    {
+      "alternativa": "C",
+      "correta": true,
+      "justificativa": "O texto afirma explicitamente que as ofertas especiais podem variar de 50% a 90% 'de acordo com a quantidade de pessoas interessadas em adquirir o produto/serviço', o que demonstra que a diminuição do preço está atrelada ao aumento da procura."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "O texto não estabelece nenhuma relação entre os descontos em produtos e o aumento do prestígio social dos internautas."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "O texto menciona que o sistema já era popular nos Estados Unidos, mas aponta que a modalidade passou a se destacar no Brasil, não restringindo a prática a moradores de países ricos."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:16:42.325000Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O texto destaca que as ofertas podem variar de 50% a 90% de acordo com a quantidade de pessoas interessadas.",
+      "Gabarito oficial é C."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-124.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

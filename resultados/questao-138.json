@@ -1,0 +1,101 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 138,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-138.txt",
+      "gabarito": "A"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "MT",
+      "nome": "Matemática e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C7",
+      "descricao": "Compreender o caráter aleatório e não-determinístico dos fenômenos naturais e sociais e utilizar instrumentos adequados para medidas, determinação de amostras e cálculos de probabilidade para interpretar informações de variáveis apresentadas em uma distribuição estatística."
+    },
+    "habilidade_principal": {
+      "id": "H27",
+      "descricao": "Calcular medidas de tendência central ou de dispersão de um conjunto de dados expressos em uma tabela de frequências de dados agrupados (não em classes) ou em gráficos."
+    },
+    "habilidades_relacionadas": [],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Estatística Básica",
+    "conteudos_relacionados": [
+      "Média aritmética"
+    ],
+    "assunto": "Cálculo de média aritmética de notas",
+    "objeto_de_analise": "Notas obtidas por 5 alunos em 7 avaliações",
+    "fenomeno_conceito": "Média aritmética como medida de tendência central"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": true,
+      "justificativa": "O aluno 1 apresenta as notas: 4,2; 4,2; 3,2; 3,2; 3,5; 4,2; 3,2. A soma dessas notas é 25,7, o que resulta em uma média de aproximadamente 3,67, sendo a menor média entre todos os alunos."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "O aluno 2 apresenta notas cuja soma e média resultam em valor superior ao do aluno 1."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "O aluno 3 apresenta notas cuja soma e média resultam em valor superior ao do aluno 1."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "O aluno 4 apresenta notas significativamente mais altas, resultando na maior média da turma."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "O aluno 5 apresenta notas mais altas na maioria das avaliações, resultando em uma média superior à do aluno 1."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:18:54.187725Z",
+    "confianca": "alta",
+    "evidencias": [
+      "A questão fornece uma tabela com as notas de 5 alunos em 7 avaliações.",
+      "O comando solicita identificar qual aluno apresenta a menor média nas avaliações.",
+      "O gabarito oficial é a alternativa A."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-138.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

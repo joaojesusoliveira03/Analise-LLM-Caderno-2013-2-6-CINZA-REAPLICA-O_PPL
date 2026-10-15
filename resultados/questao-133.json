@@ -1,0 +1,108 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 133,
+      "espaol": false,
+      "ingles": false,
+      "espanhol": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-133.txt",
+      "gabarito": "E"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "LC",
+      "nome": "Linguagens, Códigos e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C7",
+      "descricao": "Confrontar opiniões e pontos de vista sobre as diferentes linguagens e suas manifestações específicas."
+    },
+    "habilidade_principal": {
+      "id": "H23",
+      "descricao": "Inferir em um texto quais são os objetivos de seu produtor e quem é seu público alvo, pela análise dos procedimentos argumentativos utilizados."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H21",
+        "descricao": "Reconhecer em textos de diferentes gêneros, recursos verbais e não-verbais utilizados com a finalidade de criar e mudar comportamentos e hábitos."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Estudo do texto argumentativo e gêneros publicitários",
+    "conteudos_relacionados": [
+      "Recursos verbais e não verbais na publicidade",
+      "Estratégias de convencimento e persuasão"
+    ],
+    "assunto": "Anúncio publicitário do Festival da ABP",
+    "objeto_de_analise": "Relação entre os recursos linguísticos, imagéticos e o objetivo apelativo do anúncio",
+    "fenomeno_conceito": "Função apelativa e persuasiva da linguagem publicitária"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "O anúncio possui uma forte carga persuasiva e conativa voltada à mobilização dos profissionais, ultrapassando a mera função informativa."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "A menção à poluição é uma metáfora visual e verbal (ideias ruins poluindo o mercado publicitário) e não uma afirmação literal sobre poluição ambiental física causada por projetos mal elaborados."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "O texto convida à participação e menciona o site para inscrições, mas não define detalhadamente os critérios para concorrer no festival."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "A associação entre poluição ambiental e ideias ruins tem caráter figurativo e publicitário, não tendo como objetivo comparar tipos reais de poluição gerada pela ação humana."
+    },
+    {
+      "alternativa": "E",
+      "correta": true,
+      "justificativa": "Os recursos verbais e não verbais convergem para convocar os profissionais da área (agências, fotógrafos, produtores, fornecedores e clientes) a inscreverem boas ideias e participarem do evento."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:18:35.552010Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O comando da questão aborda os objetivos e a convergência dos recursos linguísticos e imagéticos na propaganda.",
+      "O texto convida o público-alvo (publicitários e profissionais da área) a participarem e inscreverem ideias no Festival da ABP.",
+      "Gabarito oficial corresponde à alternativa E."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-133.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": null,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

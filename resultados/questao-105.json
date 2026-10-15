@@ -1,0 +1,106 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 105,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-105.txt",
+      "gabarito": "A"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "CH",
+      "nome": "Matriz de Referência de Ciências Humanas e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C1",
+      "descricao": "Compreender os elementos culturais que constituem as identidades"
+    },
+    "habilidade_principal": {
+      "id": "H3",
+      "descricao": "Associar as manifestações culturais do presente aos seus processos históricos."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H1",
+        "descricao": "Interpretar historicamente e/ou geograficamente fontes documentais acerca de aspectos da cultura."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "II",
+      "nome": "Compreender fenômenos (CF)",
+      "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "História cultural do design brasileiro",
+    "conteudos_relacionados": [
+      "Modernismo e arquitetura de Brasília",
+      "Patrimônio cultural e artístico"
+    ],
+    "assunto": "Design de mobiliário brasileiro na época de construção de Brasília",
+    "objeto_de_analise": "Relação entre a revolução estética de Brasília e a criação de móveis modernos por Sérgio Rodrigues",
+    "fenomeno_conceito": "Inovação estética e modernidade no design nacional"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": true,
+      "justificativa": "O texto e a imagem mostram que a criação de móveis inspirados na simplicidade brasiliense buscou o abandono do gosto rebuscado colonial, desenvolvendo uma tendência com linhas retas e curvas suaves que evidenciam um novo conceito estético por meio de formas e texturas inovadoras."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "O texto aponta o abandono do gosto rebuscado colonial em direção ao novo e contemporâneo influenciado pelas linhas de Brasília, e não uma mera adaptação aos modelos europeus."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "O foco da reportagem é o mobiliário contemporâneo criado por designers inspirados na estética brasiliense para o cotidiano, e não especificamente a decoração de palácios oficiais com conceitos de perspectiva."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "A alternativa contradiz o texto, pois o trecho afirma que os designers foram induzidos a 'abandonar o gosto rebuscado pelo colonial, a trocar Ouro Preto por Brasília'."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "A criação do mobiliário baseou-se na simplicidade brasiliense, em linhas retas e curvas suaves, e não no luxo ou na riqueza de edifícios públicos."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:13:05.421531Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O texto relata a mudança estética no design de móveis induzida pela construção de Brasília.",
+      "A alternativa A reflete com exatidão a proposta de inovação estética e formal apontada pelo comando e pelo gabarito oficial."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-105.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

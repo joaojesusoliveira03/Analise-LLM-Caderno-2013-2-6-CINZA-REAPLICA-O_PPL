@@ -1,0 +1,106 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 122,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-122.txt",
+      "gabarito": "C"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "LC",
+      "nome": "Linguagens, Códigos e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C7",
+      "descricao": "Confrontar opiniões e pontos de vista sobre as diferentes linguagens e suas manifestações específicas."
+    },
+    "habilidade_principal": {
+      "id": "H24",
+      "descricao": "Reconhecer no texto estratégias argumentativas empregadas para o convencimento do público, tais como a intimidação, sedução, comoção, chantagem, entre outras."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H23",
+        "descricao": "Inferir em um texto quais são os objetivos de seu produtor e quem é seu público alvo, pela análise dos procedimentos argumentativos utilizados."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "IV",
+      "nome": "Construir argumentação (CA)",
+      "descricao": "relacionar informações, representadas em diferentes formas, e conhecimentos disponíveis em situações concretas, para construir argumentação consistente."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Estratégias argumentativas",
+    "conteudos_relacionados": [
+      "Gênero textual tirinha",
+      "Funções sociocomunicativas da linguagem"
+    ],
+    "assunto": "Análise de recursos argumentativos em tirinha",
+    "objeto_de_analise": "O uso de intimidação pelo jovem e de chantagem pelo adulto no diálogo da tirinha",
+    "fenomeno_conceito": "Estratégias de persuasão e convencimento"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "A alternativa está incorreta porque não há comoção (apelo à emoção piedosa) na postura dos personagens, mas sim uma relação de imposição de poder e barganha."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "A alternativa está incorreta pois a ironia não constitui o eixo principal das estratégias apresentadas; as falas utilizam ameaças e condições diretas."
+    },
+    {
+      "alternativa": "C",
+      "correta": true,
+      "justificativa": "O jovem tenta impor sua vontade ao afirmar enfaticamente que não vai estudar (intimidação), enquanto o adulto responde suspendendo a mesada sob uma condição punitiva direta (chantagem), o que provoca a mudança imediata de atitude do jovem."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "A alternativa está incorreta porque em nenhum momento há o uso de sedução (tentativa de encanto ou convencimento por atração) por parte dos interlocutores."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "A alternativa está incorreta pois conjuga elementos (sedução e ironia) que não correspondem à dinâmica de ameaça e punição retratada na tirinha."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:16:35.124282Z",
+    "confianca": "alta",
+    "evidencias": [
+      "A matriz de referência define explicitamente a Habilidade H24 para o reconhecimento de estratégias argumentativas como intimidação, sedução, comoção e chantagem.",
+      "O gabarito oficial fornecido para a questão é C."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-122.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

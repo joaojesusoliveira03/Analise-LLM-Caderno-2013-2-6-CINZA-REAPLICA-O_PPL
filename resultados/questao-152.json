@@ -1,0 +1,105 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 152,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-152.txt",
+      "gabarito": "C"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "MT",
+      "nome": "Matemática e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C5",
+      "descricao": "Modelar e resolver problemas que envolvem variáveis socioeconômicas ou técnico-científicas, usando representações algébricas."
+    },
+    "habilidade_principal": {
+      "id": "H21",
+      "descricao": "Resolver situação-problema cuja modelagem envolva conhecimentos algébricos."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H19",
+        "descricao": "Identificar representações algébricas que expressem a relação entre grandezas."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Equações e inequações do 1.º grau",
+    "conteudos_relacionados": [
+      "Funções algébricas do 1.º grau"
+    ],
+    "assunto": "Comparação de custos entre planos de telefonia",
+    "objeto_de_analise": "Os custos totais dos pacotes laranja e azul em função do número de minutos excedentes",
+    "fenomeno_conceito": "Modelagem matemática de custos utilizando funções afins"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "Incorreta. Para 70 minutos de ligações totais, os minutos excedentes e os custos resultantes não tornam o pacote laranja mais vantajoso."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "Incorreta. O valor de 126 não satisfaz a inequação que torna o custo do pacote laranja menor que o do pacote azul."
+    },
+    {
+      "alternativa": "C",
+      "correta": true,
+      "justificativa": "Correta. Considerando x o número total de minutos mensais, se x > 300, o custo do pacote laranja é 143 + 0,40(x - 300) e o custo do pacote azul é 80 + 0,90(x - 100). Igualando as expressões para encontrar o ponto de igualdade e analisando para quando o laranja é mais vantajoso (custo menor), obtém-se que o usuário deve fazer mais de 170 minutos, sendo o número mínimo inteiro igual a 171 minutos."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "Incorreta. 300 minutos corresponde à franquia do pacote laranja, mas não representa o limite mínimo para que este pacote seja mais vantajoso que o azul."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "Incorreta. 400 minutos resulta em um valor superior ao mínimo necessário para tornar o pacote laranja mais vantajoso."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:22:01.380969Z",
+    "confianca": "alta",
+    "evidencias": [
+      "A questão exige a modelagem algébrica dos custos de dois pacotes de telefonia por meio de equações do 1.º grau para determinar a condição de vantagem de um sobre o outro.",
+      "O gabarito oficial fornecido é C."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-152.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

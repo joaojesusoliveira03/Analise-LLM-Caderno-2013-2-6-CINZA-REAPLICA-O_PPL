@@ -1,0 +1,107 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 103,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-103.txt",
+      "gabarito": "A"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "LC",
+      "nome": "Linguagens, Códigos e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C9",
+      "descricao": "Entender os princípios, a natureza, a função e o impacto das tecnologias da comunicação e da informação na sua vida pessoal e social, no desenvolvimento do conhecimento, associando-o aos conhecimentos científicos, às linguagens que lhes dão suporte, às demais tecnologias, aos processos de produção e aos problemas que se progridem solucionar."
+    },
+    "habilidade_principal": {
+      "id": "H28",
+      "descricao": "Reconhecer a função e o impacto social das diferentes tecnologias da comunicação e informação."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H18",
+        "descricao": "Identificar os elementos que concorrem para a progressão temática e para a organização e estruturação de textos de diferentes gêneros e tipos."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Gêneros digitais e novas tecnologias da informação",
+    "conteudos_relacionados": [
+      "Microcontos",
+      "Redes sociais"
+    ],
+    "assunto": "O uso do Twitter na construção de microcontos de suspense",
+    "objeto_de_analise": "O impacto das restrições de uma rede social (limite de caracteres) na produção textual literária",
+    "fenomeno_conceito": "Inovação tecnológica e novas formas de expressão textual e literária"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": true,
+      "justificativa": "A alternativa está correta porque aponta que a rede social, ao impor um limite de caracteres, exige uma dinâmica diferente de construção textual (síntese e concisão), mantendo, contudo, a exigência de criatividade e o foco no gênero literário proposto (suspense)."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "A alternativa está incorreta pois afirma que a rapidez supera o enredo e as características do texto, o que contradiz a proposta de elaboração de um microconto estruturado com gênero e tema definidos."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "A alternativa está incorreta porque o texto não faz juízo de valor considerando a escrita tradicional como primitiva, focando apenas nas potencialidades e características da nova ferramenta tecnológica."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "A alternativa está incorreta ao afirmar que o número de caracteres importa mais que a criatividade, visto que a criatividade é elemento fundamental na composição literária do microconto exigido pelo concurso."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "A alternativa está incorreta porque generaliza de forma inadequada que a nova escrita garante a eficiência dos processos de comunicação, desviando do foco literário e conciso da questão."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:12:49.641829Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O enunciado aborda um concurso de microcontos no Twitter, destacando o limite de 140 caracteres.",
+      "A questão propõe refletir sobre como essa rede social afeta a construção de textos literários.",
+      "A habilidade H28 da competência 9 de Linguagens trata do reconhecimento da função e impacto social das TIC."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-103.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

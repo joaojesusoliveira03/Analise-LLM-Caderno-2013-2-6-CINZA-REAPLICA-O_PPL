@@ -1,0 +1,106 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 132,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-132.txt",
+      "gabarito": "D"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "LC",
+      "nome": "Linguagens, Códigos e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C6",
+      "descricao": "Compreender e usar os sistemas simbólicos das diferentes linguagens como meios de organização cognitiva da realidade pela constituição de significados, expressão, comunicação e informação."
+    },
+    "habilidade_principal": {
+      "id": "H18",
+      "descricao": "Identificar os elementos que concorrem para a progressão temática e para a organização e estruturação de textos de diferentes gêneros e tipos."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H23",
+        "descricao": "Inferir em um texto quais são os objetivos de seu produtor e quem é seu público alvo, pela análise dos procedimentos argumentativos utilizados."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Estudo do texto: gêneros textuais e suas funções sociocomunicativas",
+    "conteudos_relacionados": [
+      "Artigo de opinião",
+      "Função social do texto"
+    ],
+    "assunto": "Reconhecimento do gênero textual artigo de opinião por meio de sua função discursiva e sociocomunicativa",
+    "objeto_de_analise": "O texto jornalístico e suas características estruturais e funcionais",
+    "fenomeno_conceito": "Gêneros textuais e suas funções pragmáticas"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "O suporte (jornal de grande circulação) é compartilhado por vários gêneros textuais, como notícias, editoriais e reportagens, não sendo exclusivo ou determinante para definir o gênero artigo de opinião."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "O público-alvo de um artigo de opinião em um jornal de grande circulação é amplo e geral, não se limitando estritamente a interessados no magistério."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "O tema tratado (escassez de professores) pode ser o foco de uma notícia ou reportagem informativa, portanto o assunto por si só não define a especificidade do gênero argumentativo."
+    },
+    {
+      "alternativa": "D",
+      "correta": true,
+      "justificativa": "O artigo de opinião caracteriza-se essencialmente por expor reflexões, pontos de vista e análises críticas sobre um problema social (neste caso, a falta de professores e o desinteresse por licenciaturas), cumprindo a função de refletir e argumentar sobre o tema."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "A linguagem formal e denotativa é comum a diversos textos informativos e jornalísticos normativos, não sendo a marca distintiva exclusiva de um artigo de opinião."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:18:31.261263Z",
+    "confianca": "alta",
+    "evidencias": [
+      "A questão exige a identificação do motivo pelo qual o texto pertence ao gênero artigo de opinião.",
+      "O gabarito oficial é a alternativa D, que aponta a função do gênero (refletir sobre um problema)."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-132.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

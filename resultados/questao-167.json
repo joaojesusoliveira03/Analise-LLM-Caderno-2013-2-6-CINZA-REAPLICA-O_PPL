@@ -1,0 +1,106 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 167,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-167.txt",
+      "gabarito": "B"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "MT",
+      "nome": "Matemática e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C1",
+      "descricao": "Construir significados para os números naturais, inteiros, racionais e reais."
+    },
+    "habilidade_principal": {
+      "id": "H3",
+      "descricao": "Resolver situação-problema envolvendo conhecimentos numéricos."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H16",
+        "descricao": "Resolver situação-problema envolvendo a variação de grandezas, direta ou inversamente proporcionais."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Porcentagem",
+    "conteudos_relacionados": [
+      "Aumento percentual",
+      "Razão e proporção"
+    ],
+    "assunto": "Cálculo de percentual de aumento entre teores de polpa",
+    "objeto_de_analise": "Diferença percentual de polpa entre néctar e suco",
+    "fenomeno_conceito": "Aumento percentual relativo"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "Calcula erroneamente a diferença simples entre as porcentagens (50% - 30% = 20%)."
+    },
+    {
+      "alternativa": "B",
+      "correta": true,
+      "justificativa": "Para que o néctar com 30% de polpa passe a ter 50% de polpa (considerando o volume de polpa inicial), o aumento necessário em relação ao valor inicial (30%) é de (50 - 30) / 30 = 20 / 30 ≈ 66,67%, ou aproximadamente 67%."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "Representa uma proporção incorreta ou confusão no cálculo da base de referência."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "Inverte a base de cálculo ou calcula erroneamente o fator multiplicativo."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "Calcula o triplo ou aplica incorretamente o dobro do valor."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:24:06.915725Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O enunciado fornece o teor atual de polpa (30%) e o teor necessário para ser considerado suco (50%).",
+      "Pede-se o aumento percentual necessário sobre o valor do néctar."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-167.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

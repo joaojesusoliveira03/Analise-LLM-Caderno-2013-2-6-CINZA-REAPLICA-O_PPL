@@ -1,0 +1,115 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 170,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-170.txt",
+      "gabarito": "B"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "2",
+      "nome": "Matemática e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C1",
+      "descricao": "Construir significados para os números naturais, inteiros, racionais e reais."
+    },
+    "habilidade_principal": {
+      "id": "H2",
+      "descricao": "Identificar padrões numéricos ou princípios de contagem."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H3",
+        "descricao": "Resolver situação-problema envolvendo conhecimentos numéricos."
+      },
+      {
+        "id": "H15",
+        "descricao": "Identificar a relação de dependência entre grandezas."
+      },
+      {
+        "id": "H16",
+        "descricao": "Resolver situação-problema envolvendo a variação de grandezas, direta ou inversamente proporcionais."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Progressão Aritmética",
+    "conteudos_relacionados": [
+      "Sequências numéricas",
+      "Soma de termos de uma PA"
+    ],
+    "assunto": "Plano de treinamento de corrida modelado por progressão aritmética",
+    "objeto_de_analise": "Número máximo de dias que o dispositivo pode armazenar dados de acordo com a distância limite",
+    "fenomeno_conceito": "Crescimento linear e soma de termos de uma progressão aritmética"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "Corresponde a uma contagem incorreta ou cálculo com menos dias do que o suportado pelo chip."
+    },
+    {
+      "alternativa": "B",
+      "correta": true,
+      "justificativa": "A distância percorrida a cada dia forma uma PA em que o primeiro termo é 300 metros (0,3 km) e a razão é 200 metros (0,2 km). A soma dos n primeiros termos da PA é dada por $S_n = \\frac{(a_1 + a_n) \\cdot n}{2}$, onde $a_n = 300 + (n-1)200$. Substituindo a soma máxima de 9500 metros (9,5 km), temos: $\\frac{[300 + 300 + (n-1)200] \\cdot n}{2} \\le 9500 \\Rightarrow [600 + 200n - 200]n \\le 19000 \\Rightarrow (400 + 200n)n \\le 19000 \\Rightarrow 200n^2 + 400n - 19000 \\le 0 \\Rightarrow n^2 + 2n - 95 = 0$. Resolvendo a equação, obtemos $n = 8$ como o número inteiro máximo de dias."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "Para 9 dias, a soma total da distância seria superior a 9,5 km, ultrapassando a capacidade do chip."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "Valor incorreto obtido por erro de cálculo na soma da PA."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "Valor incorreto que excede consideravelmente a capacidade de armazenamento de 9,5 km do chip."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:25:23.921538Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O texto descreve um crescimento constante nas distâncias diárias (progressão aritmética).",
+      "O limite máximo de armazenamento é 9,5 km (9500 metros).",
+      "O gabarito oficial fornecido é B."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-170.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 145,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-145.txt",
+      "gabarito": "E"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "MT",
+      "nome": "Matemática e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C1",
+      "descricao": "Construir significados para os números naturais, inteiros, racionais e reais."
+    },
+    "habilidade_principal": {
+      "id": "H3",
+      "descricao": "Resolver situação-problema envolvendo conhecimentos numéricos."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H1",
+        "descricao": "Reconhecer, no contexto social, diferentes significados e representações dos números e operações - naturais, inteiros, racionais ou reais."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Razões e proporções",
+    "conteudos_relacionados": [
+      "Números racionais",
+      "Proporção áurea"
+    ],
+    "assunto": "Cálculo de razões para verificação da proporção áurea",
+    "objeto_de_analise": "As medidas faciais das candidatas e sua relação com a constante da proporção áurea",
+    "fenomeno_conceito": "Proporção áurea"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "Para a candidata I, a razão M1/M3 é 11 / 7 ≈ 1,57, valor distante de 1,618."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "Para a candidata II, a razão M1/M3 é 10,5 / 6,5 ≈ 1,615, mas verificando com as outras relações dadas, não satisfaz adequadamente."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "Para a candidata III, a razão M1/M3 é 11,5 / 6,5 ≈ 1,76, valor superior a 1,618."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "Para a candidata IV, a razão M1/M3 é 10 / 6,5 ≈ 1,54, valor inferior a 1,618."
+    },
+    {
+      "alternativa": "E",
+      "correta": true,
+      "justificativa": "Para a candidata V, M1 = 10,5 cm e M3 = 6,5 cm, a razão M1/M3 = 10,5 / 6,5 ≈ 1,6153..., que arredondando aproxima-se da constante da proporção áurea Φ = 1,618."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:20:27.388376Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O enunciado apresenta a fórmula da proporção áurea envolvendo a razão entre medidas faciais M1 e M3.",
+      "O gabarito oficial indica a alternativa E."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-145.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

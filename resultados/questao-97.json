@@ -1,0 +1,106 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 97,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-97.txt",
+      "gabarito": "A"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "CH",
+      "nome": "Ciências Humanas e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C4",
+      "descricao": "Entender as transformações técnicas e tecnológicas e seu impacto nos processos de produção, no desenvolvimento do conhecimento e na vida social."
+    },
+    "habilidade_principal": {
+      "id": "H16",
+      "descricao": "Identificar registros sobre o papel das técnicas e tecnologias na organização do trabalho e/ou da vida social."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H18",
+        "descricao": "Analisar diferentes processos de produção ou circulação de riquezas e suas implicações sócio-espaciais."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "II",
+      "nome": "Compreender fenômenos (CF)",
+      "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Impacto das tecnologias de comunicação e informação no trabalho",
+    "conteudos_relacionados": [
+      "Evolução tecnológica no jornalismo",
+      "Transformações técnicas e organização do trabalho"
+    ],
+    "assunto": "A evolução e o impacto das tecnologias de comunicação no cotidiano profissional do jornalista",
+    "objeto_de_analise": "O relato da transição do uso de telex e ligação telefônica internacional para o uso de chat e computador portátil na atividade de correspondente internacional",
+    "fenomeno_conceito": "Inovação tecnológica e transformações na organização do trabalho"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": true,
+      "justificativa": "O texto relata a experiência de um jornalista com a introdução de novas ferramentas tecnológicas (laptop, modem e programas de conversação) que substituíram métodos antigos (telex e chamadas telefônicas internacionais tradicionais), evidenciando diretamente a transformação na dinâmica do trabalho provocada pelas tecnologias de comunicação e informação."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "O foco do texto não é o acesso dos internautas às informações divulgadas pela mídia digital, mas sim a rotina de trabalho e comunicação do próprio jornalista com a redação."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "Embora cite a divulgação de notícias, o eixo central da mudança descrita pelo autor está na forma de comunicação interna e transmissão de reportagens para a redação (organização do trabalho), e não nos impactos gerais da divulgação de notícias no cotidiano da sociedade."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "O texto descreve a mudança nos recursos técnicos utilizados pelo jornalista, mas não discute uma valorização ou desvalorização profissional decorrente da chegada das mídias digitais."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "O relato trata da atividade de um correspondente internacional e da comunicação via computador e chat, não caracterizando avanços específicos na área de telejornalismo."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:27:47.591243Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O texto aborda explicitamente a adoção de novas tecnologias de comunicação (computador, laptop, modem, chat) por um jornalista em seu trabalho.",
+      "A alternativa A reflete com precisão a Habilidade 16 da Matriz de Ciências Humanas (papel das técnicas e tecnologias na organização do trabalho)."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-97.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

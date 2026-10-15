@@ -1,0 +1,106 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 173,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-173.txt",
+      "gabarito": "A"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "MT",
+      "nome": "Matemática e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C5",
+      "descricao": "Modelar e resolver problemas que envolvem variáveis socioeconômicas ou técnico-científicas, usando representações algébricas."
+    },
+    "habilidade_principal": {
+      "id": "H21",
+      "descricao": "Resolver situação-problema cuja modelagem envolva conhecimentos algébricos."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H19",
+        "descricao": "Identificar representações algébricas que expressem a relação entre grandezas."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Função polinomial do 2.º grau",
+    "conteudos_relacionados": [
+      "Modelagem algébrica",
+      "Relação entre grandezas"
+    ],
+    "assunto": "Obtenção da lei de uma função quadrática a partir de um problema prático",
+    "objeto_de_analise": "A relação matemática entre o faturamento e o número de pessoas presentes no evento",
+    "fenomeno_conceito": "Variação quadrática aplicada à otimização e receita"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": true,
+      "justificativa": "Seja x o número de aumentos de R$ 2,00. O preço do ingresso será $V = 10 + 2x$ e o número de pessoas será $P = 1000 - 40x$. Isolando x em função de P, temos $40x = 1000 - P \\Rightarrow x = 25 - \\frac{P}{40}$. Substituindo x na expressão do faturamento $F = V \\cdot P = (10 + 2x)P$, obtém-se $F = \\left(10 + 2\\left(25 - \\frac{P}{40}\\right)\\right)P = \\left(10 + 50 - \\frac{P}{20}\\right)P = \\left(60 - \\frac{P}{20}\\right)P = -\\frac{P^2}{20} + 60P$."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "Inverte o sinal do termo quadrático e linear, incorreto para a modelagem do faturamento decrescente com o aumento do preço."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "Apresenta um coeficiente incorreto para o termo quadrático, desconsiderando a divisão por 20 decorrente da relação entre variação de preço e público."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "Desconsidera a multiplicação da variável P no termo independente, resultando em uma expressão dimensionalmente incorreta para o faturamento."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "Apresenta sinal positivo para o termo quadrático, o que indicaria concavidade voltada para cima, gerando um comportamento inadequado para a função de faturamento descrita."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:25:35.580068Z",
+    "confianca": "alta",
+    "evidencias": [
+      "A questão exige a modelagem algébrica de uma situação por meio de função polinomial do 2.º grau.",
+      "O gabarito oficial fornecido é A."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-173.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

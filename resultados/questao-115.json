@@ -1,0 +1,107 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 115,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-115.txt",
+      "gabarito": "D"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "LC",
+      "nome": "Linguagens, Códigos e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C5",
+      "descricao": "Analisar, interpretar e aplicar recursos expressivos das linguagens, relacionando textos com seus contextos, mediante a natureza, função, organização, estrutura das manifestações, de acordo com as condições de produção e recepção."
+    },
+    "habilidade_principal": {
+      "id": "H15",
+      "descricao": "Estabelecer relações entre o texto literário e o momento de sua produção, situando aspectos do contexto histórico, social e político."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H17",
+        "descricao": "Reconhecer a presença de valores sociais e humanos atualizáveis e permanentes no patrimônio literário nacional."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "II",
+      "nome": "Compreender fenômenos (CF)",
+      "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Estudo do texto literário: relações entre produção literária e processo social",
+    "conteudos_relacionados": [
+      "Poesia brasileira contemporânea",
+      "Literatura e Ditadura Militar"
+    ],
+    "assunto": "A função da poesia frente ao contexto político autoritário da ditadura militar",
+    "objeto_de_analise": "O poema 'Grupo escolar' de Antônio Carlos Brito (Cacaso)",
+    "fenomeno_conceito": "Resistência artística e poética contra regimes autoritários"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "A alternativa está incorreta porque o poema atribui características negativas ao general ('que fedia', 'olhos que tremiam'), indicando que a força dos militares é sim contestada e desestabilizada simbolicamente."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "A alternativa está incorreta. Embora a descrição mencione elementos geométricos ('queixo modelado a esquadria'), a função do poema não é atestar positivamente a racionalidade do governo, mas criticá-lo e expor sua caducidade frente à força perene da poesia."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "A alternativa está incorreta pois o texto aponta que o tempo evapora a dinastia ('vi que o tempo galopando evaporava / (deu para ver qual a sua dinastia)'), o que demonstra que a passagem do tempo e a efemeridade do poder autoritário são centrais."
+    },
+    {
+      "alternativa": "D",
+      "correta": true,
+      "justificativa": "A alternativa correta aponta que o poema demonstra a resistência através da poesia, tratada como uma 'química perversa' e um 'arco que desvela e me repõe', representando o papel transformador e resistente da arte no período da ditadura militar."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "A alternativa está incorreta porque o eu lírico afirma explicitamente que 'já sem resistência resistia', indicando a persistência da resistência, em oposição à ideia de impossibilidade absoluta."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:14:53.440288Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O enunciado contextualiza o poema no período da ditadura militar no Brasil.",
+      "O gabarito oficial fornecido é D.",
+      "A habilidade H15 aborda diretamente a relação entre o texto literário e seu contexto histórico, social e político."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-115.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

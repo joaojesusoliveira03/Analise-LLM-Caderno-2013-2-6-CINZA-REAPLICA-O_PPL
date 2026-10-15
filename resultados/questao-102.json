@@ -1,0 +1,106 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 102,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-102.txt",
+      "gabarito": "C"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "LC",
+      "nome": "Linguagens, Códigos e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C7",
+      "descricao": "Confrontar opiniões e pontos de vista sobre as diferentes linguagens e suas manifestações específicas."
+    },
+    "habilidade_principal": {
+      "id": "H23",
+      "descricao": "Inferir em um texto quais são os objetivos de seu produtor e quem é seu público alvo, pela análise dos procedimentos argumentativos utilizados."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H1",
+        "descricao": "Identificar as diferentes linguagens e seus recursos expressivos como elementos de caracterização dos sistemas de comunicação."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Ambiguidade e falhas de comunicação em textos visuais/sinalização",
+    "conteudos_relacionados": [
+      "Leitura e interpretação de textos não verbais e mistos",
+      "Coesão e coerência textual"
+    ],
+    "assunto": "Problemas de interpretação textual decorrentes de falhas na elaboração de sinalizações",
+    "objeto_de_analise": "Placa de trânsito ambígua e o acidente entre ciclistas",
+    "fenomeno_conceito": "Ambiguidade na elaboração de textos e sinalizações"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "A alternativa está incorreta porque o foco da questão não é a obediência às regras em si, mas o fato de a sinalização ter gerado uma interpretação dúbia ou equivocada que causou o acidente."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "A alternativa está incorreta pois o texto base e o comando não tratam de perda de concentração decorrente da prática esportiva."
+    },
+    {
+      "alternativa": "C",
+      "correta": true,
+      "justificativa": "A alternativa está correta porque a placa apresentava uma sinalização ambígua/confusa (ciclistas em direções opostas com setas indicando sentidos contrários ou convergentes), levando os ciclistas a interpretações equivocadas e resultando na colisão."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "A alternativa está incorreta pois o problema relatado decorre da falha na elaboração da sinalização e não de uma deficiência na capacidade de leitura dos atletas."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "A alternativa está incorreta porque a responsabilidade pelas informações e diretrizes contidas nas placas de trânsito é do órgão ou emissor que as produz, e não de quem as utiliza."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:12:44.632953Z",
+    "confianca": "alta",
+    "evidencias": [
+      "A questão aborda uma situação em que ciclistas respeitaram uma placa de sinalização mal elaborada, resultando em um acidente.",
+      "O gabarito oficial é a alternativa C, que aponta para prejuízos na interpretação causados por equívocos na elaboração do texto/sinalização."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-102.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

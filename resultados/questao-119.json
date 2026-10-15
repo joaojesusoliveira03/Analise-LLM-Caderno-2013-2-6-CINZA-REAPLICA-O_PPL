@@ -1,0 +1,106 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 119,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-119.txt",
+      "gabarito": "B"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "LC",
+      "nome": "Linguagens, Códigos e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C7",
+      "descricao": "Confrontar opiniões e pontos de vista sobre as diferentes linguagens e suas manifestações específicas."
+    },
+    "habilidade_principal": {
+      "id": "H21",
+      "descricao": "Reconhecer em textos de diferentes gêneros, recursos verbais e não-verbais utilizados com a finalidade de criar e mudar comportamentos e hábitos."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H23",
+        "descricao": "Inferir em um texto quais são os objetivos de seu produtor e quem é seu público alvo, pela análise dos procedimentos argumentativos utilizados."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "IV",
+      "nome": "Construir argumentação (CA)",
+      "descricao": "relacionar informações, representadas em diferentes formas, e conhecimentos disponíveis em situações concretas, para construir argumentação consistente."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Estudo do texto argumentativo, seus gêneros e recursos linguísticos",
+    "conteudos_relacionados": [
+      "Recursos verbais e não-verbais em campanhas publicitárias"
+    ],
+    "assunto": "Campanha de conscientização e doação de sangue",
+    "objeto_de_analise": "Cartaz publicitário institucional",
+    "fenomeno_conceito": "Estratégia persuasiva e interacional por meio de recursos multimodais (verbais e visuais)"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "A alternativa está incorreta porque a ligação entre \"hábito\" e \"hemocentro\" não constitui o foco principal dos recursos persuasivos visuais e verbais associados à ideia de união e solidariedade da campanha."
+    },
+    {
+      "alternativa": "B",
+      "correta": true,
+      "justificativa": "A alternativa está correta pois o cartaz utiliza estrategicamente a palavra \"corrente\", reforçada visualmente pela imagem de pessoas de mãos dadas e pela mão estendida ao leitor, criando uma metáfora de união, continuidade e engajamento coletivo na doação de sangue."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "A alternativa está incorreta porque, embora a expressão \"Um grande ato\" destaque a importância da ação, ela não engloba a articulação entre os recursos verbais (\"corrente\") e os elementos visuais apontados no enunciado."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "A alternativa está incorreta porque a representação de pessoas saudáveis não é uma estratégia restrita ou direcionada apenas a um público específico de doadores com essa característica, sendo o apelo focado na solidariedade coletiva."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "A alternativa está incorreta pois o número de pessoas no cartaz representa a ideia de união e rede de solidariedade (\"corrente\"), e não uma correspondência numérica estatística com a quantidade exata de pacientes necessitados."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:15:12.488311Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O comando da questão aborda os recursos verbais e não verbais como estratégia persuasiva em cartaz de campanha publicitária.",
+      "O gabarito oficial fornecido é B.",
+      "A habilidade H21 da matriz de Linguagens contempla o reconhecimento de recursos verbais e não-verbais para criar comportamentos."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-119.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": null,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 118,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-118.txt",
+      "gabarito": "C"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "LC",
+      "nome": "Linguagens, Códigos e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C3",
+      "descricao": "Compreender e usar a linguagem corporal como relevante para a própria vida, integradora social e formadora da identidade."
+    },
+    "habilidade_principal": {
+      "id": "H10",
+      "descricao": "Reconhecer a necessidade de transformação de hábitos corporais em função das necessidades cinestésicas."
+    },
+    "habilidades_relacionadas": [],
+    "eixo_cognitivo": {
+      "id": "II",
+      "nome": "Compreender fenômenos (CF)",
+      "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Modificação corporal e cultura masculina",
+    "conteudos_relacionados": [
+      "Padrões estéticos e saúde",
+      "Práticas corporais e obsessão estética"
+    ],
+    "assunto": "A cultura masculina da modificação corporal e a busca obsessiva pela hipertrofia",
+    "objeto_de_analise": "O modelo de corpo perseguido pelos sujeitos descritos no texto",
+    "fenomeno_conceito": "Alteração da percepção da forma corporal e hipertrofia muscular"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "O texto aborda a busca por desenvolvimento muscular estético e obsessivo ('levanto ferro', 'crescimento muscular'), e não a agilidade ou performance atlética."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "A preocupação relatada no texto refere-se à insatisfação estética com o tamanho e a forma do corpo ('miúdo ou gordo'), e não ao equilíbrio postural."
+    },
+    {
+      "alternativa": "C",
+      "correta": true,
+      "justificativa": "O texto descreve indivíduos que malham intensamente, buscam 'ficar fortes' e usam substâncias para promover o 'crescimento muscular', caracterizando a busca pela hipertrofia."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "Pelo contrário, o texto aponta que a busca por esse modelo gera uma 'obsessão doentia' e angústia, em vez de satisfação e autoestima."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "A motivação central descrita é a modificação estética extrema da musculatura, e não a flexibilidade para evitar lesões."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:15:06.858320Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O texto menciona atividades como 'levantar ferro' e o uso de substâncias para 'crescimento muscular'.",
+      "A alternativa C descreve exatamente a hipertrofia e a ampliação da massa corporal tratada no fragmento."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-118.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

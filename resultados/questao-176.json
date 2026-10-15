@@ -1,0 +1,105 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 176,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-176.txt",
+      "gabarito": "E"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "MT",
+      "nome": "Matemática e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C5",
+      "descricao": "Modelar e resolver problemas que envolvem variáveis socioeconômicas ou técnico-científicas, usando representações algébricas."
+    },
+    "habilidade_principal": {
+      "id": "H19",
+      "descricao": "Identificar representações algébricas que expressem a relação entre grandezas."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H21",
+        "descricao": "Resolver situação-problema cuja modelagem envolva conhecimentos algébricos."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "II",
+      "nome": "Compreender fenômenos (CF)",
+      "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Função exponencial",
+    "conteudos_relacionados": [
+      "Decaimento exponencial",
+      "Modelagem matemática"
+    ],
+    "assunto": "Crescimento e decaimento populacional de bactérias",
+    "objeto_de_analise": "A redução da população de bactérias pela metade a cada hora",
+    "fenomeno_conceito": "Decaimento exponencial"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "A função afim apresenta taxa de variação constante em intervalos iguais, o que não ocorre na redução pela metade a cada hora."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "Funções trigonométricas como o seno descrevem fenômenos periódicos, o que não é o caso de um decaimento populacional contínuo."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "Funções trigonométricas como o cosseno descrevem fenômenos periódicos, o que não se aplica ao decaimento populacional descrito."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "A população está sendo reduzida (decaimento), logo a função não seria crescente, além de que o modelo de decaimento proporcional é exponencial e não logarítmico."
+    },
+    {
+      "alternativa": "E",
+      "correta": true,
+      "justificativa": "Como a população de bactérias é reduzida pela metade a cada unidade de tempo (hora), a relação é descrita por uma função exponencial do tipo decrescente."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:25:55.069629Z",
+    "confianca": "alta",
+    "evidencias": [
+      "A redução de uma quantidade pela metade a cada intervalo regular de tempo caracteriza matematicamente uma progressão geométrica ou função exponencial."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-176.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

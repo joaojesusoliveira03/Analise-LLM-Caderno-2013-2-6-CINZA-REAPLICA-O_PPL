@@ -1,0 +1,105 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 5,
+      "espanhol": false,
+      "ingles": true
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-ingles-5.txt",
+      "gabarito": null
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "LC",
+      "nome": "Linguagens, Códigos e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C2",
+      "descricao": "Conhecer e usar língua(s) estrangeira(s) moderna(s) como instrumento de acesso a informações e a outras culturas e grupos sociais*."
+    },
+    "habilidade_principal": {
+      "id": "H5",
+      "descricao": "Associar vocábulos e expressões de um texto em LEM ao seu tema."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H7",
+        "descricao": "Relacionar um texto em LEM, as estruturas linguísticas, sua função e seu uso social."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "II",
+      "nome": "Compreender fenômenos (CF)",
+      "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Compreensão de texto em língua inglesa",
+    "conteudos_relacionados": [
+      "Diversidade cultural",
+      "Direitos civis e sociais"
+    ],
+    "assunto": "A situação dos hijras na sociedade indiana e o documentário sobre o tema",
+    "objeto_de_analise": "O texto de apresentação do filme e a situação social do grupo retratado",
+    "fenomeno_conceito": "Marginalização social e busca por direitos e reconhecimento de gênero"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "O texto afirma que eles são tratados com menos respeito que os dalits, e não que reivindicam os mesmos direitos que eles."
+    },
+    {
+      "alternativa": "B",
+      "correta": true,
+      "justificativa": "O texto menciona que os hijras 'have no constitutional rights' (não têm direitos constitucionais) e que há um debate sobre 'whether or not they should be granted the status of a third gender' (se devem ou não receber o status de um terceiro gênero), o que se alinha com a busca por reconhecimento e direitos legais para sair da marginalidade."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "O texto descreve o processo de mudança como doloroso, mas não aponta que haja uma reivindicação específica por um processo mais humano."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "As funções atuais incluem prostituição e esmola, que decorrem da falta de oportunidades e marginalização, não sendo objeto de reivindicação de regulamentação."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "Eles já são temidos e reverenciados por suas habilidades místicas pelas famílias, não havendo necessidade de reivindicar esse reconhecimento místico."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:29:36.544490Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O texto menciona explicitamente que os hijras 'have no constitutional rights' e debate sobre o status de terceiro gênero."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-ingles-5.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

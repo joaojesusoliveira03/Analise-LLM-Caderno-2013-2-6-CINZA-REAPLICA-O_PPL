@@ -1,0 +1,110 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 154,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-154.txt",
+      "gabarito": "A"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "MT",
+      "nome": "Matemática e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C1",
+      "descricao": "Construir significados para os números naturais, inteiros, racionais e reais."
+    },
+    "habilidade_principal": {
+      "id": "H3",
+      "descricao": "Resolver situação-problema envolvendo conhecimentos numéricos."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H15",
+        "descricao": "Identificar a relação de dependência entre grandezas."
+      },
+      {
+        "id": "H16",
+        "descricao": "Resolver situação-problema envolvendo a variação de grandezas, direta ou inversamente proporcionais."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Razões e proporções",
+    "conteudos_relacionados": [
+      "Grandezas proporcionais",
+      "Operações com números racionais"
+    ],
+    "assunto": "Cálculo de quantidade de declarações e estimativa de atraso",
+    "objeto_de_analise": "Total estimado de declarações, percentual já entregue e ritmo de entrega por hora",
+    "fenomeno_conceito": "Proporcionalidade direta e contagem ao longo do tempo"
+  },
+  "analise_alternativa": [
+    {
+      "alternativa": "A",
+      "correta": true,
+      "justificativa": "O total estimado é de 16,2 milhões / 0,60 = 27 milhões de declarações. Faltam 40% do total, ou seja, 27 milhões * 0,40 = 10,8 milhões de declarações a serem entregues no prazo. Nos 4 dias restantes, a 90 000 declarações por hora, serão entregues 4 dias * 24 horas/dia * 90 000 = 8,64 milhões de declarações. Portanto, o número de pessoas que não entregarão no prazo e terão que pagar multa será de 10,8 milhões - 8,64 milhões = 2,16 milhões."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "Incorreta. Resulta de erro conceitual no cálculo das proporções ou do tempo remanescente."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "Incorreta. Resulta de operações incorretas entre o total estimado e o volume recebido."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "Incorreta. Valor obtido por equívoco na subtração ou na consideração da porcentagem restante."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "Incorreta. Corresponde apenas ao número total de declarações entregues nos últimos 4 dias (8,64 milhões), confundindo o volume entregue no prazo final com o total que perderá o prazo."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:22:11.576063Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O problema envolve o cálculo de grandezas numéricas, proporções e operações básicas.",
+      "O gabarito oficial fornecido é A."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-154.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

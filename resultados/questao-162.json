@@ -1,0 +1,102 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 162,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-162.txt",
+      "gabarito": "D"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "MT",
+      "nome": "Matemática e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C1",
+      "descricao": "Construir significados para os números naturais, inteiros, racionais e reais."
+    },
+    "habilidade_principal": {
+      "id": "H1",
+      "descricao": "Reconhecer, no contexto social, diferentes significados e representações dos números e operações - naturais, inteiros, racionais ou reais."
+    },
+    "habilidades_relacionadas": [],
+    "eixo_cognitivo": {
+      "id": "II",
+      "nome": "Compreender fenômenos (CF)",
+      "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Conjuntos numéricos (reais, racionais, irracionais) e reta numérica",
+    "conteudos_relacionados": [
+      "Aproximação de raízes quadradas",
+      "Representação geométrica de números reais"
+    ],
+    "assunto": "Posicionamento de números reais na reta numérica",
+    "objeto_de_analise": "As fichas com os números reais dados e suas posições aproximadas na reta numérica",
+    "fenomeno_conceito": "Ordem e valor aproximado de números reais na reta numérica"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "A ficha T (-2,5) foi colocada incorretamente na marca -3, e a ficha X (raiz de 3, aproximadamente 1,7) foi colocada incorretamente na marca 3."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "As fichas X, Z, Y e T estão todas posicionadas incorretamente em relação aos valores reais dados na questão."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "As posições das fichas T, Y, X e Z não correspondem aos valores numéricos reais das fichas fornecidas na questão."
+    },
+    {
+      "alternativa": "D",
+      "correta": true,
+      "justificativa": "A ficha T (-2,5) está posicionada entre -2 e -3 (em -2,5), a ficha Y (-1/2 ou -0,5) está entre 0 e -1 (em -0,5), a ficha Z (3/2 ou 1,5) está entre 1 e 2 (em 1,5), e a ficha X (raiz de 3, aproximadamente 1,73) está corretamente posicionada entre 1 e 2, logo após o 1,5."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "As fichas Y e T aparecem incorretamente sobrepostas na mesma posição (-2,5), e as demais fichas estão mal posicionadas."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:23:48.180673Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O comando exige posicionar corretamente fichas com números reais na reta numérica.",
+      "Valores: X = sqrt(3) =~ 1,73; Y = -0,5; Z = 1,5; T = -2,5.",
+      "A alternativa D mostra exatamente esses valores posicionados corretamente na reta numérica."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-162.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

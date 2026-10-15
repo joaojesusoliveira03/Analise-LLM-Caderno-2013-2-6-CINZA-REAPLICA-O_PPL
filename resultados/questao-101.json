@@ -1,0 +1,106 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 101,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-101.txt",
+      "gabarito": "B"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "LC",
+      "nome": "Linguagens, Códigos e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C7",
+      "descricao": "Confrontar opiniões e pontos de vista sobre as diferentes linguagens e suas manifestações específicas."
+    },
+    "habilidade_principal": {
+      "id": "H23",
+      "descricao": "Inferir em um texto quais são os objetivos de seu produtor e quem é seu público alvo, pela análise dos procedimentos argumentativos utilizados."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H22",
+        "descricao": "Relacionar, em diferentes textos, opiniões, temas, assuntos e recursos linguísticos."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "IV",
+      "nome": "Construir argumentação (CA)",
+      "descricao": "relacionar informações, representadas em diferentes formas, e conhecimentos disponíveis em situações concretas, para construir argumentação consistente."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Leitura e interpretação de textos não verbais e multimodais (charge)",
+    "conteudos_relacionados": [
+      "Análise de recursos expressivos em gêneros visuais",
+      "Estratégias argumentativas em charges"
+    ],
+    "assunto": "A crítica social e sanitária veiculada pela representação do mosquito Aedes aegypti",
+    "objeto_de_analise": "A charge de Ivan Cabral retratando um Aedes aegypti musculoso levantando peso",
+    "fenomeno_conceito": "Humor e crítica crítica na construção de sentido de textos humorísticos e jornalísticos"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "A comparação com um esportista é apenas o recurso visual e humorístico utilizado, e não o objetivo crítico central da charge."
+    },
+    {
+      "alternativa": "B",
+      "correta": true,
+      "justificativa": "A representação do mosquito como um halterofilista musculoso enfatiza a sua força, resistência e a dificuldade contínua de combatê-lo a cada verão, destacando a persistência da praga."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "Embora o mosquito seja o agente transmissor da doença, a ênfase da charge na força física não se restringe a elegê-lo como vilão, mas sim a destacar sua resistência."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "Atribuir características humanas (antropomorfismo) é o recurso de linguagem visual empregado, mas a alternativa não explica a finalidade crítica desse recurso em relação ao problema abordado."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "A charge utiliza o humor, mas não para ignorar a gravidade da questão; pelo contrário, o tom satírico serve para alertar sobre a persistência do problema da dengue."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:12:40.219698Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O comando da questão solicita considerar os objetivos da charge e sua posição crítica.",
+      "A charge retrata o vetor da dengue com grande força física (halterofilista), simbolizando sua alta resistência e a persistência do problema enfrentado pelo país."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-101.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

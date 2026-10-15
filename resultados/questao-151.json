@@ -1,0 +1,106 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 151,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-151.txt",
+      "gabarito": "C"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "MT",
+      "nome": "Matemática e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C1",
+      "descricao": "Construir significados para os números naturais, inteiros, racionais e reais."
+    },
+    "habilidade_principal": {
+      "id": "H3",
+      "descricao": "Resolver situação-problema envolvendo conhecimentos numéricos."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H1",
+        "descricao": "Reconhecer, no contexto social, diferentes significados e representações dos números e operações - naturais, inteiros, racionais ou reais."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Razões e proporções",
+    "conteudos_relacionados": [
+      "Operações com números racionais",
+      "Conversão de moedas"
+    ],
+    "assunto": "Cotação de moedas estrangeiras",
+    "objeto_de_analise": "Relação de conversão entre dólar, real, euro e libra",
+    "fenomeno_conceito": "Taxa de câmbio"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "Incorreta. Resulta de um cálculo equivocado, possivelmente multiplicando os valores incorretamente sem considerar as proporções corretas."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "Incorreta. Representa o produto entre o valor do euro em reais e a cotação da libra em euros (2,4 * 1,1 = 2,64), o que daria a libra em reais, e não em dólares."
+    },
+    {
+      "alternativa": "C",
+      "correta": true,
+      "justificativa": "Correta. A libra vale 1,1 euro. Como 1 euro vale 2,4 reais, a libra vale 1,1 * 2,4 = 2,64 reais. Como 1 dólar vale 1,6 real, a cotação da libra em dólares é 2,64 / 1,6 = 1,65 dólar."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "Incorreta. Resulta de operações incorretas entre as taxas fornecidas."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "Incorreta. Resulta de uma inversão ou divisão incorreta entre as cotações dadas no enunciado."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:21:57.502449Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O problema envolve conversão de valores monetários baseada em razões e proporções.",
+      "Gabarito oficial corresponde à alternativa C."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-151.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

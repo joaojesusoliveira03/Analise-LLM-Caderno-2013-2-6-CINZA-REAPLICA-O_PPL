@@ -1,0 +1,107 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 175,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-175.txt",
+      "gabarito": "D"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "MT",
+      "nome": "Matemática e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C7",
+      "descricao": "Compreender o caráter aleatório e não-determinístico dos fenômenos naturais e sociais e utilizar instrumentos adequados para medidas, determinação de amostras e cálculos de probabilidade para interpretar informações de variáveis apresentadas em uma distribuição estatística."
+    },
+    "habilidade_principal": {
+      "id": "H28",
+      "descricao": "Resolver situação-problema que envolva conhecimentos de estatística e probabilidade."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H24",
+        "descricao": "Utilizar informações expressas em gráficos ou tabelas para fazer inferências."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "III",
+      "nome": "Enfrentar situações-problema (SP)",
+      "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Probabilidade",
+    "conteudos_relacionados": [
+      "Razão e proporção",
+      "Leitura e interpretação de tabelas"
+    ],
+    "assunto": "Cálculo de probabilidade com base em dados estatísticos tabulados",
+    "objeto_de_analise": "Relação entre o número de empregados e o número de afastamentos por acidentes de trabalho em diferentes categorias econômicas",
+    "fenomeno_conceito": "Probabilidade de ocorrência de eventos (risco de acidente)"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "O cálculo da probabilidade para crédito é 6.000 / 524.000 aproximadamente 0,01145 (1,15%), mas a alternativa compara incorretamente ou o valor é superado por outra opção com menor risco."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "O valor de 2,58% não corresponde ao cálculo correto da probabilidade para a atividade de crédito."
+    },
+    {
+      "alternativa": "C",
+      "correta": false,
+      "justificativa": "A escolha baseia-se na menor quantidade de empregados e não na menor probabilidade (grau de risco), que exige o cálculo da razão entre afastamentos e empregados."
+    },
+    {
+      "alternativa": "D",
+      "correta": true,
+      "justificativa": "A administração pública apresenta 2.000 afastamentos para 1.138.000 empregados, resultando em uma probabilidade de 2.000 / 1.138.000 aproximadamente 0,00175, ou seja, 0,18%, que representa a menor taxa entre todas as opções."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "A administração pública tem 2.000 afastamentos, mas o menor registro absoluto de afastamentos pertence à categoria 'Não classificado' (30 afastamentos), que não é a opção de menor risco proporcional."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:25:43.281694Z",
+    "confianca": "alta",
+    "evidencias": [
+      "O enunciado define grau de risco como a probabilidade de ocorrência de acidentes de trabalho.",
+      "A tabela fornece o total de empregados e o total de afastamentos para cada atividade econômica.",
+      "O cálculo para a Administração Pública é 2000 / 1138000 = 0,001757 ou cerca de 0,18%, sendo o menor índice de risco entre as opções."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-175.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}

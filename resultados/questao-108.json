@@ -1,0 +1,106 @@
+{
+  "questao": {
+    "identificacao_caderno": {
+      "ano": 2013,
+      "dia": 2,
+      "numero": 6,
+      "cor": "CINZA",
+      "aplicacao": "REAPLICAÇÃO_PPL"
+    },
+    "identificacao_questao": {
+      "numero": 108,
+      "espanhol": false,
+      "ingles": false
+    },
+    "conteudo_questao": {
+      "link_imagem": null,
+      "caminho_texto": "textos_extraidos/questao-108.txt",
+      "gabarito": "C"
+    }
+  },
+  "classificacao_matriz": {
+    "area": {
+      "id": "LC",
+      "nome": "Linguagens, Códigos e suas Tecnologias"
+    },
+    "competencia": {
+      "id": "C7",
+      "descricao": "Confrontar opiniões e pontos de vista sobre as diferentes linguagens e suas manifestações específicas."
+    },
+    "habilidade_principal": {
+      "id": "H23",
+      "descricao": "Inferir em um texto quais são os objetivos de seu produtor e quem é seu público alvo, pela análise dos procedimentos argumentativos utilizados."
+    },
+    "habilidades_relacionadas": [
+      {
+        "id": "H21",
+        "descricao": "Reconhecer em textos de diferentes gêneros, recursos verbais e não-verbais utilizados com a finalidade de criar e mudar comportamentos e hábitos."
+      }
+    ],
+    "eixo_cognitivo": {
+      "id": "IV",
+      "nome": "Construir argumentação (CA)",
+      "descricao": "relacionar informações, representadas em diferentes formas, e conhecimentos disponíveis em situações concretas, para construir argumentação consistente."
+    }
+  },
+  "classificacao_de_conteudo": {
+    "conteudo_principal": "Estratégias argumentativas em textos publicitários e midiáticos",
+    "conteudos_relacionados": [
+      "Uso de recursos verbais e não verbais",
+      "Análise de campanhas e anúncios"
+    ],
+    "assunto": "Estratégia argumentativa e recursos linguísticos/visuais na mídia",
+    "objeto_de_analise": "Anúncio publicitário associando o açúcar à globesidade",
+    "fenomeno_conceito": "Função argumentativa dos textos midiáticos"
+  },
+  "analise_alternativas": [
+    {
+      "alternativa": "A",
+      "correta": false,
+      "justificativa": "A alternativa restringe o objetivo do texto a desaconselhar biscoitos, ignorando o escopo mais amplo da discussão sobre a obesidade global apresentada no anúncio."
+    },
+    {
+      "alternativa": "B",
+      "correta": false,
+      "justificativa": "O traço negativo é construído principalmente pelos termos \"vilão\" e \"culpado\", e não pela palavra \"desafio\", que qualifica a globesidade de maneira genérica."
+    },
+    {
+      "alternativa": "C",
+      "correta": true,
+      "justificativa": "A campanha utiliza recursos verbais (\"acharam o culpado\", \"vilão\", \"globesidade\") e não verbais (o biscoito com feição triste e lágrima) para alertar sobre a epidemia mundial de obesidade, personificando o açúcar por meio do doce."
+    },
+    {
+      "alternativa": "D",
+      "correta": false,
+      "justificativa": "O tom do texto é de alerta e preocupação social com a saúde, e não de ironia em relação à importância do problema."
+    },
+    {
+      "alternativa": "E",
+      "correta": false,
+      "justificativa": "O texto tem um caráter de alerta e conscientização sobre um problema de saúde, e não de atestação estatística ou comprovação empírica de redução de consumo."
+    }
+  ],
+  "auditoria_da_ia": {
+    "modelo": "gemini-3.5-flash-lite",
+    "versao": "1.0",
+    "datetime": "2026-10-15T11:13:19.850360Z",
+    "confianca": "alta",
+    "evidencias": [
+      "Correspondência exata com o gabarito oficial C.",
+      "Análise correta da articulação entre recursos verbais e não verbais na construção argumentativa da questão."
+    ],
+    "proveniencia": {
+      "arquivo_questao": "textos_extraidos/questao-108.txt",
+      "arquivo_matriz": "matriz_referencia_enem.json"
+    },
+    "validacao_humana": {
+      "validado": false,
+      "data_validacao": null
+    }
+  },
+  "estudante": {
+    "nome_completo": "João Vitor de Jesus Oliveira",
+    "colegio": "CCM Darcy José Costa",
+    "turma": "3B"
+  }
+}
